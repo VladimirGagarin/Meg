@@ -5,9 +5,7 @@ import "./HomeScreen.css";
 
 
 export default function HomeScreen() {
-   
-
-    
+       
   return (
     <div className="home-screen">
       

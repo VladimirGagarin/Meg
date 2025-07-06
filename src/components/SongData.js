@@ -163,3 +163,52 @@ export function beginningLyrics() {
 
     return t
 }
+
+export function IamMegLyrics() {
+  const lyrics = [
+    { start: 0, end: 4140, text: "We all have names," },
+    { start: 4880, end: 8580, text: "names that carry hope" },
+    { start: 8580, end: 13000, text: "Names that breathe out peace" },
+    { start: 13000, end: 17140, text: "And I was meant to be Magdalene" },
+    { start: 18759, end: 22020, text: "We all have songs," },
+    { start: 22120, end: 26300, text: "songs that heal the night" },
+    { start: 27520, end: 32380, text: "Songs that light the dawn And I was" },
+    { start: 32380, end: 35020, text: "meant to sing Magdalene" },
+    { start: 36780, end: 40920, text: "The moment we know our names" },
+    { start: 40920, end: 45280, text: "Is the moment our fire ignites" },
+    { start: 45280, end: 50140, text: "A spark within becomes a flame And in that" },
+    { start: 50140, end: 52880, text: "glow we rise to light" },
+    { start: 54620, end: 59000, text: "The moment we know our names" },
+    { start: 59000, end: 63200, text: "Is the moment our fire ignites" },
+    { start: 63200, end: 67580, text: "A spark within becomes a flame" },
+    { start: 67580, end: 72380, text: "And in that glow we rise to light" },
+    { start: 73440, end: 78260, text: "Magdalene is not just a name It's a light full of joy" },
+    { start: 78260, end: 83080, text: "and flame It is a story carved in grace A" },
+    { start: 83080, end: 87880, text: "journey time cannot erase It is magic full of wonders A" },
+    { start: 87880, end: 92880, text: "song that sings and never slumbers It is a song" },
+    { start: 92880, end: 97860, text: "that sets me free It is Magdalene" },
+    { start: 97860, end: 102720, text: "I was meant to be We all" },
+    { start: 102720, end: 107320, text: "have scars Marks that teach" },
+    { start: 107320, end: 111620, text: "us grace Maps of where" },
+    { start: 111620, end: 115700, text: "we've been And I was meant to bear the" },
+    { start: 115700, end: 120640, text: "Magdalene Call me by" },
+    { start: 120640, end: 125460, text: "the wind Call me through the" },
+    { start: 125460, end: 130060, text: "flame Every hidden amber" },
+    { start: 130060, end: 134660, text: "rises When you speak my name" },
+    { start: 135700, end: 140460, text: "Magdalene is not just a name It's a light full of joy" },
+    { start: 140460, end: 145380, text: "and flame It is a story carved in grace It is a story carved in grace A" },
+    { start: 145380, end: 150100, text: "journey time cannot erase It is magic full of wonders A" },
+    { start: 150100, end: 155080, text: "soul that sings and never slumbers It is a song" },
+    { start: 155080, end: 160020, text: "that sets me free It is Magdalene" },
+    { start: 160020, end: 161920, text: "I was meant to be" },
+    { start: 165440, end: 168520, text: "Call me by the wind" },
+    { start: 169880, end: 173400, text: "Call me through the flame" },
+    { start: 173400, end: 178380, text: "Every hidden amber rises When you speak" },
+    { start: 178380, end: 183360, text: "my name Magdalene is not just a name It's" },
+    { start: 183360, end: 187880, text: "a light full of joy and flame It is a" },
+    { start: 187880, end: 192780, text: "story carved in grace A journey time cannot erase It is magic" },
+    { start: 192780, end: 197480, text: "full of wonders A soul that sings and never slumbers" },
+    { start: 197480, end: 201540, text: "It is a song that sets me free" },
+  ];
+  return lyrics;
+}

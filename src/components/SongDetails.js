@@ -1,6 +1,7 @@
-import { getLifeLyrics, beginningLyrics, } from "./SongData";
+import { getLifeLyrics, beginningLyrics, IamMegLyrics} from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from '../assets/audios/The beginning.mp3';
+import  IamMagdaleneSong from "../assets/audios/IamMagdalene.mp3"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -54,6 +55,12 @@ export const songDetails = [
     lyrics: beginningLyrics(), // call the function here
   },
   // Add more songs the same way
+  {
+    id: "iam-magdalene",
+    title: "I Am Magdalene",
+    audio: IamMagdaleneSong,
+    lyrics: IamMegLyrics(), // this should return the lyrics in { start, end, text } format
+  },
 ];
 
 
