@@ -1,0 +1,226 @@
+.song-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    position: relative;
+    width: 40%
+  }
+  
+  /* Image container with animation */
+  .image-container {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+    animation: float 6s ease-in-out infinite;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.5s ease;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Lyrics card styling */
+  .lyrics-card {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .lyrics-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lyrics-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    background: linear-gradient(90deg, #ffffff, #e0e0e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  /* Controls section */
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  .control-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter: blur(5px);
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .control-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+  }
+  
+  .control-button:active {
+    transform: scale(0.95);
+  }
+  
+  .volume-controls {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .volume-slider {
+    width: 150px;
+    height: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 5px;
+    margin: 0 1rem;
+    transition: opacity 0.2s;
+  }
+  
+  .volume-slider:hover {
+    opacity: 1;
+  }
+  
+  .volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .volume-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .image-container {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .lyrics-card {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .lyrics-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .song-screen {
+      padding: 1rem;
+    }
+  
+    .image-container {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .lyrics-card {
+      padding: 1rem;
+      min-height: 100px;
+    }
+  
+    .controls {
+      flex-direction: column;
+    }
+  }
+  
+  /* Loading state */
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+  }
+
+
+  .error-message {
+    color: #ff6b6b;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+  }

@@ -7,11 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pub": "git add . && git commit -m 'update' && git push"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "howler": "^2.2.4",
+    "prop-types": "^15.8.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.30.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

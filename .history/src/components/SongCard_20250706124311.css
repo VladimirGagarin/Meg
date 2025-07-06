@@ -1,0 +1,77 @@
+.song-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+   
+    height: 100vh;
+    overflow-y: auto;
+    
+  }
+  
+  .song-card {
+    position: relative;
+    background: linear-gradient(145deg, #bab9ba, #cac9c9);
+    border: 2px solid rgba(190, 160, 255, 0.4);
+    border-radius: 1.5rem;
+    padding-top: 4rem;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(200, 180, 255, 0.2);
+    transition: transform 0.3s ease;
+    height: 30vh;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.45);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+-webkit-backdrop-filter: blur(5.7px);
+border: 1px solid rgba(255, 255, 255, 0.43);
+  }
+  
+  .song-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    
+  }
+
+  .song-card::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 2rem;
+    background: radial-gradient(circle, #f0eaff 10%, transparent 80%);
+    z-index: -1;
+    filter: blur(8px);
+  }
+  
+  
+  .image-wrapper {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(200, 180, 255, 0.5);
+    background: #fff;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .song-title {
+    font-family: "Cinzel Decorative", serif;
+    color: #553c9a;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+  

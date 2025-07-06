@@ -1,0 +1,19 @@
+.home-screen {
+    background: linear-gradient(to bottom, #fff9f94d, #f0ebff48);
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #7b61ff;
+    margin-bottom: 2rem;
+    font-family: "Quicksand", sans-serif;
+  }
+  
