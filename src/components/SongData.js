@@ -342,3 +342,221 @@ export function fightSongLyrics () {
   ];
   return lyrics
 }
+
+
+export function swmLyrics() {
+  const lyrics = [
+    {
+      "start": 10820,
+      "end": 15300,
+      "text": "When your heart feels weak and"
+    },
+    {
+      "start": 15300,
+      "end": 20140,
+      "text": "worn When your soul feels"
+    },
+    {
+      "start": 20140,
+      "end": 24680,
+      "text": "lost forlorn When your"
+    },
+    {
+      "start": 24680,
+      "end": 28120,
+      "text": "day is dim with rain"
+    },
+    {
+      "start": 28120,
+      "end": 32900,
+      "text": "When your time is wrapped"
+    },
+    {
+      "start": 32900,
+      "end": 37180,
+      "text": "in pain Magdalene"
+    },
+    {
+      "start": 37180,
+      "end": 40520,
+      "text": "will take your hand"
+    },
+    {
+      "start": 40520,
+      "end": 45120,
+      "text": "Guide you through the quiet"
+    },
+    {
+      "start": 45120,
+      "end": 49180,
+      "text": "land Sing with Magdalene,"
+    },
+    {
+      "start": 50020,
+      "end": 54700,
+      "text": "don't be afraid In her"
+    },
+    {
+      "start": 54700,
+      "end": 58040,
+      "text": "voice your fear will fade"
+    },
+    {
+      "start": 58800,
+      "end": 63220,
+      "text": "In her voice the silence"
+    },
+    {
+      "start": 63220,
+      "end": 67960,
+      "text": "sings In her voice your"
+    },
+    {
+      "start": 67960,
+      "end": 71880,
+      "text": "spirit clings Sing with"
+    },
+    {
+      "start": 71880,
+      "end": 76120,
+      "text": "Magdalene, it's a moment of light"
+    },
+    {
+      "start": 76640,
+      "end": 81260,
+      "text": "Sing with Magdalene, joy transcending"
+    },
+    {
+      "start": 81260,
+      "end": 85980,
+      "text": "night Songs have light, no"
+    },
+    {
+      "start": 85980,
+      "end": 90500,
+      "text": "dark can hide Songs carry"
+    },
+    {
+      "start": 90500,
+      "end": 93940,
+      "text": "truth, the soul can't divide"
+    },
+    {
+      "start": 93940,
+      "end": 98060,
+      "text": "Songs will rise where"
+    },
+    {
+      "start": 98060,
+      "end": 103040,
+      "text": "hope has flown And that's when singing"
+    },
+    {
+      "start": 103040,
+      "end": 107900,
+      "text": "with Magdalene  you're not alone Sing with"
+    },
+    {
+      "start": 107900,
+      "end": 112280,
+      "text": "Magdalene, don't be afraid"
+    },
+    {
+      "start": 112280,
+      "end": 116820,
+      "text": "In her voice your fear"
+    },
+    {
+      "start": 116820,
+      "end": 121480,
+      "text": "will fade In her voice"
+    },
+    {
+      "start": 121480,
+      "end": 126280,
+      "text": "the silence sings In"
+    },
+    {
+      "start": 126280,
+      "end": 129820,
+      "text": "her voice your spirit clears"
+    },
+    {
+      "start": 130380,
+      "end": 135260,
+      "text": "Sing with Magdalene, it's a moment of"
+    },
+    {
+      "start": 135260,
+      "end": 139820,
+      "text": "light Sing with Magdalene, joy"
+    },
+    {
+      "start": 139820,
+      "end": 142080,
+      "text": "transcending night"
+    },
+    {
+      "start": 145100,
+      "end": 148780,
+      "text": "Sing with Magdalene,"
+    },
+    {
+      "start": 149960,
+      "end": 154940,
+      "text": "sing with Magdalene Sing with Magdalene,"
+    },
+    {
+      "start": 155060,
+      "end": 159680,
+      "text": "don't be afraid In her"
+    },
+    {
+      "start": 159680,
+      "end": 162920,
+      "text": "voice your fear will fade"
+    },
+    {
+      "start": 174820,
+      "end": 179800,
+      "text": "Sing with Magdalene, it's a moment"
+    },
+    {
+      "start": 179800,
+      "end": 184760,
+      "text": "of light Sing with Magdalene, joy"
+    },
+    {
+      "start": 184760,
+      "end": 187560,
+      "text": "transcending night"
+    },
+    {
+      "start": 190480,
+      "end": 194540,
+      "text": "Sing with Magdalene, it's a moment of light Joy"
+    },
+    {
+      "start": 194540,
+      "end": 198040,
+      "text": "transcending night, joy"
+    },
+    {
+      "start": 198040,
+      "end": 208820,
+      "text": "transcending"
+    },
+    {
+      "start": 208820,
+      "end": 212960,
+      "text": "night Sing with Magdalene, sing"
+    },
+    {
+      "start": 212960,
+      "end": 214500,
+      "text": "with Magdalene Sing with Magdalene, sing with Magdalene Thank you."
+    }
+  ];
+
+  return lyrics
+}

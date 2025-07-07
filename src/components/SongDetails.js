@@ -1,8 +1,9 @@
-import { getLifeLyrics, beginningLyrics, IamMegLyrics, fightSongLyrics} from "./SongData";
+import { getLifeLyrics, beginningLyrics, IamMegLyrics, fightSongLyrics, swmLyrics} from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from '../assets/audios/The beginning.mp3';
 import IamMagdaleneSong from "../assets/audios/IamMagdalene.mp3";
 import FightSong from "../assets/audios/Fight_song.mp3";
+import SwmSong from "../assets/audios/Swm.mp3"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -40,9 +41,19 @@ import Img34 from "../assets/images/toon7.png";
 import Img35 from "../assets/images/toon8.png";
 import Img36 from "../assets/images/toon10.jpg";
 import Img37 from "../assets/images/toon11.jpg";
+import Img38 from "../assets/images/meg16.jpeg";
+import Img39 from "../assets/images/meg17.jpeg";
+import Img40 from "../assets/images/meg18.jpeg";
+import Img41 from "../assets/images/meg25.jpeg";
 
 
 export const songDetails = [
+  {
+    id: "Sing_with_magdalene",
+    title: "Sing With Magdalene",
+    audio: SwmSong,
+    lyrics: swmLyrics(), // call the function here
+  },
   {
     id: "life",
     title: "A Life to Live",
@@ -67,7 +78,7 @@ export const songDetails = [
     title: "Fight Song",
     audio: FightSong,
     lyrics: fightSongLyrics(),
-  }
+  },
 ];
 
 
@@ -108,5 +119,9 @@ export const megImages = [
   Img35,
   Img36,
   Img37,
+  Img38,
+  Img39,
+  Img40,
+  Img41
 ];
   
