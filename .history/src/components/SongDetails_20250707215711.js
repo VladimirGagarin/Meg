@@ -1,10 +1,10 @@
-import { getLifeLyrics, beginningLyrics, IamMegLyrics, fightSongLyrics, swmLyrics, butterflyLyrics} from "./SongData";
+import { getLifeLyrics, beginningLyrics, IamMegLyrics, fightSongLyrics, swmLyrics} from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from '../assets/audios/The beginning.mp3';
 import IamMagdaleneSong from "../assets/audios/IamMagdalene.mp3";
 import FightSong from "../assets/audios/Fight_song.mp3";
 import SwmSong from "../assets/audios/Swm.mp3";
-import ButterflySong from "../assets/audios/butterfly.mp3";
+import ButterflySong from "../assets"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -79,12 +79,6 @@ export const songDetails = [
     title: "Fight Song",
     audio: FightSong,
     lyrics: fightSongLyrics(),
-  },
-  {
-    id: "butterfly_wings_song",
-    title: "Scribbled Sonnet",
-    audio: ButterflySong,
-    lyrics: butterflyLyrics(),
   },
 ];
 

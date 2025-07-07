@@ -84,7 +84,7 @@ export const songDetails = [
     id: "butterfly_wings_song",
     title: "Scribbled Sonnet",
     audio: ButterflySong,
-    lyrics: butterflyLyrics(),
+    lyrics: butterflyLyricsLyrics(),
   },
 ];
 

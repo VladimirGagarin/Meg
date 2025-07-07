@@ -80,12 +80,7 @@ export const songDetails = [
     audio: FightSong,
     lyrics: fightSongLyrics(),
   },
-  {
-    id: "butterfly_wings_song",
-    title: "Scribbled Sonnet",
-    audio: ButterflySong,
-    lyrics: butterflyLyrics(),
-  },
+  
 ];
 
 

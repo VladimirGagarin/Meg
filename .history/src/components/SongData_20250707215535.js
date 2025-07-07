@@ -563,166 +563,165 @@ export function swmLyrics() {
 
 export function butterflyLyrics() {
   const lyrics = [
-    {
-      "start": 5760,
-      "end": 10560,
-      "text": "The colors of sky wake up a flower field A beauty so"
-    },
-    {
-      "start": 10560,
-      "end": 14460,
-      "text": "deep it cannot be concealed Through petals and breeze,"
-    },
-    {
-      "start": 14620,
-      "end": 18740,
-      "text": "oh whisper sings Like secret sun on butterfly wings"
-    },
-    {
-      "start": 18740,
-      "end": 22600,
-      "text": "You step, you take, the daylight sighs"
-    },
-    {
-      "start": 23440,
-      "end": 27960,
-      "text": "Magdalene, written in the skies I follow the wind where your"
-    },
-    {
-      "start": 27960,
-      "end": 32540,
-      "text": "spirit clings Drawn to the hush of unfolding wings"
-    },
-    {
-      "start": 32540,
-      "end": 37300,
-      "text": "A voice unseen yet always near It leads me through,"
-    },
-    {
-      "start": 37700,
-      "end": 42640,
-      "text": "it brings me here A scribble sunnet on butterfly wings"
-    },
-    {
-      "start": 42640,
-      "end": 47640,
-      "text": "Magdalene, you broom where silence sings A scribble sunnet"
-    },
-    {
-      "start": 47640,
-      "end": 52540,
-      "text": "on butterfly wings Magdalene, you drift where no one clings"
-    },
-    {
-      "start": 52540,
-      "end": 57480,
-      "text": "A scribble sunnet on butterfly wings Magdalene, you live"
-    },
-    {
-      "start": 57480,
-      "end": 58860,
-      "text": "in secret things"
-    },
-    {
-      "start": 87440,
-      "end": 88840,
-      "text": "Only butterflies will understand"
-    },
-    {
-      "start": 98780,
-      "end": 100480,
-      "text": "Magdalene, you live"
-    },
-    {
-      "start": 100480,
-      "end": 104600,
-      "text": "in secret"
-    },
-    {
-      "start": 104600,
-      "end": 117920,
-      "text": "things"
-    },
-    {
-      "start": 117920,
-      "end": 122740,
-      "text": "Sonnets for prayers, the soul softly sings Sonnets for stars"
-    },
-    {
-      "start": 122740,
-      "end": 127380,
-      "text": "with invisible strings A sonnet scribbled on"
-    },
-    {
-      "start": 127380,
-      "end": 130020,
-      "text": "butterfly wings, Magdalene"
-    },
-    {
-      "start": 131780,
-      "end": 136500,
-      "text": "A scribbled sonnet on butterfly wings, Magdalene you"
-    },
-    {
-      "start": 136500,
-      "end": 141260,
-      "text": "bloom where silence sings A scribbled sonnet on butterfly"
-    },
-    {
-      "start": 141260,
-      "end": 146000,
-      "text": "wings, Magdalene you drift where no one clings A"
-    },
-    {
-      "start": 146000,
-      "end": 150980,
-      "text": "scribbled sonnet on butterfly wings, Magdalene you live in secret"
-    },
-    {
-      "start": 150980,
-      "end": 155360,
-      "text": "things Only butterflies will understand this"
-    },
-    {
-      "start": 155360,
-      "end": 160080,
-      "text": "Magdalene Butterflies color"
-    },
-    {
-      "start": 160080,
-      "end": 164880,
-      "text": "our world in flight, with scribbled sonnets made of light,"
-    },
-    {
-      "start": 165640,
-      "end": 166960,
-      "text": "Magdalene"
-    },
-    {
-      "start": 175500,
-      "end": 180360,
-      "text": "On colors of sky, wake up the flower field A beauty so"
-    },
-    {
-      "start": 180360,
-      "end": 184360,
-      "text": "deep, it cannot be concealed Through petals and breeze,"
-    },
-    {
-      "start": 184700,
-      "end": 189500,
-      "text": "all whisper sings Like secrets sewn on butterfly wings To be"
-    },
-    {
-      "start": 189500,
-      "end": 194120,
-      "text": "continued... To"
-    },
-    {
-      "start": 194120,
-      "end": 195660,
-      "text": "be continued... Thank you."
-    }
-  ];
-  return lyrics
-}
+  {
+    "start": 5760,
+    "end": 10560,
+    "text": "The colors of sky wake up a flower field A beauty so"
+  },
+  {
+    "start": 10560,
+    "end": 14460,
+    "text": "deep it cannot be concealed Through petals and breeze,"
+  },
+  {
+    "start": 14620,
+    "end": 18740,
+    "text": "oh whisper sings Like secret sun on butterfly wings"
+  },
+  {
+    "start": 18740,
+    "end": 22600,
+    "text": "You step, you take, the daylight sighs"
+  },
+  {
+    "start": 23440,
+    "end": 27960,
+    "text": "Magdalene, written in the skies I follow the wind where your"
+  },
+  {
+    "start": 27960,
+    "end": 32540,
+    "text": "spirit clings Drawn to the hush of unfolding wings"
+  },
+  {
+    "start": 32540,
+    "end": 37300,
+    "text": "A voice unseen yet always near It leads me through,"
+  },
+  {
+    "start": 37700,
+    "end": 42640,
+    "text": "it brings me here A scribble sunnet on butterfly wings"
+  },
+  {
+    "start": 42640,
+    "end": 47640,
+    "text": "Magdalene, you broom where silence sings A scribble sunnet"
+  },
+  {
+    "start": 47640,
+    "end": 52540,
+    "text": "on butterfly wings Magdalene, you drift where no one clings"
+  },
+  {
+    "start": 52540,
+    "end": 57480,
+    "text": "A scribble sunnet on butterfly wings Magdalene, you live"
+  },
+  {
+    "start": 57480,
+    "end": 58860,
+    "text": "in secret things"
+  },
+  {
+    "start": 87440,
+    "end": 88840,
+    "text": "Only butterflies will understand"
+  },
+  {
+    "start": 98780,
+    "end": 100480,
+    "text": "Magdalene, you live"
+  },
+  {
+    "start": 100480,
+    "end": 104600,
+    "text": "in secret"
+  },
+  {
+    "start": 104600,
+    "end": 117920,
+    "text": "things"
+  },
+  {
+    "start": 117920,
+    "end": 122740,
+    "text": "Sonnets for prayers, the soul softly sings Sonnets for stars"
+  },
+  {
+    "start": 122740,
+    "end": 127380,
+    "text": "with invisible strings A sonnet scribbled on"
+  },
+  {
+    "start": 127380,
+    "end": 130020,
+    "text": "butterfly wings, Magdalene"
+  },
+  {
+    "start": 131780,
+    "end": 136500,
+    "text": "A scribbled sonnet on butterfly wings, Magdalene you"
+  },
+  {
+    "start": 136500,
+    "end": 141260,
+    "text": "bloom where silence sings A scribbled sonnet on butterfly"
+  },
+  {
+    "start": 141260,
+    "end": 146000,
+    "text": "wings, Magdalene you drift where no one clings A"
+  },
+  {
+    "start": 146000,
+    "end": 150980,
+    "text": "scribbled sonnet on butterfly wings, Magdalene you live in secret"
+  },
+  {
+    "start": 150980,
+    "end": 155360,
+    "text": "things Only butterflies will understand this"
+  },
+  {
+    "start": 155360,
+    "end": 160080,
+    "text": "Magdalene Butterflies color"
+  },
+  {
+    "start": 160080,
+    "end": 164880,
+    "text": "our world in flight, with scribbled sonnets made of light,"
+  },
+  {
+    "start": 165640,
+    "end": 166960,
+    "text": "Magdalene"
+  },
+  {
+    "start": 175500,
+    "end": 180360,
+    "text": "On colors of sky, wake up the flower field A beauty so"
+  },
+  {
+    "start": 180360,
+    "end": 184360,
+    "text": "deep, it cannot be concealed Through petals and breeze,"
+  },
+  {
+    "start": 184700,
+    "end": 189500,
+    "text": "all whisper sings Like secrets sewn on butterfly wings To be"
+  },
+  {
+    "start": 189500,
+    "end": 194120,
+    "text": "continued... To"
+  },
+  {
+    "start": 194120,
+    "end": 195660,
+    "text": "be continued... Thank you."
+  }
+];
+  return lyrics 
