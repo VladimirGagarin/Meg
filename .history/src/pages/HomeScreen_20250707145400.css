@@ -1,0 +1,14 @@
+.home-screen {
+    background: transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom,  #cda4eb, #050505 20%);
+  }
+  
+
+  
