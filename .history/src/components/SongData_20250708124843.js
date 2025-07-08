@@ -764,167 +764,167 @@ export function butterflyLyrics() {
 
 export function HopeLyrics(){
    const lyrics = [
-     {
-       start: 5200,
-       end: 9860,
-       text: "When days grow cold, when moments lose their",
-     },
-     {
-       start: 9860,
-       end: 14640,
-       text: "spark When despair surrounds the heart",
-     },
-     {
-       start: 14640,
-       end: 19480,
-       text: "A little light begins to gleam",
-     },
-     {
-       start: 19480,
-       end: 22260,
-       text: "A chance to redream",
-     },
-     {
-       start: 25600,
-       end: 30300,
-       text: "Just before the morning light When the soul",
-     },
-     {
-       start: 30300,
-       end: 35220,
-       text: "still clings to night A whisper dares to softly sing There's still",
-     },
-     {
-       start: 35220,
-       end: 39940,
-       text: "hope in everything Magdalene once said",
-     },
-     {
-       start: 39940,
-       end: 44560,
-       text: "Hope is a chance to redream Hope is the",
-     },
-     {
-       start: 44560,
-       end: 49560,
-       text: "aurora of golden days Hope is the",
-     },
-     {
-       start: 49560,
-       end: 54300,
-       text: "first breath when despair has gone Let your hope",
-     },
-     {
-       start: 54300,
-       end: 59000,
-       text: "become the finest dream You've ever dared",
-     },
-     {
-       start: 62500,
-       end: 64620,
-       text: "Ever dared",
-     },
-     {
-       start: 69240,
-       end: 73860,
-       text: "When tears have dried And silence fills the",
-     },
-     {
-       start: 73860,
-       end: 78360,
-       text: "room When the night has lingered far too long",
-     },
-     {
-       start: 78880,
-       end: 83520,
-       text: "Even then, within the gloom",
-     },
-     {
-       start: 83520,
-       end: 87640,
-       text: "A voice will hum a healing tune",
-     },
-     {
-       start: 89759,
-       end: 94560,
-       text: "Magdalene once said Hope is a chance to",
-     },
-     {
-       start: 94560,
-       end: 98480,
-       text: "redream Hope is the aurora of golden",
-     },
-     {
-       start: 98480,
-       end: 102920,
-       text: "days Hope is the first breath when",
-     },
-     {
-       start: 102920,
-       end: 107200,
-       text: "despair has gone Let your hope become the",
-     },
-     {
-       start: 107200,
-       end: 111900,
-       text: "finest dream You've ever dared Little",
-     },
-     {
-       start: 111900,
-       end: 116480,
-       text: "wings hope to fly Little legs hope to walk",
-     },
-     {
-       start: 116480,
-       end: 120720,
-       text: "Little arms hope to carry love Little hearts hope to spark",
-     },
-     {
-       start: 122060,
-       end: 127000,
-       text: "Magdalene's little prayer Hope's to intercede your heart With",
-     },
-     {
-       start: 127000,
-       end: 130979,
-       text: "little hope,  we redream The greatest things will ever",
-     },
-     {
-       start: 130979,
-       end: 135600,
-       text: "start Magdalene once said Hope",
-     },
-     {
-       start: 135600,
-       end: 140280,
-       text: "is a chance to redream Hope is the aurora of",
-     },
-     {
-       start: 140280,
-       end: 145220,
-       text: "golden days Hope is the first breath",
-     },
-     {
-       start: 145220,
-       end: 149840,
-       text: "when despair has gone Let your hope become the",
-     },
-     {
-       start: 149840,
-       end: 154480,
-       text: "finest dream You've ever dared So",
-     },
-     {
-       start: 154480,
-       end: 158220,
-       text: "hold to hope Though small it seems",
-     },
-     {
-       start: 158220,
-       end: 162840,
-       text: "Through little prayers We birth great dreams",
-     },
-   ];
+    {
+      "start": 5200,
+      "end": 9860,
+      "text": "When days grow cold, when moments lose their"
+    },
+    {
+      "start": 9860,
+      "end": 14640,
+      "text": "spark When despair surrounds the heart"
+    },
+    {
+      "start": 14640,
+      "end": 19480,
+      "text": "A little light begins to gleam"
+    },
+    {
+      "start": 19480,
+      "end": 22260,
+      "text": "A chance to redream"
+    },
+    {
+      "start": 25600,
+      "end": 30300,
+      "text": "Just before the morning light When the soul"
+    },
+    {
+      "start": 30300,
+      "end": 35220,
+      "text": "still clings to night A whisper dares to softly sing There's still"
+    },
+    {
+      "start": 35220,
+      "end": 39940,
+      "text": "hope in everything Magdalene once said"
+    },
+    {
+      "start": 39940,
+      "end": 44560,
+      "text": "Hope is a chance to redream Hope is the"
+    },
+    {
+      "start": 44560,
+      "end": 49560,
+      "text": "aurora of golden days Hope is the"
+    },
+    {
+      "start": 49560,
+      "end": 54300,
+      "text": "first breath when despair has gone Let your hope"
+    },
+    {
+      "start": 54300,
+      "end": 59000,
+      "text": "become the finest dream You've ever dared"
+    },
+    {
+      "start": 62500,
+      "end": 64620,
+      "text": "Ever dared"
+    },
+    {
+      "start": 69240,
+      "end": 73860,
+      "text": "When tears have dried And silence fills the"
+    },
+    {
+      "start": 73860,
+      "end": 78360,
+      "text": "room When the night has lingered far too long"
+    },
+    {
+      "start": 78880,
+      "end": 83520,
+      "text": "Even then, within the gloom"
+    },
+    {
+      "start": 83520,
+      "end": 87640,
+      "text": "A voice will hum a healing tune"
+    },
+    {
+      "start": 89759,
+      "end": 94560,
+      "text": "Magdalene once said Hope is a chance to"
+    },
+    {
+      "start": 94560,
+      "end": 98480,
+      "text": "redream Hope is the aurora of golden"
+    },
+    {
+      "start": 98480,
+      "end": 102920,
+      "text": "days Hope is the first breath when"
+    },
+    {
+      "start": 102920,
+      "end": 107200,
+      "text": "despair has gone Let your hope become the"
+    },
+    {
+      "start": 107200,
+      "end": 111900,
+      "text": "finest dream You've ever dared Little"
+    },
+    {
+      "start": 111900,
+      "end": 116480,
+      "text": "wings hope to fly Little legs hope to walk"
+    },
+    {
+      "start": 116480,
+      "end": 120720,
+      "text": "Little arms hope to carry love Little hearts hope to spark"
+    },
+    {
+      "start": 122060,
+      "end": 127000,
+      "text": "Magdalene's little prayer Hope's to intercede your heart With"
+    },
+    {
+      "start": 127000,
+      "end": 130979,
+      "text": "little hope,  dreawearym The greatest things will ever"
+    },
+    {
+      "start": 130979,
+      "end": 135600,
+      "text": "start Magdalene once said Hope"
+    },
+    {
+      "start": 135600,
+      "end": 140280,
+      "text": "is a chance to redream Hope is the aurora of"
+    },
+    {
+      "start": 140280,
+      "end": 145220,
+      "text": "golden days Hope is the first breath"
+    },
+    {
+      "start": 145220,
+      "end": 149840,
+      "text": "when despair has gone Let your hope become the"
+    },
+    {
+      "start": 149840,
+      "end": 154480,
+      "text": "finest dream You've ever dared So"
+    },
+    {
+      "start": 154480,
+      "end": 158220,
+      "text": "hold to hope Though small it seems"
+    },
+    {
+      "start": 158220,
+      "end": 162840,
+      "text": "Through little prayers We birth great"
+    }
+  ];
 
   return lyrics;
 }

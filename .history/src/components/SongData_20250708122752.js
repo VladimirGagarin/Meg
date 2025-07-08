@@ -564,368 +564,330 @@ export function swmLyrics() {
 export function butterflyLyrics() {
   const lyrics = [
     {
-      start: 79,
-      end: 4199,
-      text: "(soft music)",
+      "start": 5760,
+      "end": 10560,
+      "text": "The colors of sky wake up a flower field A beauty so"
     },
     {
-      start: 6420,
-      end: 11220,
-      text: "The colors of sky wake up a flower field. A beauty so deep it",
+      "start": 10560,
+      "end": 14460,
+      "text": "deep it cannot be concealed Through petals and breeze,"
     },
     {
-      start: 11239,
-      end: 16079,
-      text: "cannot be concealed. Through petals and breeze, a whisper sings.",
+      "start": 14620,
+      "end": 18740,
+      "text": "oh whisper sings Like secret sun on butterfly wings"
     },
     {
-      start: 16199,
-      end: 21159,
-      text: "Like secrets sewn on butterfly wings. Each step you take,",
+      "start": 18740,
+      "end": 22600,
+      "text": "You step, you take, the daylight sighs"
     },
     {
-      start: 21180,
-      end: 26139,
-      text: "the daylight sighs. Magdalene, written in the skies.",
+      "start": 23440,
+      "end": 27960,
+      "text": "Magdalene, written in the skies I follow the wind where your"
     },
     {
-      start: 26139,
-      end: 31079,
-      text: "I follow the wind where your spirit clings. Drawn to the hush of",
+      "start": 27960,
+      "end": 32540,
+      "text": "spirit clings Drawn to the hush of unfolding wings"
     },
     {
-      start: 31099,
-      end: 35860,
-      text: "unfolding wings. A voice unseen yet always near.",
+      "start": 32540,
+      "end": 37300,
+      "text": "A voice unseen yet always near It leads me through,"
     },
     {
-      start: 36259,
-      end: 41080,
-      text: "It leads me through, it brings me here. A scribbled sonnet",
+      "start": 37700,
+      "end": 42640,
+      "text": "it brings me here A scribble sunnet on butterfly wings"
     },
     {
-      start: 41159,
-      end: 46080,
-      text: "on butterfly wings. Magdalene, you bloom where silence sings.",
+      "start": 42640,
+      "end": 47640,
+      "text": "Magdalene, you broom where silence sings A scribble sunnet"
     },
     {
-      start: 46579,
-      end: 51139,
-      text: "A scribbled sonnet on butterfly wings. Magdalene, you drift where",
+      "start": 47640,
+      "end": 52540,
+      "text": "on butterfly wings Magdalene, you drift where no one clings"
     },
     {
-      start: 51219,
-      end: 55999,
-      text: "no one clings. A scribbled sonnet on butterfly wings.",
+      "start": 52540,
+      "end": 57480,
+      "text": "A scribble sunnet on butterfly wings Magdalene, you live"
     },
     {
-      start: 56119,
-      end: 61099,
-      text: "Magdalene, you live in secret things. Only butterflies will",
+      "start": 57480,
+      "end": 58860,
+      "text": "in secret things"
     },
     {
-      start: 61159,
-      end: 63880,
-      text: "understand this Magdalene.",
+      "start": 87440,
+      "end": 88840,
+      "text": "Only butterflies will understand"
     },
     {
-      start: 65979,
-      end: 70639,
-      text: "When colors fade into softer hues. When words fall short",
+      "start": 98780,
+      "end": 100480,
+      "text": "Magdalene, you live"
     },
     {
-      start: 70839,
-      end: 75479,
-      text: "of what is true. When songs dissolve in morning light.",
+      "start": 100480,
+      "end": 104600,
+      "text": "in secret"
     },
     {
-      start: 75580,
-      end: 80239,
-      text: "All will be scribbled in silent flight. On butterfly",
+      "start": 104600,
+      "end": 117920,
+      "text": "things"
     },
     {
-      start: 80319,
-      end: 84419,
-      text: "wings, they'll find what's true. Magdalene, written in the skies.",
+      "start": 117920,
+      "end": 122740,
+      "text": "Sonnets for prayers, the soul softly sings Sonnets for stars"
     },
     {
-      start: 84419,
-      end: 89119,
-      text: "This will all be you. A scribbled sonnet on butterfly wings.",
+      "start": 122740,
+      "end": 127380,
+      "text": "with invisible strings A sonnet scribbled on"
     },
     {
-      start: 89239,
-      end: 94039,
-      text: "Magdalene, you bloom where silence sings. A scribbled sonnet",
+      "start": 127380,
+      "end": 130020,
+      "text": "butterfly wings, Magdalene"
     },
     {
-      start: 94099,
-      end: 99099,
-      text: "on butterfly wings. Magdalene, you drift where no one clings.",
+      "start": 131780,
+      "end": 136500,
+      "text": "A scribbled sonnet on butterfly wings, Magdalene you"
     },
     {
-      start: 99540,
-      end: 104080,
-      text: "A scribbled sonnet on butterfly wings. Magdalene, you live in",
+      "start": 136500,
+      "end": 141260,
+      "text": "bloom where silence sings A scribbled sonnet on butterfly"
     },
     {
-      start: 104119,
-      end: 109080,
-      text: "secret things. Only butterflies will understand this",
+      "start": 141260,
+      "end": 146000,
+      "text": "wings, Magdalene you drift where no one clings A"
     },
     {
-      start: 109119,
-      end: 113999,
-      text: "Magdalene. Sonnets have meaning too deep for the",
+      "start": 146000,
+      "end": 150980,
+      "text": "scribbled sonnet on butterfly wings, Magdalene you live in secret"
     },
     {
-      start: 114059,
-      end: 117979,
-      text: "page. Sonnets are whispers that outlive the age.",
+      "start": 150980,
+      "end": 155360,
+      "text": "things Only butterflies will understand this"
     },
     {
-      start: 118339,
-      end: 123180,
-      text: "Sonnets are prayers the soul softly sings. Sonnets are stars with",
+      "start": 155360,
+      "end": 160080,
+      "text": "Magdalene Butterflies color"
     },
     {
-      start: 123180,
-      end: 127419,
-      text: "invisible strings. A sonnet scribbled on",
+      "start": 160080,
+      "end": 164880,
+      "text": "our world in flight, with scribbled sonnets made of light,"
     },
     {
-      start: 127519,
-      end: 130199,
-      text: "butterfly wings. Magdalene.",
+      "start": 165640,
+      "end": 166960,
+      "text": "Magdalene"
     },
     {
-      start: 132039,
-      end: 136999,
-      text: "A scribbled sonnet on butterfly wings. Magdalene, you bloom",
+      "start": 175500,
+      "end": 180360,
+      "text": "On colors of sky, wake up the flower field A beauty so"
     },
     {
-      start: 137000,
-      end: 141539,
-      text: "where silence sings. A scribbled sonnet on butterfly",
+      "start": 180360,
+      "end": 184360,
+      "text": "deep, it cannot be concealed Through petals and breeze,"
     },
     {
-      start: 141599,
-      end: 146479,
-      text: "wings. Magdalene, you drift where no one clings. A scribbled",
+      "start": 184700,
+      "end": 189500,
+      "text": "all whisper sings Like secrets sewn on butterfly wings To be"
     },
     {
-      start: 146539,
-      end: 151220,
-      text: "sonnet on butterfly wings. Magdalene, you live in secret",
+      "start": 189500,
+      "end": 194120,
+      "text": "continued... To"
     },
     {
-      start: 151279,
-      end: 155399,
-      text: "things. Only butterflies will understand this",
-    },
-    {
-      start: 155459,
-      end: 160239,
-      text: "Magdalene. Butterflies color",
-    },
-    {
-      start: 160259,
-      end: 165000,
-      text: "our world in flight. With scribbled sonnets made of light.",
-    },
-    {
-      start: 165580,
-      end: 167059,
-      text: "Magdalene.",
-    },
-    {
-      start: 172360,
-      end: 176959,
-      text: "(air whooshing) When colors of",
-    },
-    {
-      start: 177019,
-      end: 181679,
-      text: "sky wake up the flower field. A beauty so deep it cannot be",
-    },
-    {
-      start: 181720,
-      end: 186319,
-      text: "concealed. Through petals and breeze, a whisper sings.",
-    },
-    {
-      start: 186479,
-      end: 189739,
-      text: "Like secrets sewn on butterfly wings.",
-    },
+      "start": 194120,
+      "end": 195660,
+      "text": "be continued... Thank you."
+    }
   ];
   return lyrics
 }
 
 export function HopeLyrics(){
    const lyrics = [
-     {
-       start: 5200,
-       end: 9860,
-       text: "When days grow cold, when moments lose their",
-     },
-     {
-       start: 9860,
-       end: 14640,
-       text: "spark When despair surrounds the heart",
-     },
-     {
-       start: 14640,
-       end: 19480,
-       text: "A little light begins to gleam",
-     },
-     {
-       start: 19480,
-       end: 22260,
-       text: "A chance to redream",
-     },
-     {
-       start: 25600,
-       end: 30300,
-       text: "Just before the morning light When the soul",
-     },
-     {
-       start: 30300,
-       end: 35220,
-       text: "still clings to night A whisper dares to softly sing There's still",
-     },
-     {
-       start: 35220,
-       end: 39940,
-       text: "hope in everything Magdalene once said",
-     },
-     {
-       start: 39940,
-       end: 44560,
-       text: "Hope is a chance to redream Hope is the",
-     },
-     {
-       start: 44560,
-       end: 49560,
-       text: "aurora of golden days Hope is the",
-     },
-     {
-       start: 49560,
-       end: 54300,
-       text: "first breath when despair has gone Let your hope",
-     },
-     {
-       start: 54300,
-       end: 59000,
-       text: "become the finest dream You've ever dared",
-     },
-     {
-       start: 62500,
-       end: 64620,
-       text: "Ever dared",
-     },
-     {
-       start: 69240,
-       end: 73860,
-       text: "When tears have dried And silence fills the",
-     },
-     {
-       start: 73860,
-       end: 78360,
-       text: "room When the night has lingered far too long",
-     },
-     {
-       start: 78880,
-       end: 83520,
-       text: "Even then, within the gloom",
-     },
-     {
-       start: 83520,
-       end: 87640,
-       text: "A voice will hum a healing tune",
-     },
-     {
-       start: 89759,
-       end: 94560,
-       text: "Magdalene once said Hope is a chance to",
-     },
-     {
-       start: 94560,
-       end: 98480,
-       text: "redream Hope is the aurora of golden",
-     },
-     {
-       start: 98480,
-       end: 102920,
-       text: "days Hope is the first breath when",
-     },
-     {
-       start: 102920,
-       end: 107200,
-       text: "despair has gone Let your hope become the",
-     },
-     {
-       start: 107200,
-       end: 111900,
-       text: "finest dream You've ever dared Little",
-     },
-     {
-       start: 111900,
-       end: 116480,
-       text: "wings hope to fly Little legs hope to walk",
-     },
-     {
-       start: 116480,
-       end: 120720,
-       text: "Little arms hope to carry love Little hearts hope to spark",
-     },
-     {
-       start: 122060,
-       end: 127000,
-       text: "Magdalene's little prayer Hope's to intercede your heart With",
-     },
-     {
-       start: 127000,
-       end: 130979,
-       text: "little hope,  we redream The greatest things will ever",
-     },
-     {
-       start: 130979,
-       end: 135600,
-       text: "start Magdalene once said Hope",
-     },
-     {
-       start: 135600,
-       end: 140280,
-       text: "is a chance to redream Hope is the aurora of",
-     },
-     {
-       start: 140280,
-       end: 145220,
-       text: "golden days Hope is the first breath",
-     },
-     {
-       start: 145220,
-       end: 149840,
-       text: "when despair has gone Let your hope become the",
-     },
-     {
-       start: 149840,
-       end: 154480,
-       text: "finest dream You've ever dared So",
-     },
-     {
-       start: 154480,
-       end: 158220,
-       text: "hold to hope Though small it seems",
-     },
-     {
-       start: 158220,
-       end: 162840,
-       text: "Through little prayers We birth great dreams",
-     },
-   ];
-
-  return lyrics;
+    {
+      "start": 5200,
+      "end": 9860,
+      "text": "When days grow cold, when moments lose their"
+    },
+    {
+      "start": 9860,
+      "end": 14640,
+      "text": "spark When despair surrounds the heart"
+    },
+    {
+      "start": 14640,
+      "end": 19480,
+      "text": "A little light begins to gleam"
+    },
+    {
+      "start": 19480,
+      "end": 22260,
+      "text": "A chance to redream"
+    },
+    {
+      "start": 25600,
+      "end": 30300,
+      "text": "Just before the morning light When the soul"
+    },
+    {
+      "start": 30300,
+      "end": 35220,
+      "text": "still clings to night A whisper dares to softly sing There's still"
+    },
+    {
+      "start": 35220,
+      "end": 39940,
+      "text": "hope in everything Magdalene once said"
+    },
+    {
+      "start": 39940,
+      "end": 44560,
+      "text": "Hope is a chance to redream Hope is the"
+    },
+    {
+      "start": 44560,
+      "end": 49560,
+      "text": "aurora of golden days Hope is the"
+    },
+    {
+      "start": 49560,
+      "end": 54300,
+      "text": "first breath when despair has gone Let your hope"
+    },
+    {
+      "start": 54300,
+      "end": 59000,
+      "text": "become the finest dream You've ever dared"
+    },
+    {
+      "start": 62500,
+      "end": 64620,
+      "text": "Ever dared"
+    },
+    {
+      "start": 69240,
+      "end": 73860,
+      "text": "When tears have dried And silence fills the"
+    },
+    {
+      "start": 73860,
+      "end": 78360,
+      "text": "room When the night has lingered far too long"
+    },
+    {
+      "start": 78880,
+      "end": 83520,
+      "text": "Even then, within the gloom"
+    },
+    {
+      "start": 83520,
+      "end": 87640,
+      "text": "A voice will hum a healing tune"
+    },
+    {
+      "start": 89759,
+      "end": 94560,
+      "text": "Magdalene once said Hope is a chance to"
+    },
+    {
+      "start": 94560,
+      "end": 98480,
+      "text": "redream Hope is the aurora of golden"
+    },
+    {
+      "start": 98480,
+      "end": 102920,
+      "text": "days Hope is the first breath when"
+    },
+    {
+      "start": 102920,
+      "end": 107200,
+      "text": "despair has gone Let your hope become the"
+    },
+    {
+      "start": 107200,
+      "end": 111900,
+      "text": "finest dream You've ever dared Little"
+    },
+    {
+      "start": 111900,
+      "end": 116480,
+      "text": "wings hope to fly Little legs hope to walk"
+    },
+    {
+      "start": 116480,
+      "end": 120720,
+      "text": "Little arms hope to carry love Little hearts hope to spark"
+    },
+    {
+      "start": 122060,
+      "end": 127000,
+      "text": "Magdalene's little prayer Hope's to intercede your heart With"
+    },
+    {
+      "start": 127000,
+      "end": 130979,
+      "text": "little hope, weary dream The greatest things will ever"
+    },
+    {
+      "start": 130979,
+      "end": 135600,
+      "text": "start Magdalene once said Hope"
+    },
+    {
+      "start": 135600,
+      "end": 140280,
+      "text": "is a chance to redream Hope is the aurora of"
+    },
+    {
+      "start": 140280,
+      "end": 145220,
+      "text": "golden days Hope is the first breath"
+    },
+    {
+      "start": 145220,
+      "end": 149840,
+      "text": "when despair has gone Let your hope become the"
+    },
+    {
+      "start": 149840,
+      "end": 154480,
+      "text": "finest dream You've ever dared So"
+    },
+    {
+      "start": 154480,
+      "end": 158220,
+      "text": "hold to hope Though small it seems"
+    },
+    {
+      "start": 158220,
+      "end": 162840,
+      "text": "Through little prayers We birth great"
+    }
+  ];
 }
-

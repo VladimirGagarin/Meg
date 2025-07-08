@@ -1,19 +1,10 @@
-import {
-  getLifeLyrics,
-  beginningLyrics,
-  IamMegLyrics,
-  fightSongLyrics,
-  swmLyrics,
-  butterflyLyrics,
-  HopeLyrics,
-} from "./SongData";
+import { getLifeLyrics, beginningLyrics, IamMegLyrics, fightSongLyrics, swmLyrics, butterflyLyrics} from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
-import BeginingSong from "../assets/audios/The beginning.mp3";
+import BeginingSong from '../assets/audios/The beginning.mp3';
 import IamMagdaleneSong from "../assets/audios/IamMagdalene.mp3";
 import FightSong from "../assets/audios/Fight_song.mp3";
 import SwmSong from "../assets/audios/Swm.mp3";
 import ButterflySong from "../assets/audios/butterfly.mp3";
-import HopeSong from "../assets/audios/hope.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -55,8 +46,8 @@ import Img38 from "../assets/images/meg16.jpeg";
 import Img39 from "../assets/images/meg17.jpeg";
 import Img40 from "../assets/images/meg18.jpeg";
 import Img41 from "../assets/images/meg25.jpeg";
-import Img42 from "../assets/images/meg27.jpeg";
-import Img43 from "../assets/images/meg26.jpeg";
+
+
 
 export const songDetails = [
   {
@@ -97,12 +88,13 @@ export const songDetails = [
     lyrics: butterflyLyrics(),
   },
   {
-    id: "hope_song",
-    title: "Hope",
-    audio: HopeSong,
-    lyrics: HopeLyrics(),
+    id: "butterfly_wings_song",
+    title: "Scribbled Sonnet",
+    audio: ButterflySong,
+    lyrics: butterflyLyrics(),
   },
 ];
+
 
 export const megImages = [
   Img1,
@@ -144,7 +136,6 @@ export const megImages = [
   Img38,
   Img39,
   Img40,
-  Img41,
-  Img42,
-  Img43,
+  Img41
 ];
+  

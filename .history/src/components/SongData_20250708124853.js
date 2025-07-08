@@ -922,7 +922,7 @@ export function HopeLyrics(){
      {
        start: 158220,
        end: 162840,
-       text: "Through little prayers We birth great dreams",
+       text: "Through little prayers We birth great",
      },
    ];
 
