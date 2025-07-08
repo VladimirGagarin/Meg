@@ -6,6 +6,8 @@ import {
   swmLyrics,
   butterflyLyrics,
   HopeLyrics,
+  DreamLyrics,
+  DreamLyrics2,
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -14,6 +16,8 @@ import FightSong from "../assets/audios/Fight_song.mp3";
 import SwmSong from "../assets/audios/Swm.mp3";
 import ButterflySong from "../assets/audios/butterfly.mp3";
 import HopeSong from "../assets/audios/hope.mp3";
+import DreamSong from "../assets/audios/dreams.mp3";
+import DreamSong2 from "../assets/audios/dream.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -57,19 +61,22 @@ import Img40 from "../assets/images/meg18.jpeg";
 import Img41 from "../assets/images/meg25.jpeg";
 import Img42 from "../assets/images/meg27.jpeg";
 import Img43 from "../assets/images/meg26.jpeg";
+import Img44 from "../assets/images/meg28.jpg";
+import Img45 from "../assets/images/meg29.jpeg";
+
 
 export const songDetails = [
   {
     id: "Sing_with_magdalene",
     title: "Sing With Magdalene",
     audio: SwmSong,
-    lyrics: swmLyrics(), // call the function here
+    lyrics: swmLyrics(),
   },
   {
     id: "life",
     title: "A Life to Live",
     audio: LifeSong,
-    lyrics: getLifeLyrics(), // call the function here
+    lyrics: getLifeLyrics(),
   },
   {
     id: "beginning",
@@ -101,6 +108,18 @@ export const songDetails = [
     title: "Hope",
     audio: HopeSong,
     lyrics: HopeLyrics(),
+  },
+  {
+    id: "dream_vocal_song",
+    title: "Dream (vocal)",
+    audio: DreamSong,
+    lyrics: DreamLyrics(),
+  },
+  {
+    id: "dream_choral_song",
+    title: "Dream",
+    audio: DreamSong2,
+    lyrics: DreamLyrics2(),
   },
 ];
 
@@ -147,4 +166,6 @@ export const megImages = [
   Img41,
   Img42,
   Img43,
+  Img44,
+  Img45,
 ];

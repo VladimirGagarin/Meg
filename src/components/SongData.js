@@ -929,3 +929,284 @@ export function HopeLyrics(){
   return lyrics;
 }
 
+
+export function DreamLyrics() {
+  const subtitles = [
+    {
+      start: 579,
+      end: 4799,
+      text: "In the quiet hours, whispers of dreams take",
+    },
+    {
+      start: 4880,
+      end: 9019,
+      text: "flight. Gliding past the doubts that linger in the night.",
+    },
+    {
+      start: 15539,
+      end: 19719,
+      text: "Moments won't take a chance to wait, but hopes",
+    },
+    {
+      start: 19760,
+      end: 24380,
+      text: "arise when hearts create, and joy becomes the dawn we hesitate.",
+    },
+    { start: 24479, end: 27739, text: "dawn we hesitate." },
+    {
+      start: 29920,
+      end: 33500,
+      text: "A promise is cradled in the corridors of the heart.",
+    },
+    {
+      start: 33599,
+      end: 38040,
+      text: "A dream is scribbled on the pages torn apart.",
+    },
+    {
+      start: 44259,
+      end: 48899,
+      text: "A crescendo rises from ashes of despair, stillness",
+    },
+    {
+      start: 48979,
+      end: 53500,
+      text: "trembles with something rare. Dreams vibrate in vibrant colors.",
+    },
+    { start: 53579, end: 57200, text: "vibrant colors." },
+    {
+      start: 58719,
+      end: 63499,
+      text: "Dreams paint in hues the stars remember.",
+    },
+    {
+      start: 63539,
+      end: 68120,
+      text: "Dreams glow in sacred silence. Dreams drift where",
+    },
+    { start: 68139, end: 71039, text: "hope has ever been." },
+    { start: 71319, end: 78219, text: "A crescendo of dreams, Magdalene." },
+    {
+      start: 80799,
+      end: 85719,
+      text: "In vast-length dreams, reach beyond the sea.",
+    },
+    {
+      start: 88159,
+      end: 92979,
+      text: "Skies hold stories in trembling light.",
+    },
+    {
+      start: 95459,
+      end: 99979,
+      text: "Stardust gathers like prayers in motion, each step a hymn,",
+    },
+    {
+      start: 99979,
+      end: 104179,
+      text: "each heart an ocean. A crescendo of dreams, Magdalene.",
+    },
+    {
+      start: 109639,
+      end: 114419,
+      text: "Dreams vibrate in vibrant colors, dreams",
+    },
+    { start: 114500, end: 118379, text: "paint in hues the stars remember." },
+    {
+      start: 120559,
+      end: 125399,
+      text: "Dreams glow in sacred silence, dreams drift where",
+    },
+    {
+      start: 125419,
+      end: 129639,
+      text: "hope has ever been, a crescendo of dreams, Magdalene.",
+    },
+    {
+      start: 135339,
+      end: 139900,
+      text: "Carrying pieces of who we're meant to be, they lead where",
+    },
+    {
+      start: 139959,
+      end: 144439,
+      text: "fear and wonder meet, a destiny shaped in sacred design.",
+    },
+    { start: 144479, end: 147279, text: "sacred design." },
+    {
+      start: 152960,
+      end: 157460,
+      text: "Dreams vibrate in vibrant colors, dreams",
+    },
+    { start: 157479, end: 161379, text: "paint in hues the stars remember." },
+    {
+      start: 161400,
+      end: 165200,
+      text: "Dreams glow in sacred silence, dreams drift where",
+    },
+    {
+      start: 165220,
+      end: 169000,
+      text: "hope has ever been, a crescendo of dreams, Magdalene.",
+    },
+    {
+      start: 171000,
+      end: 175400,
+      text: "Dreams are the music that time cannot still, each crescendo",
+    },
+    { start: 175500, end: 177160, text: "whispers the name" },
+    { start: 178000, end: 191400, text: "Magdalene." },
+  ];
+  return subtitles;
+}
+
+export function DreamLyrics2() {
+  const lyrics = [
+    { start: 99, end: 14599, text: "(music)" },
+    {
+      start: 14599,
+      end: 18919,
+      text: "In the quiet hours, whispers of dreams take flight.",
+    },
+    {
+      start: 21699,
+      end: 25780,
+      text: "Gliding past the doubts that linger in the night.",
+    },
+    {
+      start: 28279,
+      end: 33200,
+      text: "The moments won't take chance to wait, but hopes arise when",
+    },
+    {
+      start: 33219,
+      end: 37299,
+      text: "hearts create, and joy becomes the dawn we",
+    },
+    { start: 37380, end: 42220, text: "hesitate. The promise is cradled" },
+    {
+      start: 42239,
+      end: 46819,
+      text: "in the corridors of the heart. A dream is scribbled on the pages torn",
+    },
+    {
+      start: 46840,
+      end: 51079,
+      text: "apart. A crescendo rises from ashes of",
+    },
+    { start: 51159, end: 55619, text: "despair, and stillness" },
+    {
+      start: 55699,
+      end: 60020,
+      text: "trembles with something rare. Dreams vibrate in",
+    },
+    {
+      start: 60099,
+      end: 64799,
+      text: "vibrant colors. Dreams paint in hues the stars remember.",
+    },
+    {
+      start: 65059,
+      end: 69879,
+      text: "Dreams glow in sacred silence. Dreams drift where",
+    },
+    {
+      start: 69919,
+      end: 74519,
+      text: "hope has ever been. A crescendo of dreams,",
+    },
+    { start: 74519, end: 75960, text: "Magdalene." },
+    {
+      start: 81259,
+      end: 85779,
+      text: "In vast length, dreams reach beyond the scene. Skies hold",
+    },
+    {
+      start: 85839,
+      end: 90679,
+      text: "stories in trembling light. Stardust gathers like prayers in",
+    },
+    {
+      start: 90739,
+      end: 95459,
+      text: "motion, each step a hymn, each heart an ocean. A",
+    },
+    {
+      start: 95479,
+      end: 100040,
+      text: "crescendo of dreams, Magdalene. Dreams vibrate in",
+    },
+    {
+      start: 100099,
+      end: 104839,
+      text: "vibrant colors. Dreams paint in hues the stars remember.",
+    },
+    {
+      start: 1049059,
+      end: 1049859,
+      text: "Dreams glow in sacred silence. Dreams drift where",
+    },
+    {
+      start: 1049919,
+      end: 1054500,
+      text: "hope has ever been. A crescendo of dreams,",
+    },
+    { start: 1054519, end: 1055559, text: "Magdalene." },
+    {
+      start: 120079,
+      end: 124859,
+      text: "Carrying pieces of who we're meant to be, they",
+    },
+    {
+      start: 124899,
+      end: 129758,
+      text: "lead where fear and wonder meet. A destiny shaped in",
+    },
+    { start: 129878, end: 134159, text: "sacred design. Dreams" },
+    {
+      start: 134239,
+      end: 138839,
+      text: "vibrate in vibrant colors. Dreams paint in hues the stars",
+    },
+    {
+      start: 138860,
+      end: 142319,
+      text: "remember. Dreams glow in sacred silence.",
+    },
+    {
+      start: 1423399,
+      end: 1427959,
+      text: "Dreams drift where hope has ever been. A",
+    },
+    {
+      start: 1427979,
+      end: 1472979,
+      text: "crescendo of dreams, Magdalene. Dreams are the music that time cannot still,",
+    },
+    {
+      start: 1473019,
+      end: 1517199,
+      text: "each crescendo whispers her name, Magdalene.",
+    },
+    { start: 165039, end: 174699, text: "(music)" },
+    {
+      start: 174699,
+      end: 179540,
+      text: "Vibrate in vibrant colors. Dreams paint in hues the stars",
+    },
+    {
+      start: 179580,
+      end: 183860,
+      text: "remember. Dreams glow in sacred silence.",
+    },
+    {
+      start: 184099,
+      end: 188679,
+      text: "Dreams drift where hope has ever been. A",
+    },
+    { start: 188699, end: 190752, text: "crescendo of dreams, Magdalene." },
+  ];
+  return lyrics;
+}
+
+
