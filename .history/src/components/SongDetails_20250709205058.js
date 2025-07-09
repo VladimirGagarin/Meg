@@ -11,8 +11,7 @@ import {
   SimplicityLyrics,
   SingingBirdSongLyrics,
   WeKnowLyrics,
-  VoiceLyrics,
-  DilMeraLyrics
+  VoiceLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -164,9 +163,9 @@ export const songDetails = [
   },
   {
     id: "mera_dil_song",
-    title: "My heart dances",
+    title: "My heart dances to your song",
     audio: DilMeraSong,
-    lyrics: DilMeraLyrics(),
+    lyrics: [],
   },
 ];
 

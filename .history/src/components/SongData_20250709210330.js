@@ -1866,6 +1866,4 @@ export function DilMeraLyrics() {
     { start: 162979, end: 164600, text: "मैं तुझमें मग्न, म्हार" },
     { start: 164720, end: 169584, text: "दिले। Magdalene" },
   ];
-
-  return hindiFusionLyrics;
 }

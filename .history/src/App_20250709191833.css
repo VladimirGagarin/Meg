@@ -20,15 +20,12 @@
   padding: 2rem;
   font-family: 'Papyrus', 'Cursive', serif;
   color: #5a2a73;
-
+  
   position: relative;
   overflow-x: hidden;
   width: 95%;
   
   
-}
-.fairy-shell h1 {
-  text-shadow: 1px 1px 2px #00000030;
 }
 
 

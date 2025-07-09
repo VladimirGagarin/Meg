@@ -20,15 +20,11 @@
   padding: 2rem;
   font-family: 'Papyrus', 'Cursive', serif;
   color: #5a2a73;
-
   position: relative;
   overflow-x: hidden;
   width: 95%;
   
   
-}
-.fairy-shell h1 {
-  text-shadow: 1px 1px 2px #00000030;
 }
 
 
@@ -36,7 +32,7 @@
   font-family: 'Georgia', serif;
   font-style: italic;
   font-size: 1.2rem;
-  color: #5a2a73; /* soft pastel or angelic shade */
+  color: #ffdee9; /* soft pastel or angelic shade */
   text-shadow: 1px 1px 2px #00000030;
   margin-top: -10px;
   margin-bottom: 20px;

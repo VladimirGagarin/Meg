@@ -1867,5 +1867,5 @@ export function DilMeraLyrics() {
     { start: 164720, end: 169584, text: "दिले। Magdalene" },
   ];
 
-  return hindiFusionLyrics;
+  return hindi
 }

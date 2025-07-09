@@ -11,8 +11,7 @@ import {
   SimplicityLyrics,
   SingingBirdSongLyrics,
   WeKnowLyrics,
-  VoiceLyrics,
-  DilMeraLyrics
+  VoiceLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -78,7 +77,7 @@ import Img47 from "../assets/images/meg31.jpeg";
 import Img48 from "../assets/images/meg32.jpeg";
 import Img49 from "../assets/images/meg33.jpeg";
 import Img50 from "../assets/images/meg34.jpeg";
-import Img51 from "../assets/images/meg28.jpeg";
+import Img51 from "../assets/images/meg28.jpg";
 
 
 
@@ -164,9 +163,9 @@ export const songDetails = [
   },
   {
     id: "mera_dil_song",
-    title: "My heart dances",
+    title: "My heart dances to your song",
     audio: DilMeraSong,
-    lyrics: DilMeraLyrics(),
+    lyrics: [],
   },
 ];
 
@@ -220,5 +219,4 @@ export const megImages = [
   Img48,
   Img49,
   Img50,
-  Img51,
 ];

@@ -164,7 +164,7 @@ export const songDetails = [
   },
   {
     id: "mera_dil_song",
-    title: "My heart dances",
+    title: "My heart dances to your song",
     audio: DilMeraSong,
     lyrics: DilMeraLyrics(),
   },
