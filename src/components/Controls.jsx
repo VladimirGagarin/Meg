@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaArrowLeft } from "react-icons/fa";
+import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaArrowLeft, FaShareAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Controls = ({ audio }) => {
@@ -8,10 +8,12 @@ const Controls = ({ audio }) => {
   const [progress, setProgress] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
     const [playbackError, setPlaybackError] = useState(null);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
+  const [isSharing, setIsSharing] = useState(false);
+
 
     useEffect(() => {
-      const handleResize = () => setIsMobile(window.innerWidth <= 768);
+      const handleResize = () => setIsMobile(window.innerWidth <= 800);
       window.addEventListener("resize", handleResize);
       return () => window.removeEventListener("resize", handleResize);
     }, []);
@@ -132,15 +134,38 @@ const Controls = ({ audio }) => {
 
     const progressBarStyle = {
       ...styles.progressBar,
-      width: isMobile ? "50%" : "60%",
+      width: isMobile ? "40%" : "60%",
       height: isMobile ? "8px" : "6px",
-    };
+  };
+  
+  const handleShare = async () => {
+    if (!navigator.share || isSharing) return;
+
+    setIsSharing(true);
+
+    try {
+      await navigator.share({
+        title: document.title,
+        text: "Sing with Magdalene – Listen to this song 💖",
+        url: window.location.href,
+      });
+    } catch (error) {
+      if (error.name !== "AbortError") {
+        console.error("Share failed:", error);
+      }
+      // It's okay if user cancels, just log nothing
+    } finally {
+      setTimeout(() => setIsSharing(false), 1500); // Add cooldown to prevent spamming
+    }
+  };
+  
+  
 
   // Render loading or error message instead of controls if needed
   if (isLoading) {
     return (
       <div style={styles.messageContainer}>
-        <p>Loading audio...</p>
+        <p>Magdalene is warming her voice...</p>
       </div>
     );
   }
@@ -150,7 +175,7 @@ const Controls = ({ audio }) => {
       <div style={styles.messageContainer}>
         <p style={{ color: "red" }}>{playbackError}</p>
         <button style={styles.button} onClick={togglePlay}>
-          Retry
+          Play
         </button>
       </div>
     );
@@ -169,6 +194,7 @@ const Controls = ({ audio }) => {
         onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#666")}
         onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#444")}
         aria-label={isPlaying ? "Pause" : "Play"}
+        title={isPlaying ? "Pause" : "Play"}
       >
         {isPlaying ? <FaPause /> : <FaPlay />}
       </button>
@@ -179,8 +205,30 @@ const Controls = ({ audio }) => {
         onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#666")}
         onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#444")}
         aria-label={isMuted ? "Unmute" : "Mute"}
+        title={isMuted ? "Unmute" : "Mute"}
       >
         {isMuted ? <FaVolumeMute /> : <FaVolumeUp />}
+      </button>
+
+      <button
+        style={{
+          ...buttonStyle,
+          backgroundColor: isSharing ? "#333" : "#444",
+          cursor: isSharing ? "not-allowed" : "pointer",
+          opacity: isSharing ? 0.6 : 1,
+        }}
+        onClick={handleShare}
+        disabled={isSharing} // <-- key part to block clicks
+        onMouseEnter={(e) => {
+          if (!isSharing) e.currentTarget.style.backgroundColor = "#666";
+        }}
+        onMouseLeave={(e) => {
+          if (!isSharing) e.currentTarget.style.backgroundColor = "#444";
+        }}
+        aria-label="Share song"
+        title="Share song"
+      >
+        <FaShareAlt />
       </button>
 
       <input
@@ -191,6 +239,7 @@ const Controls = ({ audio }) => {
         onChange={handleProgressChange}
         style={progressBarStyle}
         aria-label="Audio progress bar"
+        title="Audio progress seek"
       />
     </div>
   );

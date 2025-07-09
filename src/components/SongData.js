@@ -1387,3 +1387,136 @@ export function SimplicityLyrics() {
   return lyrics;
 }
 
+export function SingingBirdSongLyrics() {
+  const lyrics = [
+    {
+      start: 6139,
+      end: 10259,
+      text: "Out on the porch where the dawn light glows.",
+    },
+    {
+      start: 11019,
+      end: 15639,
+      text: "A breeze brings songs that my spirit knows.",
+    },
+    {
+      start: 16899,
+      end: 21739,
+      text: "You perch unseen in the olive tree. But",
+    },
+    {
+      start: 21779,
+      end: 25780,
+      text: "your voice flies wild and sings to me.",
+    },
+    {
+      start: 27039,
+      end: 31860,
+      text: "I close my eyes, the world turns still.",
+    },
+    {
+      start: 32680,
+      end: 36600,
+      text: "You sing her songs, my heart you fill.",
+    },
+    { start: 37579, end: 42319, text: "Singing bird, carry me home. Every" },
+    {
+      start: 42419,
+      end: 47059,
+      text: "morning don't sing alone. Every melody a thread",
+    },
+    {
+      start: 47119,
+      end: 51659,
+      text: "of grace. Sing Magdalene's songs through",
+    },
+    {
+      start: 51719,
+      end: 56579,
+      text: "time and space. Tomorrow don't forget my",
+    },
+    {
+      start: 56699,
+      end: 61539,
+      text: "song. The Magdalene one I've loved so long.",
+    },
+    {
+      start: 65720,
+      end: 70139,
+      text: "Through fields of silence and restless skies.",
+    },
+    {
+      start: 70860,
+      end: 75639,
+      text: "Your voice still lifts when my courage dies.",
+    },
+    { start: 76979, end: 80919, text: "You echo love that I once knew." },
+    {
+      start: 81599,
+      end: 85000,
+      text: "Each note a prayer that pulls me through.",
+    },
+    { start: 87139, end: 91839, text: "And when I'm lost or feeling small." },
+    { start: 92659, end: 96259, text: "Your hymns of Magdalene recall." },
+    { start: 97639, end: 102339, text: "Singing bird, carry me home. Every" },
+    {
+      start: 102419,
+      end: 107059,
+      text: "morning don't sing alone. Every melody a thread",
+    },
+    {
+      start: 107119,
+      end: 111659,
+      text: "of grace. Sing Magdalene's songs through",
+    },
+    {
+      start: 111739,
+      end: 116639,
+      text: "time and space. Tomorrow don't forget my",
+    },
+    {
+      start: 116699,
+      end: 121119,
+      text: "song. The Magdalene one I've loved so",
+    },
+    { start: 121259, end: 125739, text: "long. You are no" },
+    { start: 125799, end: 130339, text: "ordinary bird, I know. You" },
+    { start: 130459, end: 134240, text: "carry her voice wherever you go." },
+    {
+      start: 135539,
+      end: 140220,
+      text: "So sing through the stars, sing over the",
+    },
+    {
+      start: 140339,
+      end: 145159,
+      text: "sea. Bring Magdalene's heart back to me.",
+    },
+    { start: 146739, end: 150479, text: "Singing bird, carry me home." },
+    {
+      start: 152319,
+      end: 156219,
+      text: "At sunrise and twilight's golden dome.",
+    },
+    { start: 157800, end: 161600, text: "Every melody a thread of grace." },
+    { start: 163160, end: 167519, text: "Sing Magdalene's songs that whisper" },
+    {
+      start: 167580,
+      end: 171899,
+      text: "peace. Tomorrow don't forget my song. The",
+    },
+    {
+      start: 171959,
+      end: 175739,
+      text: "Magdalene one, still singing strong.",
+    },
+    {
+      start: 177179,
+      end: 182179,
+      text: "Yes, singing bird, don't ever go. You sing what only",
+    },
+    { start: 182319, end: 185199, text: "heaven knows, the Magdalene" },
+    { start: 185319, end: 201024, text: "song." },
+  ];
+  return lyrics;
+}

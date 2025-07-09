@@ -41,7 +41,7 @@
 
 @media (max-width: 800px) {
   #root {
-    padding: 0 1rem; /* Add some horizontal padding */
+    padding: 0; /* Add some horizontal padding */
     background: linear-gradient(to bottom, #f9a8d4, #d6b0f2);
   }
 

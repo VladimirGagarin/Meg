@@ -106,7 +106,11 @@ export default function SongScreen() {
   }, [currentSongObj, currentLyricIndex]);
 
   if (!currentSongObj) {
-    return <div className="loading">Loading song...</div>;
+    return (
+      <div className="loading">
+        She’s almost here — Magdalene is brushing stardust off her voice...
+      </div>
+    );
   }
 
   const currentLine = currentSongObj.lyrics[currentLyricIndex]?.text || "";
