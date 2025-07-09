@@ -1142,16 +1142,16 @@ export function DreamLyrics2() {
       text: "vibrant colors. Dreams paint in hues the stars remember.",
     },
     {
-      start: 105059,
-      end: 109859,
+      start: 1049059,
+      end: 1049859,
       text: "Dreams glow in sacred silence. Dreams drift where",
     },
     {
-      start: 109919,
-      end: 114500,
+      start: 1049919,
+      end: 1054500,
       text: "hope has ever been. A crescendo of dreams,",
     },
-    { start: 114519, end: 115559, text: "Magdalene." },
+    { start: 1054519, end: 1055559, text: "Magdalene." },
     {
       start: 120079,
       end: 124859,
@@ -1170,22 +1170,22 @@ export function DreamLyrics2() {
     },
     {
       start: 138860,
-      end: 143199,
+      end: 142319,
       text: "remember. Dreams glow in sacred silence.",
     },
     {
-      start: 143399,
-      end: 147959,
+      start: 1423399,
+      end: 1427959,
       text: "Dreams drift where hope has ever been. A",
     },
     {
-      start: 147979,
-      end: 152979,
+      start: 1427979,
+      end: 1472979,
       text: "crescendo of dreams, Magdalene. Dreams are the music that time cannot still,",
     },
     {
-      start: 153019,
-      end: 157199,
+      start: 1473019,
+      end: 1517199,
       text: "each crescendo whispers her name, Magdalene.",
     },
     { start: 165039, end: 174699, text: "(music)" },
@@ -1329,7 +1329,7 @@ export function SimplicityLyrics() {
     {
       start: 126219,
       end: 131199,
-      text: "Simplicity brings what feels most near. Ask Magdeline what it is,",
+      text: "Simplicity brings what feels most near.. Ask Magdeline what it is,",
     },
     {
       start: 131379,

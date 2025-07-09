@@ -1142,16 +1142,16 @@ export function DreamLyrics2() {
       text: "vibrant colors. Dreams paint in hues the stars remember.",
     },
     {
-      start: 105059,
-      end: 109859,
+      start: 1049059,
+      end: 1049859,
       text: "Dreams glow in sacred silence. Dreams drift where",
     },
     {
-      start: 109919,
-      end: 114500,
+      start: 1049919,
+      end: 1054500,
       text: "hope has ever been. A crescendo of dreams,",
     },
-    { start: 114519, end: 115559, text: "Magdalene." },
+    { start: 1054519, end: 1055559, text: "Magdalene." },
     {
       start: 120079,
       end: 124859,
@@ -1170,22 +1170,22 @@ export function DreamLyrics2() {
     },
     {
       start: 138860,
-      end: 143199,
+      end: 142319,
       text: "remember. Dreams glow in sacred silence.",
     },
     {
-      start: 143399,
-      end: 147959,
+      start: 1423399,
+      end: 1427959,
       text: "Dreams drift where hope has ever been. A",
     },
     {
-      start: 147979,
-      end: 152979,
+      start: 1427979,
+      end: 1472979,
       text: "crescendo of dreams, Magdalene. Dreams are the music that time cannot still,",
     },
     {
-      start: 153019,
-      end: 157199,
+      start: 1473019,
+      end: 1517199,
       text: "each crescendo whispers her name, Magdalene.",
     },
     { start: 165039, end: 174699, text: "(music)" },
@@ -1210,180 +1210,6 @@ export function DreamLyrics2() {
 }
 
 export function SimplicityLyrics() {
-  const lyrics = [
-    { start: 79, end: 5079, text: "(instrumental music plays) In the" },
-    {
-      start: 5139,
-      end: 8480,
-      text: "unfathomable chaos of the world, randomness dances,",
-    },
-    {
-      start: 8500,
-      end: 13039,
-      text: "patterns swirl. Entropy whispers in every breath, everything and",
-    },
-    {
-      start: 13119,
-      end: 17360,
-      text: "nothing meet in depth, but still simplicity matters.",
-    },
-    {
-      start: 20020,
-      end: 24680,
-      text: "The magic of simplicity is not to flee, but to be still where storms may",
-    },
-    {
-      start: 24760,
-      end: 29439,
-      text: "be. No need for more, no need to see, to fathom",
-    },
-    {
-      start: 29539,
-      end: 34380,
-      text: "simplicity. Ask Magdeline what it is, she",
-    },
-    {
-      start: 34500,
-      end: 39479,
-      text: "is a world of gentle grace. She holds the joy of silent space,",
-    },
-    {
-      start: 40559,
-      end: 45259,
-      text: "to fathom. Seen like the eye can't see, she hums the tune of",
-    },
-    {
-      start: 45319,
-      end: 49299,
-      text: "mystery. She is the best simplicity, still",
-    },
-    {
-      start: 49659,
-      end: 53579,
-      text: "simplicity matters. When things go wrong and break apart,",
-    },
-    {
-      start: 53699,
-      end: 58679,
-      text: "simplicity solves with a quiet heart. When the world is loud and full of fear,",
-    },
-    {
-      start: 58879,
-      end: 62719,
-      text: "simplicity brings what feels most near to understand",
-    },
-    { start: 62959, end: 67699, text: "simplicity. Ask Magdeline what it is," },
-    {
-      start: 67819,
-      end: 72399,
-      text: "she is a world of gentle grace. She holds the joy of silent",
-    },
-    {
-      start: 72459,
-      end: 77059,
-      text: "space, to fathom. Seen like the eye can't",
-    },
-    {
-      start: 77080,
-      end: 81419,
-      text: "see, she hums the tune of mystery. She is the best",
-    },
-    {
-      start: 81419,
-      end: 86339,
-      text: "simplicity, still simplicity matters. Ask",
-    },
-    { start: 86400, end: 91219, text: "Magdeline what it is, she is a world" },
-    { start: 91259, end: 95900, text: "of gentle grace. She holds the" },
-    {
-      start: 95959,
-      end: 100179,
-      text: "joy of silent space. She walks in light the eye can't see.",
-    },
-    {
-      start: 100259,
-      end: 105119,
-      text: "She hums the tune of mystery. She is the best simplicity,",
-    },
-    { start: 105399, end: 107139, text: "still simplicity matters." },
-    {
-      start: 107139,
-      end: 111499,
-      text: "(instrumental music plays) Still simplicity",
-    },
-    {
-      start: 111680,
-      end: 116479,
-      text: "matters. (instrumental music plays) When things",
-    },
-    {
-      start: 116540,
-      end: 121539,
-      text: "go wrong and break apart, simplicity solves with a quiet heart.",
-    },
-    {
-      start: 121540,
-      end: 126120,
-      text: "When the world is loud and full of fear, simplicity brings with fear,",
-    },
-    {
-      start: 126219,
-      end: 131199,
-      text: "Simplicity brings what feels most near. Ask Magdeline what it is,",
-    },
-    {
-      start: 131379,
-      end: 135979,
-      text: "she is a world of gentle grace. She holds the joy of silent",
-    },
-    {
-      start: 136020,
-      end: 140559,
-      text: "space, to fathom. Sen like the eye can't",
-    },
-    {
-      start: 140660,
-      end: 144959,
-      text: "see, she hums the tune of mystery. She is the best",
-    },
-    {
-      start: 144979,
-      end: 148839,
-      text: "simplicity, still simplicity matters.",
-    },
-    {
-      start: 149879,
-      end: 153739,
-      text: "(instrumental music plays) Simplicity is not an answer,",
-    },
-    {
-      start: 154759,
-      end: 159440,
-      text: "it is the silence that understands. Understands. It is the",
-    },
-    {
-      start: 159479,
-      end: 163839,
-      text: "breath that holds no weight, it is the truth that waits.",
-    },
-    {
-      start: 163919,
-      end: 167999,
-      text: "It is the magic the stars remember. Remember.",
-    },
-    {
-      start: 169160,
-      end: 172839,
-      text: "And then go with softer steps and hearts that know,",
-    },
-    {
-      start: 174239,
-      end: 178339,
-      text: "no map, no road, no final wall, Magdeline knows it",
-    },
-    { start: 178360, end: 180192, text: "all." },
-  ];
-
-  return lyrics;
+  
 }
 

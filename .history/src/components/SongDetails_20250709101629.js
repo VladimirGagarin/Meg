@@ -19,7 +19,7 @@ import ButterflySong from "../assets/audios/butterfly.mp3";
 import HopeSong from "../assets/audios/hope.mp3";
 import DreamSong from "../assets/audios/dreams.mp3";
 import DreamSong2 from "../assets/audios/dream.mp3";
-import SimplicitySong from "../assets/audios/simplicity.mp3"
+import SimplicitySong from ""
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";

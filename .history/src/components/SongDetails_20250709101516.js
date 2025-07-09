@@ -8,7 +8,6 @@ import {
   HopeLyrics,
   DreamLyrics,
   DreamLyrics2,
-  SimplicityLyrics,
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -19,7 +18,6 @@ import ButterflySong from "../assets/audios/butterfly.mp3";
 import HopeSong from "../assets/audios/hope.mp3";
 import DreamSong from "../assets/audios/dreams.mp3";
 import DreamSong2 from "../assets/audios/dream.mp3";
-import SimplicitySong from "../assets/audios/simplicity.mp3"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -127,7 +125,7 @@ export const songDetails = [
     id: "dsimplicity_song",
     title: "Simplicity",
     audio: SimplicitySong,
-    lyrics: SimplicityLyrics(),
+    lyrics: DreamLyrics2(),
   },
 ];
 
