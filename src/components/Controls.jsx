@@ -134,7 +134,7 @@ const Controls = ({ audio }) => {
 
     const progressBarStyle = {
       ...styles.progressBar,
-      width: isMobile ? "40%" : "60%",
+      width: isMobile ? "40%" : "50%",
       height: isMobile ? "8px" : "6px",
   };
   
@@ -278,7 +278,7 @@ const styles = {
         backgroundColor: "#666",
         },
         progressBar: {
-        width: "60%",
+        width: "50%",
         cursor: "pointer",
         height: "6px",
         borderRadius: "3px",

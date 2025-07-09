@@ -1520,3 +1520,49 @@ export function SingingBirdSongLyrics() {
   ];
   return lyrics;
 }
+
+export function WeKnowLyrics(){
+  const voiceOfMagdaleneLyrics = [
+    { start: 1220, end: 6059, text: "Bum bum baka. Bum zehn zehn. Bum bum" },
+    { start: 6059, end: 8460, text: "baka. Bum zehn zehn." },
+    { start: 8460, end: 35799, text: "(singing in Swahili)" },
+    { start: 35799, end: 41699, text: "We" },
+    { start: 41739, end: 46619, text: "feel her voice in the stars above. It calls us" },
+    { start: 46659, end: 51479, text: "home with sacred love. In every breeze," },
+    { start: 51500, end: 56099, text: "her song is near. A song of peace that" },
+    { start: 56119, end: 60619, text: "conquers fear. Oh, oh, oh, oh. We walk the" },
+    { start: 60659, end: 65579, text: "path, our hearts aligned. To find the voice we left behind." },
+    { start: 66680, end: 71500, text: "Oh, oh, oh, oh. The song of Magdalene we hold inside." },
+    { start: 71799, end: 76639, text: "When we are lost, it is our guide. Oh, oh, oh, oh." },
+    { start: 76900, end: 81720, text: "We are the ones who carry her flame. Telling" },
+    { start: 81779, end: 86639, text: "the story, keeping her name. Oh, oh, oh, oh." },
+    { start: 87319, end: 90079, text: "(singing in Swahili)" },
+    { start: 90919, end: 95279, text: "We know the song. Oh, oh, oh, oh." },
+    { start: 96839, end: 100279, text: "(singing in Swahili)" },
+    { start: 100639, end: 103460, text: "We know the song." },
+    { start: 105500, end: 110499, text: "(singing in Swahili)" },
+    { start: 110499, end: 115080, text: "We feel her voice in the stars above. It" },
+    { start: 115119, end: 119979, text: "calls us home with sacred love. Oh, oh. In every" },
+    { start: 120119, end: 125099, text: "breeze, her song is near. A song of peace that" },
+    { start: 125180, end: 129880, text: "conquers fear. Bum bum baka. We walk the path, our hearts aligned." },
+    { start: 130199, end: 134279, text: "To find the voice we left behind. Oh, oh, oh, oh." },
+    { start: 134520, end: 139259, text: "The song of Magdalene, we hold inside. When we are" },
+    { start: 139399, end: 144240, text: "lost, it is our guide. Oh, oh, oh, oh. We are the ones who carry" },
+    { start: 144300, end: 148960, text: "her flame. Telling the story, keeping her" },
+    { start: 149139, end: 151540, text: "name. Oh, oh, oh, oh." },
+    { start: 152179, end: 157119, text: "(singing in Swahili)." },
+    { start: 157179, end: 160259, text: "We know the song. Oh, oh, oh, oh." },
+    { start: 160259, end: 165119, text: "(singing in Swahili)" },
+    { start: 165500, end: 169879, text: "We know the song. Oh, oh, oh, oh." },
+    { start: 170379, end: 172620, text: "(singing in Swahili) Bum bum baka." },
+    { start: 172879, end: 177800, text: "We are the ones" },
+    { start: 177800, end: 181199, text: "who carry her flame. Telling the story, keeping her name." },
+    { start: 181800, end: 184079, text: "Oh, oh, oh, oh." },
+    { start: 185300, end: 188619, text: "(singing in Swahili)." },
+    { start: 190720, end: 192199, text: "We know the song." },
+    { start: 195800, end: 198479, text: "Bum bum baka. Bum zehn" },
+    { start: 198539, end: 204000, text: "zehn." }
+  ];
+
+  return voiceOfMagdaleneLyrics;
+}
