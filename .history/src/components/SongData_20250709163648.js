@@ -1721,6 +1721,4 @@ export function VoiceLyrics() {
     { start: 177819, end: 178019, text: "will" },
     { start: 178080, end: 186504, text: "remain." },
   ];
-
-  return theVoiceWeAllWantLyrics;
 }

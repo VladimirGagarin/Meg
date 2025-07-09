@@ -90,14 +90,14 @@ export const songDetails = [
     id: "beginning",
     title: "The Beginning",
     audio: BeginingSong,
-    lyrics: beginningLyrics(), 
+    lyrics: beginningLyrics(), // call the function here
   },
-
+  // Add more songs the same way
   {
     id: "iam-magdalene",
     title: "I Am Magdalene",
     audio: IamMagdaleneSong,
-    lyrics: IamMegLyrics(), 
+    lyrics: IamMegLyrics(), // this should return the lyrics in { start, end, text } format
   },
   {
     id: "fight_song",

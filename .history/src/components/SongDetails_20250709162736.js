@@ -11,7 +11,6 @@ import {
   SimplicityLyrics,
   SingingBirdSongLyrics,
   WeKnowLyrics,
-  VoiceLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -25,7 +24,6 @@ import DreamSong2 from "../assets/audios/dream.mp3";
 import SimplicitySong from "../assets/audios/simplicity.mp3";
 import SingingBirdSong from "../assets/audios/singing_bird.mp3";
 import TunaimbaSong from "../assets/audios/tunaimba.mp3";
-import VoiceSong from "../assets/audios/voice.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -90,14 +88,14 @@ export const songDetails = [
     id: "beginning",
     title: "The Beginning",
     audio: BeginingSong,
-    lyrics: beginningLyrics(), 
+    lyrics: beginningLyrics(), // call the function here
   },
-
+  // Add more songs the same way
   {
     id: "iam-magdalene",
     title: "I Am Magdalene",
     audio: IamMagdaleneSong,
-    lyrics: IamMegLyrics(), 
+    lyrics: IamMegLyrics(), // this should return the lyrics in { start, end, text } format
   },
   {
     id: "fight_song",
@@ -149,9 +147,9 @@ export const songDetails = [
   },
   {
     id: "voice_we_all_want_song",
-    title: "Voice we all want",
-    audio: VoiceSong,
-    lyrics: VoiceLyrics(),
+    title: "We know the song",
+    audio: TunaimbaSong,
+    lyrics: WeKnowLyrics(),
   },
 ];
 

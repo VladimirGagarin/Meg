@@ -92,7 +92,7 @@ export const songDetails = [
     audio: BeginingSong,
     lyrics: beginningLyrics(), 
   },
-
+  // Add more songs the same way
   {
     id: "iam-magdalene",
     title: "I Am Magdalene",
