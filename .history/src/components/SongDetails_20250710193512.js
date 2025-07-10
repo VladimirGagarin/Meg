@@ -15,8 +15,7 @@ import {
   DilMeraLyrics,
   EveStarLyrics,
   RadioSongLyrics,
-  LifeDancesLy,
-  FYSongLyrics
+  LifeDancesLy
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -34,8 +33,7 @@ import VoiceSong from "../assets/audios/voice.mp3";
 import DilMeraSong from "../assets/audios/mera.mp3";
 import StarSong from "../assets/audios/star.mp3";
 import RadioSong from "../assets/audios/radio.mp3";
-import LifeDancesSong from "../assets/audios/life_dances.mp3";
-import FYSong from "../assets/audios/Furaha_Yangu.mp3";
+import LifeDancesSong from "../assets/audios/life_dances.mp3"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -195,10 +193,10 @@ export const songDetails = [
     lyrics: LifeDancesLy(),
   },
   {
-    id: "Furaha_yangu_song",
-    title: "Furaha yangu",
-    audio: FYSong,
-    lyrics: FYSongLyrics(),
+    id: "_song",
+    title: "Life dances",
+    audio: LifeDancesSong,
+    lyrics: LifeDancesLy(),
   },
   
 ];

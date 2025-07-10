@@ -2278,27 +2278,27 @@ export function FYSongLyrics() {
     {
       start: 54579,
       end: 59279,
-      text: "Nilipopiga beat pakacha pakacha ikajibu. Mziki ukatanda kama upepo wa",
+      text: "Nilipopiga beat pakacha pakacha ikajibu. Muziki ukatanda kama upepo wa",
     },
     {
       start: 59319,
       end: 64199,
-      text: "dhahabu, watoto wakacheza wazee wakatabasamu kila moyo ulianza kusikia",
+      text: "dhahabu, watoto wakacheza wazee wakata basamu kila moyo ulianza kusikia",
     },
     {
       start: 64339,
       end: 68720,
-      text: "salamu. Sauti haikutaji jina wala sura ilitosha",
+      text: "salamu. Sauti haikutaji jina wala sura ili tosha",
     },
     {
       start: 68779,
       end: 73200,
-      text: "kusikika ilikuwa nuru. Nipo nikasema kwa sauti ya kweli",
+      text: "kusikika likuwa nuru. Nipo nikasema kwa sauti ya kweli",
     },
     {
       start: 73360,
       end: 77879,
-      text: "Hii si wimbo tu… ni furaha yenyewe. Furaha yangu ni",
+      text: "hizi wimbo tu ni furaha yenyewe. Furaha yangu ni",
     },
     {
       start: 77939,
@@ -2324,12 +2324,12 @@ export function FYSongLyrics() {
     {
       start: 102739,
       end: 107739,
-      text: "Ye, ye, ye. Nilipopiga beat pakacha pakacha",
+      text: "Ye, ye, ye. Nilipopiga beat pa kacha pakacha",
     },
     {
       start: 107799,
       end: 112639,
-      text: "ikajibu mziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
+      text: "ikajibu muziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
     },
     {
       start: 112659,

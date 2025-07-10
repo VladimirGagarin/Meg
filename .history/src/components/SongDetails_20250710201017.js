@@ -198,7 +198,7 @@ export const songDetails = [
     id: "Furaha_yangu_song",
     title: "Furaha yangu",
     audio: FYSong,
-    lyrics: FYSongLyrics(),
+    lyrics: FYSongLyrics,
   },
   
 ];

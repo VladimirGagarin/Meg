@@ -2324,12 +2324,12 @@ export function FYSongLyrics() {
     {
       start: 102739,
       end: 107739,
-      text: "Ye, ye, ye. Nilipopiga beat pakacha pakacha",
+      text: "Ye, ye, ye. Nilipopiga beat pa kacha pakacha",
     },
     {
       start: 107799,
       end: 112639,
-      text: "ikajibu mziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
+      text: "ikajibu muziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
     },
     {
       start: 112659,

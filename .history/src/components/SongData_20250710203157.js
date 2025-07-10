@@ -2329,7 +2329,7 @@ export function FYSongLyrics() {
     {
       start: 107799,
       end: 112639,
-      text: "ikajibu mziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
+      text: "ikajibu muziki ukatanda kama upepo wa dhahabu watoto wakacheza wazee",
     },
     {
       start: 112659,
