@@ -16,7 +16,9 @@ import {
   EveStarLyrics,
   RadioSongLyrics,
   LifeDancesLy,
-  FYSongLyrics
+  FYSongLyrics,
+  softAnthemLyrics,
+  AnthemLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -36,6 +38,8 @@ import StarSong from "../assets/audios/star.mp3";
 import RadioSong from "../assets/audios/radio.mp3";
 import LifeDancesSong from "../assets/audios/life_dances.mp3";
 import FYSong from "../assets/audios/Furaha_Yangu.mp3";
+import SoftAnthemSong from "../assets/audios/soft_anthem.mp3";
+import AnthemSong from "../assets/audios/anthem.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -87,15 +91,30 @@ import Img48 from "../assets/images/meg32.jpeg";
 import Img49 from "../assets/images/meg33.jpeg";
 import Img50 from "../assets/images/meg34.jpeg";
 import Img51 from "../assets/images/meg28.jpeg";
+import Img52 from "../assets/images/meg35.jpeg";
+import Img53 from "../assets/images/meg36.jpeg";
+
 
 
 
 export const songDetails = [
   {
-    id: "Sing_with_magdalene",
+    id: "Sing_with_magdalene_song",
     title: "Sing With Magdalene",
     audio: SwmSong,
     lyrics: swmLyrics(),
+  },
+  {
+    id: "anthem_song",
+    title: "Anthem",
+    audio: AnthemSong,
+    lyrics: AnthemLyrics(),
+  },
+  {
+    id: "Soft_anthem_song",
+    title: "Anthem (soft version)",
+    audio: SoftAnthemSong,
+    lyrics: softAnthemLyrics(),
   },
   {
     id: "life",
@@ -107,14 +126,14 @@ export const songDetails = [
     id: "beginning",
     title: "The Beginning",
     audio: BeginingSong,
-    lyrics: beginningLyrics(), 
+    lyrics: beginningLyrics(),
   },
 
   {
     id: "iam-magdalene",
     title: "I Am Magdalene",
     audio: IamMagdaleneSong,
-    lyrics: IamMegLyrics(), 
+    lyrics: IamMegLyrics(),
   },
   {
     id: "fight_song",
@@ -200,7 +219,6 @@ export const songDetails = [
     audio: FYSong,
     lyrics: FYSongLyrics(),
   },
-  
 ];
 
 export const megImages = [
@@ -254,4 +272,6 @@ export const megImages = [
   Img49,
   Img50,
   Img51,
+  Img52,
+  Img53
 ];

@@ -2361,3 +2361,177 @@ export function FYSongLyrics() {
 
   return swahiliLyrics;
 }
+
+export function softAnthemLyrics() {
+   const scribbledLyrics = [
+    { start: 99, end: 5639, text: "(soft piano music)" },
+    { start: 5639, end: 10500, text: "(woman singing) When our" },
+    {
+      start: 10559,
+      end: 15439,
+      text: "voices rise from quiet ground. Our songs",
+    },
+    {
+      start: 15439,
+      end: 18739,
+      text: "are scribbled on life's pages unbound.",
+    },
+    {
+      start: 20180,
+      end: 24039,
+      text: "Every word a seed in the heart it finds.",
+    },
+    {
+      start: 25219,
+      end: 28799,
+      text: "We are ready to chant the great hymns of time.",
+    },
+    { start: 30319, end: 35020, text: "We will sing with Magdalene. On every" },
+    { start: 35099, end: 39779, text: "scroll, the stars design. On" },
+    { start: 39819, end: 44740, text: "every sacred scribbled line. Let the" },
+    { start: 44819, end: 47819, text: "melody carve the light." },
+    { start: 49520, end: 54340, text: "In every echo lost in time forever," },
+    { start: 55520, end: 59100, text: "we will sing with Magdalene." },
+    { start: 62859, end: 66279, text: "Ooh, ooh, ooh." },
+    { start: 68099, end: 71500, text: "When time fades our scribbled pages," },
+    {
+      start: 73220,
+      end: 76559,
+      text: "and our hearts lie in forgotten stages.",
+    },
+    {
+      start: 78259,
+      end: 81919,
+      text: "Let the silence still remember our song.",
+    },
+    { start: 83639, end: 88339, text: "A melody that forever belongs. Not" },
+    { start: 88379, end: 92459, text: "today, not tomorrow, but forever." },
+    { start: 93459, end: 98180, text: "We will sing with Magdalene. On every" },
+    { start: 98239, end: 103239, text: "scroll, the stars design. On every" },
+    { start: 103379, end: 107919, text: "sacred scribbled line. Let the" },
+    { start: 107979, end: 110719, text: "melody carve the light." },
+    { start: 112739, end: 117519, text: "In every echo lost in time forever," },
+    { start: 118699, end: 123559, text: "we will sing with Magdalene. Ooh," },
+    { start: 123559, end: 126519, text: "ooh," },
+    { start: 127899, end: 132739, text: "ooh. Forever," },
+    {
+      start: 133860,
+      end: 138600,
+      text: "we will sing with Magdalene. On every",
+    },
+    { start: 138660, end: 143659, text: "scroll, the stars design. On every" },
+    { start: 143800, end: 148319, text: "sacred scribbled line. Let the" },
+    { start: 148399, end: 151220, text: "melody carve the light." },
+    { start: 153160, end: 157919, text: "In every echo lost in time forever," },
+    { start: 159099, end: 162719, text: "we will sing with Magdalene." },
+    { start: 168919, end: 172779, text: "Ooh, ooh." },
+    { start: 173639, end: 186504, text: "(soft piano music)" },
+  ];
+
+  return scribbledLyrics
+}
+
+export function AnthemLyrics() {
+   const scribbledOrchestralLyrics = [
+    { start: 99, end: 20319, text: "(dramatic orchestral music plays)" },
+    {
+      start: 20359,
+      end: 24839,
+      text: "When our voices rise from quiet ground.",
+    },
+    {
+      start: 28459,
+      end: 32159,
+      text: "Our songs are scribbled on life's pages",
+    },
+    { start: 32200, end: 33519, text: "unbound." },
+    {
+      start: 37259,
+      end: 42240,
+      text: "Every word a seed in the heart it finds. We are",
+    },
+    {
+      start: 42360,
+      end: 46259,
+      text: "ready to chant the great hymns of time.",
+    },
+    {
+      start: 47399,
+      end: 52340,
+      text: "We will sing with Magdalene on every scroll the",
+    },
+    { start: 52399, end: 56899, text: "stars design. On every sacred" },
+    { start: 56939, end: 61419, text: "scribbled line. Let the melody" },
+    { start: 61520, end: 65959, text: "carve a light in every echo" },
+    { start: 66059, end: 70519, text: "lost in time. Forever we will" },
+    { start: 70580, end: 73239, text: "sing with Magdalene." },
+    {
+      start: 79379,
+      end: 84000,
+      text: "(dramatic orchestral music plays) As time fades our",
+    },
+    { start: 84080, end: 86540, text: "scribbled pages." },
+    { start: 90400, end: 94199, text: "And our hearts lie in forgotten" },
+    { start: 94259, end: 95640, text: "stages." },
+    {
+      start: 99459,
+      end: 103059,
+      text: "Let the silence still remember our song.",
+    },
+    { start: 104279, end: 108779, text: "A melody that forever belongs. Not" },
+    {
+      start: 108819,
+      end: 113699,
+      text: "today, not tomorrow, but forever. We will",
+    },
+    {
+      start: 113860,
+      end: 118720,
+      text: "sing with Magdalene on every scroll the stars",
+    },
+    { start: 118739, end: 123659, text: "design. On every sacred scribbled" },
+    { start: 123799, end: 128179, text: "line. Let the melody carve a" },
+    { start: 128318, end: 133259, text: "light in every echo lost in time." },
+    {
+      start: 133699,
+      end: 137979,
+      text: "Forever we will sing with Magdalene.",
+    },
+    { start: 137979, end: 146600, text: "(dramatic orchestral music plays)" },
+    {
+      start: 146639,
+      end: 151139,
+      text: "We will sing with Magdalene on every",
+    },
+    { start: 151160, end: 155639, text: "scroll the stars design. On every" },
+    { start: 155759, end: 159919, text: "sacred scribbled line. Let the" },
+    { start: 160039, end: 164839, text: "melody carve a light in every" },
+    {
+      start: 164919,
+      end: 169899,
+      text: "echo lost in time. Forever we will sing",
+    },
+    { start: 169940, end: 174679, text: "with Magdalene. We will sing with" },
+    { start: 174739, end: 179239, text: "Magdalene. We will sing with" },
+    { start: 179300, end: 183240, text: "Magdalene on every scroll the stars" },
+    { start: 183259, end: 187799, text: "design. On every sacred scribbled" },
+    { start: 188239, end: 190919, text: "line. Magdalene." },
+    {
+      start: 192360,
+      end: 197359,
+      text: "(dramatic orchestral music plays) And when time fades our scribbled",
+    },
+    { start: 197399, end: 198659, text: "pages." },
+    { start: 202500, end: 206199, text: "And our hearts lie in forgotten" },
+    { start: 206339, end: 207699, text: "stages." },
+    {
+      start: 211500,
+      end: 214960,
+      text: "Let the silence still remember our song.",
+    },
+    { start: 216360, end: 220860, text: "A melody that forever belongs. Not" },
+    { start: 220919, end: 224040, text: "today, not tomorrow, but forever." },
+    { start: 227099, end: 229392, text: "(music fades out)" },
+  ];
+  return scribbledOrchestralLyrics;
+}
