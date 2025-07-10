@@ -81,6 +81,7 @@ import Img44 from "../assets/images/meg28.jpg";
 import Img45 from "../assets/images/meg29.jpeg";
 import Img46 from "../assets/images/meg30.jpeg";
 import Img47 from "../assets/images/meg31.jpeg";
+
 import Img49 from "../assets/images/meg33.jpeg";
 import Img50 from "../assets/images/meg34.jpeg";
 import Img51 from "../assets/images/meg28.jpeg";
@@ -241,6 +242,7 @@ export const megImages = [
   Img45,
   Img46,
   Img47,
+  Img48,
   Img49,
   Img50,
   Img51,
