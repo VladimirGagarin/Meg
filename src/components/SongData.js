@@ -2069,3 +2069,164 @@ export function RadioSongLyrics() {
 
   return radioLyrics;
 }
+
+export function LifeDancesLy() {
+  const lifeDancesLyrics = [
+    {
+      start: 5739,
+      end: 9960,
+      text: "Todos amamos bailar. Todos queremos vibrar.",
+    },
+    {
+      start: 10800,
+      end: 15640,
+      text: "Pero no sabemos a qué canción. Hasta que la vida escoge con el",
+    },
+    {
+      start: 15719,
+      end: 19679,
+      text: "corazón. La vida baila su mejor canción. La elige sin duda,",
+    },
+    {
+      start: 19719,
+      end: 24519,
+      text: "sin condición. No le importa si tarda en llegar. Sabe que",
+    },
+    {
+      start: 24659,
+      end: 29360,
+      text: "Magdalena reina al cantar. Y bailará a todos sin descansar.",
+    },
+    {
+      start: 29559,
+      end: 33280,
+      text: "Life dances its best song. It chooses with no doubt,",
+    },
+    {
+      start: 33340,
+      end: 37479,
+      text: "no wrong. Doesn't care if it takes too long. It knows",
+    },
+    {
+      start: 37540,
+      end: 41559,
+      text: "Magdalene is the queen of song, and it'll dance to everyone.",
+    },
+    { start: 45840, end: 50200, text: "Hands in the air. Feet on fire." },
+    {
+      start: 50559,
+      end: 55139,
+      text: "Moving to a rhythm that never tires. She sings, and the night turns",
+    },
+    {
+      start: 55159,
+      end: 60120,
+      text: "gold. Even the silence starts to unfold. From city lights to ocean shores.",
+    },
+    {
+      start: 60479,
+      end: 65179,
+      text: "Her song opens every door. No one escapes, not even me.",
+    },
+    {
+      start: 65419,
+      end: 69839,
+      text: "When Magdalene plays, we all break free. Súbele, súbele al",
+    },
+    {
+      start: 69839,
+      end: 74400,
+      text: "corazón. Que esta vibra no tiene perdón. Cuando canta,",
+    },
+    {
+      start: 74479,
+      end: 79220,
+      text: "no puedo parar. Magdalena me hace volar. La vida",
+    },
+    {
+      start: 79279,
+      end: 83539,
+      text: "baila su mejor canción. La elige sin dudas, sin condición.",
+    },
+    {
+      start: 84019,
+      end: 88719,
+      text: "No le importa si tarda en llegar. Sabe que Magdalena reina al",
+    },
+    {
+      start: 88739,
+      end: 93580,
+      text: "cantar. Y bailará a todos sin descansar. Life dances its best",
+    },
+    {
+      start: 93639,
+      end: 98500,
+      text: "song. It chooses with no doubt, no wrong. Doesn't care if it takes",
+    },
+    {
+      start: 98540,
+      end: 102299,
+      text: "too long. It knows Magdalene's the queen of song,",
+    },
+    { start: 102339, end: 104219, text: "and it'll dance to everyone." },
+    {
+      start: 109939,
+      end: 114239,
+      text: "It's not just rhythm. It's not just sound. It's a miracle when she's",
+    },
+    {
+      start: 114279,
+      end: 119180,
+      text: "around. Every note here is what I've been through. Magdalene is love",
+    },
+    { start: 119219, end: 123879, text: "so true. Baila la vida con" },
+    {
+      start: 123899,
+      end: 128538,
+      text: "Magdalena. She is life's best dance, a song I'll never",
+    },
+    {
+      start: 128580,
+      end: 133379,
+      text: "outgrow. La vida baila su mejor canción. La",
+    },
+    {
+      start: 133379,
+      end: 138359,
+      text: "elige sin duda, sin condición. No le importa si tarda en llegar.",
+    },
+    {
+      start: 138739,
+      end: 143320,
+      text: "Sabe que Magdalena reina al cantar. Y bailará a todos sin",
+    },
+    {
+      start: 143339,
+      end: 148059,
+      text: "descansar. Life dances its best song. It chooses with no doubt,",
+    },
+    {
+      start: 148119,
+      end: 152279,
+      text: "no wrong. Doesn't care if it takes too long. It knows",
+    },
+    {
+      start: 152339,
+      end: 156400,
+      text: "Magdalene's the queen of song, and it'll dance to everyone.",
+    },
+    {
+      start: 166000,
+      end: 170979,
+      text: "It's not just rhythm. It's not break free.",
+    },
+    {
+      start: 172059,
+      end: 175659,
+      text: "We all dance to everyone. We all dance to",
+    },
+    { start: 175720, end: 180720, text: "everyone." },
+  ];
+
+  return lifeDancesLyrics;
+}

@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import "../pages/SongScreen.css";
+import Confetti from "react-dom-confetti";
 
 export default function LyricsCard({ lyricText }) {
   const [stars, setStars] = useState([]);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   useEffect(() => {
     if (!lyricText) return;
+
+    setShowConfetti(false); // Reset first, in case lyrics are updated quickly
+    setTimeout(() => setShowConfetti(true), 50);
+    setTimeout(() => setShowConfetti(false), 1000); // Hide after animation
 
     // Create initial stars with gradient parameters
     const initialStars = Array(10)
@@ -77,6 +83,17 @@ export default function LyricsCard({ lyricText }) {
             }}
           />
         ))}
+      </div>
+      {/* Confetti explosion inside the lyrics card */}
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          bottom: "20%",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <Confetti active={showConfetti} />
       </div>
     </div>
   );
