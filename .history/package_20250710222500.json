@@ -9,8 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "pub": "git add . && git commit -m 'update' && git push",
-    "deploy": "vite build && gh-pages -d dist"
-
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
