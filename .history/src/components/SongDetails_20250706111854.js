@@ -1,0 +1,1 @@
+import { getLifeLyrics, be } from "./SongData";

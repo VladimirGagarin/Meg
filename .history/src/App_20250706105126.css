@@ -1,0 +1,10 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color:rgba(213, 135, 231, 0.429);
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
