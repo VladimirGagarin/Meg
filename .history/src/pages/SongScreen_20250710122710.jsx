@@ -15,17 +15,6 @@ export default function SongScreen() {
   const [currentLyricIndex, setCurrentLyricIndex] = useState(0);
   const [currentImage, setCurrentImage] = useState(LogoImage);
 
-  useEffect(() => {
-    if (currentSongObj) {
-      document.title = `${currentSongObj.title} | Sing With Magdalene`;
-    } else {
-      document.title = "Sing With Magdalene";
-    }
-
-    return () => {
-      document.title = "Sing With Magdalene";
-    };
-  }, [currentSongObj]);
   
   
   const audioRef = useRef(new Audio());
