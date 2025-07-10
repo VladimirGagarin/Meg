@@ -12,7 +12,8 @@ import {
   SingingBirdSongLyrics,
   WeKnowLyrics,
   VoiceLyrics,
-  DilMeraLyrics
+  DilMeraLyrics,
+  EveStarLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -27,7 +28,8 @@ import SimplicitySong from "../assets/audios/simplicity.mp3";
 import SingingBirdSong from "../assets/audios/singing_bird.mp3";
 import TunaimbaSong from "../assets/audios/tunaimba.mp3";
 import VoiceSong from "../assets/audios/voice.mp3";
-import DilMeraSong from "../assets/audios/mera.mp3"
+import DilMeraSong from "../assets/audios/mera.mp3";
+import StarSong from "../assets/audios/star.mp3"
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -168,6 +170,12 @@ export const songDetails = [
     audio: DilMeraSong,
     lyrics: DilMeraLyrics(),
   },
+  {
+    id: "evening_star_song",
+    title: "The evening star",
+    audio: StarSong,
+    lyrics: EveStarLyrics(),
+  }
 ];
 
 export const megImages = [

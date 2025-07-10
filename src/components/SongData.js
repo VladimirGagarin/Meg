@@ -1869,3 +1869,52 @@ export function DilMeraLyrics() {
 
   return hindiFusionLyrics;
 }
+
+export function EveStarLyrics() {
+  const starLyrics = [
+    { start: 7919, end: 12279, text: "When the sun bows low and the sky turns cold and the" },
+    { start: 12359, end: 17179, text: "silence creeps through the midnight fold, there's a shimmer up" },
+    { start: 17260, end: 21579, text: "high where the heavens are. That's where I find you," },
+    { start: 21879, end: 26519, text: "the evening star. Lonely on a French" },
+    { start: 26579, end: 31479, text: "wood bench, eyes locked on the middle of sky's wide trench." },
+    { start: 31539, end: 36399, text: "With a heart too dry for tears to quench, I wait" },
+    { start: 36439, end: 40680, text: "for the evening star to sing my favorite" },
+    { start: 40779, end: 45619, text: "song. Evening star, won't you twinkle" },
+    { start: 45739, end: 50220, text: "bright? Shine your tune through the quiet night." },
+    { start: 50840, end: 55520, text: "Whisper soft where my heart belongs, strum the" },
+    { start: 55639, end: 60360, text: "wind with your healing songs. Guide me home when the" },
+    { start: 60459, end: 64599, text: "road feels long, my favorite song is" },
+    { start: 64659, end: 65699, text: "Magdalene." },
+    { start: 72619, end: 76699, text: "When your voice breaks through the hush of air," },
+    { start: 77239, end: 82059, text: "even the moon stops to say a prayer. Mountains lean close" },
+    { start: 82119, end: 86459, text: "just to hear the tune, and the stars sway soft" },
+    { start: 86739, end: 91319, text: "beneath the moon. It lifts my soul no matter" },
+    { start: 91419, end: 95839, text: "how far, when you sing you are, the evening star." },
+    { start: 96079, end: 100700, text: "Evening star, won't you twinkle bright? Shine your" },
+    { start: 100739, end: 105599, text: "tune through the quiet night. Whisper soft where my" },
+    { start: 105680, end: 110500, text: "heart belongs, strum the wind with your healing" },
+    { start: 110540, end: 115119, text: "songs. Guide me home when the road feels long," },
+    { start: 115439, end: 119039, text: "my favorite song is Magdalene." },
+    { start: 125899, end: 130160, text: "Every time I lose my way, the melody" },
+    { start: 130258, end: 134979, text: "knows what to say. No choir, no" },
+    { start: 135099, end: 139939, text: "crowd, just you and me, and a song that sets my spirit" },
+    { start: 140039, end: 144659, text: "free. Evening star, won't you twinkle bright?" },
+    { start: 145139, end: 149760, text: "Shine your tune through the quiet night. Whisper" },
+    { start: 149839, end: 154720, text: "soft where my heart belongs, strum the wind with your" },
+    { start: 154800, end: 159619, text: "healing songs. Guide me home when the road feels" },
+    { start: 159679, end: 164299, text: "long, my favorite song is Magdalene." },
+    { start: 165039, end: 169879, text: "So shine on Magdalene, don't fade away. Stay with me" },
+    { start: 169940, end: 174879, text: "till the break of day. When all else sleeps and dreams depart," },
+    { start: 174919, end: 179720, text: "you're the evening star that sings to my heart. (instrumental music plays)" },
+    { start: 179720, end: 180020, text: "..." },
+    { start: 193959, end: 198599, text: "listen with your healing song. Guide" },
+    { start: 198699, end: 202940, text: "me home when the road feels long, my favorite" },
+    { start: 203019, end: 207459, text: "song is Magdalene. So shine on" },
+    { start: 207479, end: 212360, text: "Magdalene, don't fade away. Stay with me till the break of" },
+    { start: 212399, end: 217239, text: "day. When all else sleeps and dreams depart, you're the evening" },
+    { start: 217319, end: 219699, text: "star that sings to my" },
+    { start: 219779, end: 222960, text: "heart." }
+  ];
+
+  return starLyrics;
+}
