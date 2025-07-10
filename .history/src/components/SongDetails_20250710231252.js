@@ -18,7 +18,7 @@ import {
   LifeDancesLy,
   FYSongLyrics,
   softAnthemLyrics,
-  AnthemLyrics,
+  AnthemLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -93,6 +93,9 @@ import Img50 from "../assets/images/meg34.jpeg";
 import Img51 from "../assets/images/meg28.jpeg";
 import Img52 from "../assets/images/meg35.jpeg";
 import Img53 from "../assets/images/meg36.jpeg";
+
+
+
 
 export const songDetails = [
   {
@@ -270,5 +273,5 @@ export const megImages = [
   Img50,
   Img51,
   Img52,
-  Img53,
+  Img53
 ];
