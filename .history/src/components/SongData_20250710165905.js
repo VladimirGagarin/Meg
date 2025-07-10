@@ -1922,150 +1922,40 @@ export function EveStarLyrics() {
 export function RadioSongLyrics() {
   const radioLyrics = [
     { start: 99, end: 3880, text: "(gentle music)" },
-    {
-      start: 5879,
-      end: 10619,
-      text: "Took my coffee, hit the road at dawn. Old Volkswagen humming like a traveling song.",
-    },
-    {
-      start: 11179,
-      end: 15279,
-      text: "Dust on the mirror, breeze in my hair. Chasing peace through open air.",
-    },
-    {
-      start: 16158,
-      end: 20880,
-      text: "Just me in the home of my stereo. And then came that voice I used to",
-    },
+    { start: 5879, end: 10619, text: "Took my coffee, hit the road at dawn. Old Volkswagen humming like a traveling song." },
+    { start: 11179, end: 15279, text: "Dust on the mirror, breeze in my hair. Chasing peace through open air." },
+    { start: 16158, end: 20880, text: "Just me in the home of my stereo. And then came that voice I used to" },
     { start: 20939, end: 25020, text: "know. My old friend, the radio." },
-    {
-      start: 26879,
-      end: 31100,
-      text: "In this wide, wild world of melodies you know.",
-    },
-    {
-      start: 32098,
-      end: 36659,
-      text: "Tune in that song I've loved so long and I'll sing it back with my heart full",
-    },
-    {
-      start: 36840,
-      end: 40880,
-      text: "on. Yeah, radio, you know my favorite one. That",
-    },
+    { start: 26879, end: 31100, text: "In this wide, wild world of melodies you know." },
+    { start: 32098, end: 36659, text: "Tune in that song I've loved so long and I'll sing it back with my heart full" },
+    { start: 36840, end: 40880, text: "on. Yeah, radio, you know my favorite one. That" },
     { start: 41020, end: 43839, text: "Magdalene song. The only one." },
-    {
-      start: 48159,
-      end: 52880,
-      text: "I remember the voice on a porch swing night. Fireflies dancing in the pale",
-    },
-    {
-      start: 52939,
-      end: 57759,
-      text: "porch light. Mama was humming with her eyes half closed as Magdalene played on",
-    },
-    {
-      start: 57759,
-      end: 62659,
-      text: "that FM glow. Back when love was just a word I heard and hope was",
-    },
-    {
-      start: 62680,
-      end: 67459,
-      text: "hiding in every chord. Now every time that melody",
-    },
-    {
-      start: 67559,
-      end: 70739,
-      text: "plays, it pulls me right back to those golden days.",
-    },
+    { start: 48159, end: 52880, text: "I remember the voice on a porch swing night. Fireflies dancing in the pale" },
+    { start: 52939, end: 57759, text: "porch light. Mama was humming with her eyes half closed as Magdalene played on" },
+    { start: 57759, end: 62659, text: "that FM glow. Back when love was just a word I heard and hope was" },
+    { start: 62680, end: 67459, text: "hiding in every chord. Now every time that melody" },
+    { start: 67559, end: 70739, text: "plays, it pulls me right back to those golden days." },
     { start: 70979, end: 74159, text: "My old friend, the radio." },
-    {
-      start: 75959,
-      end: 80219,
-      text: "In this wide, wild world of melodies you know.",
-    },
-    {
-      start: 81220,
-      end: 85760,
-      text: "Tune in that song I've loved so long and I'll sing it back with my heart full",
-    },
-    {
-      start: 85919,
-      end: 90000,
-      text: "on. Yeah, radio, you know my favorite one. That",
-    },
+    { start: 75959, end: 80219, text: "In this wide, wild world of melodies you know." },
+    { start: 81220, end: 85760, text: "Tune in that song I've loved so long and I'll sing it back with my heart full" },
+    { start: 85919, end: 90000, text: "on. Yeah, radio, you know my favorite one. That" },
     { start: 90119, end: 92919, text: "Magdalene song. The only one." },
-    {
-      start: 102540,
-      end: 107400,
-      text: "I remember the voice on a porch swing night. Fireflies dancing in the pale",
-    },
-    {
-      start: 107459,
-      end: 112299,
-      text: "porch light. Mama was humming with her eyes half closed as Magdalene played on",
-    },
-    {
-      start: 112319,
-      end: 117220,
-      text: "that FM glow. Back when love was just a word I heard and hope was",
-    },
-    {
-      start: 117239,
-      end: 122020,
-      text: "hiding in every chord. Now every time that melody",
-    },
-    {
-      start: 122139,
-      end: 125239,
-      text: "plays, it pulls me right back to those golden days.",
-    },
+    { start: 102540, end: 107400, text: "I remember the voice on a porch swing night. Fireflies dancing in the pale" },
+    { start: 107459, end: 112299, text: "porch light. Mama was humming with her eyes half closed as Magdalene played on" },
+    { start: 112319, end: 117220, text: "that FM glow. Back when love was just a word I heard and hope was" },
+    { start: 117239, end: 122020, text: "hiding in every chord. Now every time that melody" },
+    { start: 122139, end: 125239, text: "plays, it pulls me right back to those golden days." },
     { start: 125559, end: 128639, text: "My old friend, the radio." },
-    {
-      start: 130538,
-      end: 134699,
-      text: "In this wide, wild world of melodies you know.",
-    },
-    {
-      start: 135419,
-      end: 140039,
-      text: "Tune in that song I've loved so long and I'll sing it back with my heart",
-    },
-    {
-      start: 140039,
-      end: 144619,
-      text: "full on. Yeah, radio, you know my favorite one. That",
-    },
-    {
-      start: 144660,
-      end: 149619,
-      text: "Magdalene song. The only one. It's more",
-    },
-    {
-      start: 149619,
-      end: 154199,
-      text: "than static, more than sound. It's where lost hearts get found.",
-    },
-    {
-      start: 155239,
-      end: 160059,
-      text: "No map, no plan, just a song that knows how to lead me",
-    },
-    {
-      start: 160160,
-      end: 164580,
-      text: "home when the cold wind blows. My old",
-    },
-    {
-      start: 164739,
-      end: 169519,
-      text: "friend, I cherish the moments you play that song,",
-    },
+    { start: 130538, end: 134699, text: "In this wide, wild world of melodies you know." },
+    { start: 135419, end: 140039, text: "Tune in that song I've loved so long and I'll sing it back with my heart" },
+    { start: 140039, end: 144619, text: "full on. Yeah, radio, you know my favorite one. That" },
+    { start: 144660, end: 149619, text: "Magdalene song. The only one. It's more" },
+    { start: 149619, end: 154199, text: "than static, more than sound. It's where lost hearts get found." },
+    { start: 155239, end: 160059, text: "No map, no plan, just a song that knows how to lead me" },
+    { start: 160160, end: 164580, text: "home when the cold wind blows. My old" },
+    { start: 164739, end: 169519, text: "friend, I cherish the moments you play that song," },
     { start: 169559, end: 174359, text: "Magdalene. Just the song and you is" },
     { start: 174379, end: 176739, text: "enough to carry me" },
-    { start: 177000, end: 186264, text: "through." },
+    { start: 177000, end: 186264, text: "through." }
   ];
-
-  return radioLyrics;
 }

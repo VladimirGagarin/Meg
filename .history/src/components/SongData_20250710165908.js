@@ -2066,6 +2066,5 @@ export function RadioSongLyrics() {
     { start: 174379, end: 176739, text: "enough to carry me" },
     { start: 177000, end: 186264, text: "through." },
   ];
-
-  return radioLyrics;
+  
 }

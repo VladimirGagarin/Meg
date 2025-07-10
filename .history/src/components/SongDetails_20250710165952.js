@@ -182,7 +182,7 @@ export const songDetails = [
     id: "radio_song",
     title: "The radio",
     audio: RadioSong,
-    lyrics: RadioSongLyrics(),
+    lyrics: RadioSongLyrics,
   },
   
 ];

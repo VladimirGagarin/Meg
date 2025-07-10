@@ -2067,5 +2067,5 @@ export function RadioSongLyrics() {
     { start: 177000, end: 186264, text: "through." },
   ];
 
-  return radioLyrics;
+  return radioLyrics
 }

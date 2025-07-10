@@ -13,8 +13,7 @@ import {
   WeKnowLyrics,
   VoiceLyrics,
   DilMeraLyrics,
-  EveStarLyrics,
-  RadioSongLyrics
+  EveStarLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -182,7 +181,7 @@ export const songDetails = [
     id: "radio_song",
     title: "The radio",
     audio: RadioSong,
-    lyrics: RadioSongLyrics(),
+    lyrics: Radio,
   },
   
 ];
