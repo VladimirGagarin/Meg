@@ -325,7 +325,6 @@ input[type="range"]:focus {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-size: 1.5rem;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: white;
   position: absolute;
@@ -433,5 +432,8 @@ input[type="range"]:focus {
   /* Optional: adjust stars container opacity or hide on mobile for performance */
   .stars-container {
     opacity: 0.3;
+  }
+  .loading{
+    font-size: 0.8rem;
   }
 }

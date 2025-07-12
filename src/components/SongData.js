@@ -2535,3 +2535,205 @@ export function AnthemLyrics() {
   ];
   return scribbledOrchestralLyrics;
 }
+
+export function PhoenixSongLyrics() {
+  const phoenixLyrics = [
+    {
+      "start": 99,
+      "end": 16659,
+      "text": "(intro music plays)"
+    },
+    {
+      "start": 16659,
+      "end": 20039,
+      "text": "(choir sings) Oh, Phoenix, at the heaven's sacred gate,"
+    },
+    {
+      "start": 20039,
+      "end": 24259,
+      "text": "you rise. Flame‑winged, sentinel in dawn's reborn skies."
+    },
+    {
+      "start": 24319,
+      "end": 29199,
+      "text": "You distilled the fires of courage in your flame. We absolve"
+    },
+    {
+      "start": 29239,
+      "end": 34119,
+      "text": "all doubt and call upon your name. From ember's heart"
+    },
+    {
+      "start": 34180,
+      "end": 39180,
+      "text": "to gilded throne. Your wings enfold her, she's not"
+    },
+    {
+      "start": 39259,
+      "end": 44119,
+      "text": "alone. In rising heat of morning's glow."
+    },
+    {
+      "start": 44379,
+      "end": 48380,
+      "text": "We feel your promise overflow."
+    },
+    {
+      "start": 50599,
+      "end": 55180,
+      "text": "Phoenix the mighty, the protector, the flame. Ever strong,"
+    },
+    {
+      "start": 55219,
+      "end": 59619,
+      "text": "ever bold. Your power we claim, With you Magdalene is"
+    },
+    {
+      "start": 59619,
+      "end": 64239,
+      "text": "shielded, honored and free. We'll chant hymns of Magdalene,"
+    },
+    {
+      "start": 64360,
+      "end": 68559,
+      "text": "her song of victory. Safe in your"
+    },
+    {
+      "start": 68720,
+      "end": 72339,
+      "text": "rising fire, she'll sing"
+    },
+    {
+      "start": 72400,
+      "end": 77239,
+      "text": "eternally. Oh,"
+    },
+    {
+      "start": 77639,
+      "end": 82359,
+      "text": "valiant bird, in scarlet flame arrayed. You rise from ashes,"
+    },
+    {
+      "start": 82400,
+      "end": 87259,
+      "text": "undaunted, unafraid. Through storm and shadow, through war and"
+    },
+    {
+      "start": 87319,
+      "end": 92179,
+      "text": "despair. You guard Magdalene with unyielding love."
+    },
+    {
+      "start": 92299,
+      "end": 97219,
+      "text": "From ember's heart to gilded throne. Your wings"
+    },
+    {
+      "start": 97239,
+      "end": 102239,
+      "text": "enfold her, she's not alone. In rising heat"
+    },
+    {
+      "start": 102279,
+      "end": 106459,
+      "text": "of morning's glow. We feel your promise"
+    },
+    {
+      "start": 106759,
+      "end": 111499,
+      "text": "overflow. Phoenix the"
+    },
+    {
+      "start": 111659,
+      "end": 116159,
+      "text": "mighty, the protector, the flame. Ever strong, ever bold."
+    },
+    {
+      "start": 116360,
+      "end": 121360,
+      "text": "Your power we claim, With you Magdalene is shielded, honored"
+    },
+    {
+      "start": 121379,
+      "end": 125179,
+      "text": "and free. We'll chant hymns of Magdalene, her song of"
+    },
+    {
+      "start": 125199,
+      "end": 129500,
+      "text": "victory. Safe in your rising"
+    },
+    {
+      "start": 129580,
+      "end": 134359,
+      "text": "fire, she'll sing eternally."
+    },
+    {
+      "start": 136660,
+      "end": 141500,
+      "text": "Let every feather bear her name in flame. Through burning"
+    },
+    {
+      "start": 141580,
+      "end": 146520,
+      "text": "skies, she'll rise in sacred fame. No fear shall silence what"
+    },
+    {
+      "start": 146639,
+      "end": 150699,
+      "text": "she must sing. For you, oh Phoenix, guard"
+    },
+    {
+      "start": 150819,
+      "end": 155479,
+      "text": "everything. Phoenix the"
+    },
+    {
+      "start": 155660,
+      "end": 160160,
+      "text": "mighty, the protector, the flame. Ever strong, ever bold."
+    },
+    {
+      "start": 160360,
+      "end": 165360,
+      "text": "Your power we claim, With you Magdalene is shielded, honored"
+    },
+    {
+      "start": 165379,
+      "end": 170219,
+      "text": "and free. We'll chant hymns of Magdalene, her song of victory."
+    },
+    {
+      "start": 171239,
+      "end": 175639,
+      "text": "Safe in your rising fire, she'll"
+    },
+    {
+      "start": 175699,
+      "end": 180440,
+      "text": "sing eternally. Phoenix the valiant, the"
+    },
+    {
+      "start": 180519,
+      "end": 185299,
+      "text": "flame that won't fall. Stand with Magdalene, answer"
+    },
+    {
+      "start": 185319,
+      "end": 190159,
+      "text": "her call. Her voice is our anthem, her song is our plea."
+    },
+    {
+      "start": 190339,
+      "end": 195199,
+      "text": "With wings of fire, she sings eternally. With wings"
+    },
+    {
+      "start": 195279,
+      "end": 199872,
+      "text": "of fire, she sings eternally."
+    }
+  ];
+
+  return phoenixLyrics;
+}
