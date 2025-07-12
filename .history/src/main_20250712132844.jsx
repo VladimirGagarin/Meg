@@ -4,11 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import HomeScreen from "./pages/HomeScreen.jsx";
 import SongScreen from "./pages/SongScreen.jsx";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Navigate,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 
 const isProduction = import.meta.env.MODE === "production";
 const routes = createBrowserRouter(
