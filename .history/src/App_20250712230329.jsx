@@ -16,7 +16,7 @@ export default function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        📲 Download Android App 175MBs
+        📲 Download Android App
       </a>
 
       <Outlet />
