@@ -54,21 +54,6 @@
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
-.apk-download {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #ffd700;
-  color: #1e1b29;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 20px;
-  transition: background-color 0.3s ease;
-}
-
-.apk-download:hover {
-  background-color: #f0c600;
-}
 
 
 
