@@ -3231,3 +3231,41 @@ export function etchedLyricsSong() {
 
   return etchedLyrics;
 }
+
+
+export function whereLyrics() {
+  const subtitles = [
+    {
+      start: 5532,
+      end: 34964,
+      text: "कही धूप की च्छां में बसा है सुरों का नगर जहां सनातों में भी गुँझे एक अंतर स्वर ना जुबा, ना नाम फिर भी सब जानें उसे जहां हर मौन ने छुपा है कोई राग अनसुना Not every melody needs a name Some are just echoes,",
+    },
+    {
+      start: 35084,
+      end: 61917,
+      text: "some become flame They rise where no eye's ever seen And live in hearts quietly, endlessly गीत बसा है दिल की गहराई में जैसे तारा चमके तनहाई में समाते में वो आसा बन के हो के और हर पल में जो पंचा बसाजे Our",
+    },
+    {
+      start: 61937,
+      end: 92886,
+      text: "hearts remember the songs once sung They echo inside and forever stay young Where the song lives, it's around tonight Bound by love, beyond all sight शाओ और थूप में बहता है सुल आँसु और हसी में",
+    },
+    {
+      start: 93066,
+      end: 123452,
+      text: "पढ़ता है हर असल बिना पाँ चले बिना शब्द कहे आत्मा का वो की जहाँ शान्ती रहे रीत बसा है दिल की गहराई में जैसे तारा चमके तनहाई में समाते में वो आसा बन के उखे और हर पल में चुपन चाप सजे Our hearts remember the songs once",
+    },
+    {
+      start: 123472,
+      end: 148038,
+      text: "sung They echo inside and forever stay young Where the song lives, it's wrapped in light Bound by love, beyond all sight जहाँ गीत बसते हैं वहाँ आत्मा मुस्कुराएं गीत बसा है दिल की नहराई में जैसे तारा",
+    },
+    {
+      start: 148199,
+      end: 198413,
+      text: "चम्दा सना तेरे बास बन के उखे और हर कल में चुप चाब सजे Even when voices fade Its light will stay Through the music is laid वहाँ आतमां मुश्कुराए",
+    },
+  ];
+
+  return subtitles
+}

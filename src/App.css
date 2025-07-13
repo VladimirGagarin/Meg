@@ -7,9 +7,7 @@
   padding: 0;
 }
 
-
 /* App.css */
-
 
 .fairy-shell {
   min-height: 100vh;
@@ -18,22 +16,19 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  font-family: 'Papyrus', 'Cursive', serif;
+  font-family: "Papyrus", "Cursive", serif;
   color: #5a2a73;
 
   position: relative;
   overflow-x: hidden;
   width: 95%;
-  
-  
 }
 .fairy-shell h1 {
   text-shadow: 1px 1px 2px #00000030;
 }
 
-
 .slogan {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
   font-size: 1.2rem;
   color: #5a2a73; /* soft pastel or angelic shade */
@@ -43,7 +38,6 @@
   animation: fadeInUp 1s ease-out;
 }
 
-
 .fairy-shell h1 {
   font-size: 2.3rem;
   margin-bottom: 2rem;
@@ -51,26 +45,26 @@
   color: #683978;
   text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
   position: relative;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 .apk-download {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  background-color: #ffd700;
-  color: #1e1b29;
+  background-color: #430a4d;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
+  letter-spacing: 4px;
   border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
 }
 
 .apk-download:hover {
-  background-color: #f0c600;
+  text-decoration: underline;
 }
-
-
 
 @media (max-width: 800px) {
   #root {
