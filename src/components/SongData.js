@@ -3013,3 +3013,221 @@ export function replayLy() {
   ];
   return replayLyrics;
 }
+
+
+export function etchedLyricsSong() {
+  const etchedLyrics = [
+    {
+      start: 0,
+      end: 9000,
+      text: "Music",
+    },
+    {
+      start: 9000,
+      end: 12000,
+      text: "In halls where the silence still breathes her name,",
+    },
+    {
+      start: 12000,
+      end: 16000,
+      text: "We gather in twilight, no heart is the same.",
+    },
+    {
+      start: 16000,
+      end: 20000,
+      text: "With candles that shimmer like stars in the night",
+    },
+    {
+      start: 20000,
+      end: 25000,
+      text: "We waltz in her memory, soft and polite",
+    },
+    {
+      start: 25000,
+      end: 29000,
+      text: "Etched in our hearts are the songs of Magdalene,",
+    },
+    {
+      start: 29000,
+      end: 33000,
+      text: "From cadence to silence, through joy and through pain.",
+    },
+    {
+      start: 33000,
+      end: 37000,
+      text: "Songs that orchestrate our rise and our fall,",
+    },
+    {
+      start: 37000,
+      end: 41000,
+      text: "Songs that still echo in chapel and hall,",
+    },
+    {
+      start: 41000,
+      end: 45000,
+      text: "Songs that redeem us, songs that impart,",
+    },
+    {
+      start: 45000,
+      end: 48000,
+      text: "Forever etched in our hearts",
+    },
+    {
+      start: 50000,
+      end: 54000,
+      text: "All beauty begins in the silence of heart",
+    },
+    {
+      start: 54000,
+      end: 58000,
+      text: "Neither today nor tomorrow, but forever apart",
+    },
+    {
+      start: 59000,
+      end: 62000,
+      text: "Singing with Magdalene in sacred refrain",
+    },
+    {
+      start: 62000,
+      end: 65000,
+      text: "Songs of Magdalene will  remain ",
+    },
+    {
+      start: 65000,
+      end: 71000,
+      text: "Indelible, Etched in our hearts are the songs of Magdalene,",
+    },
+    {
+      start: 71000,
+      end: 75000,
+      text: "From cadence to silence, through joy and through pain.",
+    },
+    {
+      start: 75000,
+      end: 79000,
+      text: "Songs that orchestrate our rise and our fall,",
+    },
+    {
+      start: 79000,
+      end: 83000,
+      text: "Songs that still echo in chapel and hall,",
+    },
+    {
+      start: 83000,
+      end: 87000,
+      text: "Songs that redeem us, songs that impart,",
+    },
+    {
+      start: 87000,
+      end: 90000,
+      text: "Forever etched in our hearts",
+    },
+    {
+      start: 92000,
+      end: 97000,
+      text: "All beauty begins in the silence of heart",
+    },
+    {
+      start: 97000,
+      end: 101000,
+      text: "Neither today nor tomorrow, but forever apart",
+    },
+    {
+      start: 101000,
+      end: 105000,
+      text: "Singing with Magdalene in sacred refrain",
+    },
+    {
+      start: 105000,
+      end: 108000,
+      text: "Songs of Magdalene will  remain",
+    },
+    {
+      start: 108000,
+      end: 110000,
+      text: "Indelible",
+    },
+    {
+      start: 110000,
+      end: 116000,
+      text: "Oh, oh, oh, oh, oh, oh, oh, oh",
+    },
+    {
+      start: 116000,
+      end: 120000,
+      text: "No measure contains what the soul longs to say,",
+    },
+    {
+      start: 120000,
+      end: 124000,
+      text: "Each note a devotion that time can’t betray.",
+    },
+    {
+      start: 124000,
+      end: 128000,
+      text: "Where silence and song in eternity meet,",
+    },
+    {
+      start: 128000,
+      end: 133000,
+      text: "There lies the pulse — serene and complete.",
+    },
+    {
+      start: 133000,
+      end: 137000,
+      text: "Etched in our hearts are the songs of Magdalene,",
+    },
+    {
+      start: 137000,
+      end: 141000,
+      text: "From cadence to silence, through joy and through pain.",
+    },
+    {
+      start: 141000,
+      end: 145000,
+      text: "Songs that orchestrate our rise and our fall,",
+    },
+    {
+      start: 145000,
+      end: 149000,
+      text: "Songs that still echo in chapel and hall,",
+    },
+    {
+      start: 149000,
+      end: 153000,
+      text: "Songs that redeem us, songs that impart,",
+    },
+    {
+      start: 153000,
+      end: 157000,
+      text: "Forever etched in our hearts",
+    },
+    {
+      start: 157000,
+      end: 159000,
+      text: "Songs of Magdalene...",
+    },
+    {
+      start: 159000,
+      end: 162000,
+      text: "Not just sung, but lived",
+    },
+    {
+      start: 162000,
+      end: 167000,
+      text: "Not just remembered, but forever etched in the hearts of those who listen.",
+    },
+    {
+      start: 168000,
+      end: 172000,
+      text: "All over the world",
+    },
+    {
+      start: 172000,
+      end: 187000,
+      text: "(ooh ooh ooh ) Magdalene",
+    },
+  ];
+
+  return etchedLyrics;
+}
