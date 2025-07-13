@@ -2741,275 +2741,275 @@ export function PhoenixSongLyrics() {
 export function replayLy() {
   const replayLyrics = [
     {
-      start: 0,
-      end: 12000,
-      text: "Music",
+      "start": 0,
+      "end": 12000,
+      "text": "Music"
     },
     {
-      start: 12000,
-      end: 15000,
-      text: "When cherished moment's passed,",
+      "start": 12000,
+      "end": 15000,
+      "text": "In a cherished moment's past"
     },
     {
-      start: 15000,
-      end: 18000,
-      text: "They never truly fade",
+      "start": 15000,
+      "end": 18000,
+      "text": "They never truly fade"
     },
     {
-      start: 18000,
-      end: 23000,
-      text: "Our hearts still echo where the memories played.",
+      "start": 18000,
+      "end": 23000,
+      "text": "Our hearts still let go of memories play"
     },
     {
-      start: 23000,
-      end: 26000,
-      text: "In every silent glance",
+      "start": 23000,
+      "end": 26000,
+      "text": "In every silent glance"
     },
     {
-      start: 26000,
-      end: 29000,
-      text: "In the words we didn't say",
+      "start": 26000,
+      "end": 29000,
+      "text": "In the words we didn't say"
     },
     {
-      start: 29000,
-      end: 34000,
-      text: "That's when our wishes become replay",
+      "start": 29000,
+      "end": 34000,
+      "text": "That's when our wishes become replay"
     },
     {
-      start: 34000,
-      end: 37000,
-      text: "Replay the magic we once sung,",
+      "start": 34000,
+      "end": 37000,
+      "text": "Replay the magic we once saw"
     },
     {
-      start: 37000,
-      end: 40000,
-      text: "Every moment, every breath is so young",
+      "start": 37000,
+      "end": 40000,
+      "text": "Every moment, every breath is so young"
     },
     {
-      start: 40000,
-      end: 45000,
-      text: "Every heartbeat, every joy on our tongue",
+      "start": 40000,
+      "end": 45000,
+      "text": "Every heartbeat, every joy on our tongue"
     },
     {
-      start: 46000,
-      end: 49000,
-      text: "Replay our song with Magdalene,",
+      "start": 46000,
+      "end": 49000,
+      "text": "Replay your soul, imagine it"
     },
     {
-      start: 49000,
-      end: 51000,
-      text: "Every tune, every beat",
+      "start": 49000,
+      "end": 51000,
+      "text": "Every tune, every beat"
     },
     {
-      start: 51000,
-      end: 54000,
-      text: "Let it all begin, replay",
+      "start": 51000,
+      "end": 54000,
+      "text": "Let it all begin, replay"
     },
     {
-      start: 54000,
-      end: 57000,
-      text: "Again and again, songs of magdalene.",
+      "start": 54000,
+      "end": 57000,
+      "text": "Again and again, souls of my darling"
     },
     {
-      start: 58000,
-      end: 63000,
-      text: "Let it be — freeze our memories in time,",
+      "start": 58000,
+      "end": 63000,
+      "text": "Let it be, hit, freeze our memories in time"
     },
     {
-      start: 64000,
-      end: 69000,
-      text: "Like a photo, framed in rhythm and rhyme",
+      "start": 64000,
+      "end": 69000,
+      "text": "Like a photo, framed in rhythm and rhyme"
     },
     {
-      start: 70000,
-      end: 74000,
-      text: "Every heartbeat, every word left to stay,",
+      "start": 70000,
+      "end": 74000,
+      "text": "Every heartbeat, every word we left to say"
     },
     {
-      start: 75000,
-      end: 80000,
-      text: "Still echoes with us as we press replay",
+      "start": 75000,
+      "end": 80000,
+      "text": "Still echoes with us as we press replay"
     },
     {
-      start: 81000,
-      end: 84000,
-      text: "Replay the magic we once sung,",
+      "start": 81000,
+      "end": 84000,
+      "text": "Replay the magic we once saw"
     },
     {
-      start: 84000,
-      end: 87000,
-      text: "Every moment, every breath is so young",
+      "start": 84000,
+      "end": 87000,
+      "text": "Every moment, every breath is so young"
     },
     {
-      start: 87000,
-      end: 91000,
-      text: "Every heartbeat, every joy on our tongue",
+      "start": 87000,
+      "end": 91000,
+      "text": "Every heartbeat, every joy on our tongue"
     },
     {
-      start: 93000,
-      end: 95000,
-      text: "Replay our song with Magdalene,",
+      "start": 93000,
+      "end": 95000,
+      "text": "Replay your soul, imagine it"
     },
     {
-      start: 95000,
-      end: 97000,
-      text: "Every tune, every beat",
+      "start": 95000,
+      "end": 97000,
+      "text": "Every tune, every beat"
     },
     {
-      start: 97000,
-      end: 100000,
-      text: "Let it all begin, replay",
+      "start": 97000,
+      "end": 100000,
+      "text": "Let it all begin, replay"
     },
     {
-      start: 100000,
-      end: 103000,
-      text: "Again and again, songs of magdalene.",
+      "start": 100000,
+      "end": 103000,
+      "text": "Again and again, souls of my darling"
     },
     {
-      start: 105000,
-      end: 109000,
-      text: "Let it be, freeze our memories in time",
+      "start": 105000,
+      "end": 109000,
+      "text": "Let it be, freeze our memories in time"
     },
     {
-      start: 110000,
-      end: 115000,
-      text: "Like a photo, framed in rhythm and rhyme",
+      "start": 110000,
+      "end": 115000,
+      "text": "Like a photo, framed in rhythm and rhyme"
     },
     {
-      start: 116000,
-      end: 120000,
-      text: "Every heartbeat, every word we left to say",
+      "start": 116000,
+      "end": 120000,
+      "text": "Every heartbeat, every word we left to say"
     },
     {
-      start: 121000,
-      end: 126000,
-      text: "Still echoes with us as we press replay",
+      "start": 121000,
+      "end": 126000,
+      "text": "Still echoes with us as we press replay"
     },
     {
-      start: 127000,
-      end: 130000,
-      text: "Replay the magic we once sung,",
+      "start": 127000,
+      "end": 130000,
+      "text": "Replay the magic we once saw"
     },
     {
-      start: 130000,
-      end: 133000,
-      text: "Every moment, every breath is so young",
+      "start": 130000,
+      "end": 133000,
+      "text": "Every moment, every breath is so young"
     },
     {
-      start: 133000,
-      end: 138000,
-      text: "Every heartbeat, every joy on our tongue",
+      "start": 133000,
+      "end": 138000,
+      "text": "Every heartbeat, every joy on our tongue"
     },
     {
-      start: 139000,
-      end: 141000,
-      text: "Replay our song with Magdalene,",
+      "start": 139000,
+      "end": 141000,
+      "text": "Replay your soul, imagine it"
     },
     {
-      start: 141000,
-      end: 143000,
-      text: "Every tune, every beat",
+      "start": 141000,
+      "end": 143000,
+      "text": "Every tune, every beat"
     },
     {
-      start: 143000,
-      end: 146000,
-      text: "Let it all begin, replay",
+      "start": 143000,
+      "end": 146000,
+      "text": "Let it all begin, replay"
     },
     {
-      start: 146000,
-      end: 149000,
-      text: "Again and again, songs of magdalene.",
+      "start": 146000,
+      "end": 149000,
+      "text": "Again and again, souls of my darling"
     },
     {
-      start: 151000,
-      end: 154000,
-      text: "Replay, not just the word we say",
+      "start": 151000,
+      "end": 154000,
+      "text": "Replay, not just the word we say"
     },
     {
-      start: 154000,
-      end: 157000,
-      text: "But a feeling that refuses to fade away.",
+      "start": 154000,
+      "end": 157000,
+      "text": "But I feel it never feels it to fade away"
     },
     {
-      start: 158000,
-      end: 160000,
-      text: "In every beat, we find our way —",
+      "start": 158000,
+      "end": 160000,
+      "text": "And every beat we find our way"
     },
     {
-      start: 160000,
-      end: 163000,
-      text: "Back to the song we still play",
+      "start": 160000,
+      "end": 163000,
+      "text": "Back to the song we still play"
     },
     {
-      start: 169000,
-      end: 171000,
-      text: "Replay the magic we once sung",
+      "start": 169000,
+      "end": 171000,
+      "text": "Replay the magic we once saw"
     },
     {
-      start: 171000,
-      end: 173000,
-      text: "Every beat we once sung",
+      "start": 171000,
+      "end": 173000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 173000,
-      end: 175000,
-      text: "Every beat we once sung",
+      "start": 173000,
+      "end": 175000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 175000,
-      end: 177000,
-      text: "Every beat we once sung",
+      "start": 175000,
+      "end": 177000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 177000,
-      end: 179000,
-      text: "Every beat we once sung",
+      "start": 177000,
+      "end": 179000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 179000,
-      end: 181000,
-      text: "Every beat we once sung",
+      "start": 179000,
+      "end": 181000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 181000,
-      end: 183000,
-      text: "Every beat we once sung",
+      "start": 181000,
+      "end": 183000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 183000,
-      end: 185000,
-      text: "Every beat we once sung",
+      "start": 183000,
+      "end": 185000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 185000,
-      end: 187000,
-      text: "Every beat we once sung",
+      "start": 185000,
+      "end": 187000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 187000,
-      end: 189000,
-      text: "Every beat we once sung",
+      "start": 187000,
+      "end": 189000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 189000,
-      end: 191000,
-      text: "Every beat we once sung",
+      "start": 189000,
+      "end": 191000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 191000,
-      end: 193000,
-      text: "Every beat we once sung",
+      "start": 191000,
+      "end": 193000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 193000,
-      end: 195000,
-      text: "Every beat we once sung",
+      "start": 193000,
+      "end": 195000,
+      "text": "Every beat we once saw"
     },
     {
-      start: 195000,
-      end: 197000,
-      text: "Every beat we once sung",
-    },
+      "start": 195000,
+      "end": 197000,
+      "text": "Every beat we once saw"
+    }
   ];
-  return replayLyrics;
+  return replayLyrics
 }

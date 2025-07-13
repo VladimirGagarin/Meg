@@ -20,7 +20,6 @@ import {
   softAnthemLyrics,
   AnthemLyrics,
   PhoenixSongLyrics,
-  replayLy,
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -230,7 +229,7 @@ export const songDetails = [
     id: "replay_song",
     title: "Replay",
     audio: ReplaySong,
-    lyrics: replayLy(),
+    lyrics:replayLy(),
   },
 
 ];

@@ -2758,7 +2758,7 @@ export function replayLy() {
     {
       start: 18000,
       end: 23000,
-      text: "Our hearts still echo where the memories played.",
+      text: "Our hearts still let go of memories play",
     },
     {
       start: 23000,
@@ -2778,7 +2778,7 @@ export function replayLy() {
     {
       start: 34000,
       end: 37000,
-      text: "Replay the magic we once sung,",
+      text: "Replay the magic we once saw",
     },
     {
       start: 37000,
@@ -2793,7 +2793,7 @@ export function replayLy() {
     {
       start: 46000,
       end: 49000,
-      text: "Replay our song with Magdalene,",
+      text: "Replay your soul, imagine it",
     },
     {
       start: 49000,
@@ -2808,12 +2808,12 @@ export function replayLy() {
     {
       start: 54000,
       end: 57000,
-      text: "Again and again, songs of magdalene.",
+      text: "Again and again, souls of my darling",
     },
     {
       start: 58000,
       end: 63000,
-      text: "Let it be — freeze our memories in time,",
+      text: "Let it be, hit, freeze our memories in time",
     },
     {
       start: 64000,
@@ -2823,7 +2823,7 @@ export function replayLy() {
     {
       start: 70000,
       end: 74000,
-      text: "Every heartbeat, every word left to stay,",
+      text: "Every heartbeat, every word we left to say",
     },
     {
       start: 75000,
@@ -2833,7 +2833,7 @@ export function replayLy() {
     {
       start: 81000,
       end: 84000,
-      text: "Replay the magic we once sung,",
+      text: "Replay the magic we once saw",
     },
     {
       start: 84000,
@@ -2848,7 +2848,7 @@ export function replayLy() {
     {
       start: 93000,
       end: 95000,
-      text: "Replay our song with Magdalene,",
+      text: "Replay your soul, imagine it",
     },
     {
       start: 95000,
@@ -2863,7 +2863,7 @@ export function replayLy() {
     {
       start: 100000,
       end: 103000,
-      text: "Again and again, songs of magdalene.",
+      text: "Again and again, souls of my darling",
     },
     {
       start: 105000,
@@ -2888,7 +2888,7 @@ export function replayLy() {
     {
       start: 127000,
       end: 130000,
-      text: "Replay the magic we once sung,",
+      text: "Replay the magic we once saw",
     },
     {
       start: 130000,
@@ -2903,7 +2903,7 @@ export function replayLy() {
     {
       start: 139000,
       end: 141000,
-      text: "Replay our song with Magdalene,",
+      text: "Replay your soul, imagine it",
     },
     {
       start: 141000,
@@ -2918,7 +2918,7 @@ export function replayLy() {
     {
       start: 146000,
       end: 149000,
-      text: "Again and again, songs of magdalene.",
+      text: "Again and again, souls of my darling",
     },
     {
       start: 151000,
@@ -2928,12 +2928,12 @@ export function replayLy() {
     {
       start: 154000,
       end: 157000,
-      text: "But a feeling that refuses to fade away.",
+      text: "But I feel it never feels it to fade away",
     },
     {
       start: 158000,
       end: 160000,
-      text: "In every beat, we find our way —",
+      text: "And every beat we find our way",
     },
     {
       start: 160000,
@@ -2943,72 +2943,72 @@ export function replayLy() {
     {
       start: 169000,
       end: 171000,
-      text: "Replay the magic we once sung",
+      text: "Replay the magic we once saw",
     },
     {
       start: 171000,
       end: 173000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 173000,
       end: 175000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 175000,
       end: 177000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 177000,
       end: 179000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 179000,
       end: 181000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 181000,
       end: 183000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 183000,
       end: 185000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 185000,
       end: 187000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 187000,
       end: 189000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 189000,
       end: 191000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 191000,
       end: 193000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 193000,
       end: 195000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 195000,
       end: 197000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
   ];
   return replayLyrics;

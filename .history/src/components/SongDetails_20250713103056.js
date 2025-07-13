@@ -20,7 +20,6 @@ import {
   softAnthemLyrics,
   AnthemLyrics,
   PhoenixSongLyrics,
-  replayLy,
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -43,7 +42,7 @@ import FYSong from "../assets/audios/Furaha_Yangu.mp3";
 import SoftAnthemSong from "../assets/audios/soft_anthem.mp3";
 import AnthemSong from "../assets/audios/anthem.mp3";
 import PhoenixSong from "../assets/audios/phoenix.mp3";
-import ReplaySong from "../assets/audios/replay.mp3"
+
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -230,7 +229,7 @@ export const songDetails = [
     id: "replay_song",
     title: "Replay",
     audio: ReplaySong,
-    lyrics: replayLy(),
+    lyrics:[],
   },
 
 ];

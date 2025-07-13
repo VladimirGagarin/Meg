@@ -2948,67 +2948,67 @@ export function replayLy() {
     {
       start: 171000,
       end: 173000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 173000,
       end: 175000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 175000,
       end: 177000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 177000,
       end: 179000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 179000,
       end: 181000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 181000,
       end: 183000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 183000,
       end: 185000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 185000,
       end: 187000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 187000,
       end: 189000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 189000,
       end: 191000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 191000,
       end: 193000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 193000,
       end: 195000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
     {
       start: 195000,
       end: 197000,
-      text: "Every beat we once sung",
+      text: "Every beat we once saw",
     },
   ];
   return replayLyrics;
