@@ -3390,3 +3390,48 @@ export function FiestaLyrics() {
   ];
   return subtitles;
 }
+
+export  function emberLyrics() {
+  const lyrics = [
+  { start: 0, end: 4000, text: "In the hush between the stars and dawn" },
+  { start: 4000, end: 9000, text: "Where shadows speak of what is gone" },
+  { start: 12000, end: 16000, text: "A single spark still holding tight" },
+  { start: 16000, end: 21000, text: "Keeps a soul awake in the quiet night" },
+  { start: 21000, end: 33000, text: "Ember you are the last song when music fades" },
+  { start: 33000, end: 39000, text: "The final dance when rhythm gently sways" },
+  { start: 39000, end: 45000, text: "You glow where silence dares to start" },
+  { start: 45000, end: 48000, text: "Magdalene" },
+  { start: 48000, end: 52000, text: "The song you leave in every heart" },
+  { start: 52000, end: 58000, text: "Ember a great hope in quiet disguise" },
+  { start: 58000, end: 65000, text: "A light unseen but never dies" },
+  { start: 67000, end: 72000, text: "With Ember the night forgets its fear" },
+  { start: 73000, end: 80000, text: "With Ember dreams choose to stay near" },
+  { start: 80000, end: 85000, text: "With Ember silence finds its voice" },
+  { start: 85000, end: 89000, text: "A tender ache" },
+  { start: 89000, end: 93000, text: "A sacred choice" },
+  { start: 93000, end: 96000, text: "Ember the last dance" },
+  { start: 96000, end: 99000, text: "The last dewdrop’s fall" },
+  { start: 100000, end: 103000, text: "Magdalene" },
+  { start: 103000, end: 106000, text: "The Ember never dies" },
+  { start: 106000, end: 113000, text: "Ember you are the last song when music fades" },
+  { start: 113000, end: 119000, text: "The final dance when rhythm gently sways" },
+  { start: 119000, end: 125000, text: "You glow where silence dares to start" },
+  { start: 125000, end: 128000, text: "Magdalene" },
+  { start: 128000, end: 132000, text: "The song you leave in every heart" },
+  { start: 132000, end: 138000, text: "Ember a great hope in quiet disguise" },
+  { start: 138000, end: 144000, text: "A light unseen but never dies" },
+  { start: 144000, end: 150000, text: "In small things we learn what matters most" },
+  { start: 150000, end: 156000, text: "In little dreams we build our silent hopes" },
+  { start: 156000, end: 163000, text: "In little hope we learn to hold the light" },
+  { start: 163000, end: 170000, text: "In Ember we find what still burns bright" },
+  { start: 170000, end: 175000, text: "The quiet song time can’t erase—" },
+  { start: 175000, end: 179000, text: "A glowing hymn" },
+  { start: 179000, end: 183000, text: "a soft embrace." },
+  { start: 183000, end: 190000, text: "Ember you are the last song when music fades" },
+  { start: 190000, end: 196000, text: "The final dance when rhythm gently sways" },
+  { start: 196000, end: 202000, text: "You glow where silence dares to start" },
+  { start: 202000, end: 205000, text: "Magdalene" }
+];
+
+return lyrics;
+}

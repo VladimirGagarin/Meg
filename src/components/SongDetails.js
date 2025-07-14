@@ -23,7 +23,8 @@ import {
   replayLy,
   etchedLyricsSong,
   whereLyrics,
-  FiestaLyrics
+  FiestaLyrics,
+  emberLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -50,6 +51,7 @@ import ReplaySong from "../assets/audios/replay.mp3";
 import EtchedSong from "../assets/audios/etched.mp3";
 import WhereSong from "../assets/audios/where.mp3";
 import FiestaSong from "../assets/audios/Fiesta.mp3";
+import EmberSong from "../assets/audios/Ember2.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -256,6 +258,14 @@ export const songDetails = [
     audio: FiestaSong,
     lyrics: FiestaLyrics(),
   },
+  {
+    id: "Ember_song",
+    title: "Ember",
+    audio: EmberSong,
+    lyrics: emberLyrics(),
+  },
+
+  
 ];
 
 export const megImages = [
