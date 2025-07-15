@@ -3435,3 +3435,225 @@ export  function emberLyrics() {
 
 return lyrics;
 }
+
+
+export function defenderLyrics() {
+  const lyrics = [
+  {
+    "start": 40,
+    "end": 1640,
+    "text": "In vast space"
+  },
+  {
+    "start": 1640,
+    "end": 5500,
+    "text": "where the dreams ember and hope echo"
+  },
+  {
+    "start": 5640,
+    "end": 10180,
+    "text": "Where goal-shouts rise like thunder below,"
+  },
+  {
+    "start": 11280,
+    "end": 16600,
+    "text": "the universe smiles and hushes its flight"
+  },
+  {
+    "start": 16600,
+    "end": 20780,
+    "text": "for it knows she guides both dark and light"
+  },
+  {
+    "start": 22000,
+    "end": 24560,
+    "text": "we have a cradle defender"
+  },
+  {
+    "start": 24560,
+    "end": 27880,
+    "text": "Embered dreams glow bright and tender."
+  },
+  {
+    "start": 27880,
+    "end": 29120,
+    "text": "A beacon of hope"
+  },
+  {
+    "start": 29120,
+    "end": 30960,
+    "text": "she plants in the night,"
+  },
+  {
+    "start": 30960,
+    "end": 33800,
+    "text": "Restoring teams, restoring might."
+  },
+  {
+    "start": 33800,
+    "end": 35600,
+    "text": "Yes, we cradled a defender"
+  },
+  {
+    "start": 35600,
+    "end": 38140,
+    "text": "from the universe"
+  },
+  {
+    "start": 38240,
+    "end": 42100,
+    "text": "and now the palaces feel secure"
+  },
+  {
+    "start": 46720,
+    "end": 49680,
+    "text": "she stands like queen in endgame fights"
+  },
+  {
+    "start": 49680,
+    "end": 52640,
+    "text": "she moves where knights and visions stare"
+  },
+  {
+    "start": 52640,
+    "end": 55280,
+    "text": "across the board with solemn care"
+  },
+  {
+    "start": 55280,
+    "end": 58280,
+    "text": "each step a plan each pause a prayer"
+  },
+  {
+    "start": 58280,
+    "end": 60920,
+    "text": "a queen defending dreams laid there"
+  },
+  {
+    "start": 60920,
+    "end": 63840,
+    "text": "she blocks the checkmate of despair"
+  },
+  {
+    "start": 63840,
+    "end": 66600,
+    "text": "and filled her castles firm with care"
+  },
+  {
+    "start": 66600,
+    "end": 69400,
+    "text": "not walls of stone but grace in flame"
+  },
+  {
+    "start": 69400,
+    "end": 72860,
+    "text": "where joy can rest and hope proclaim"
+  },
+  {
+    "start": 74520,
+    "end": 76840,
+    "text": "we have a cradle defender"
+  },
+  {
+    "start": 76840,
+    "end": 80020,
+    "text": "Embered dreams glow bright and tender"
+  },
+  {
+    "start": 80040,
+    "end": 81280,
+    "text": "a beacon of hope"
+  },
+  {
+    "start": 81280,
+    "end": 83040,
+    "text": "she plants in the night"
+  },
+  {
+    "start": 83040,
+    "end": 85840,
+    "text": "Restoring teams, restoring might."
+  },
+  {
+    "start": 85840,
+    "end": 87520,
+    "text": "Yes, we cradled a defender"
+  },
+  {
+    "start": 87520,
+    "end": 89940,
+    "text": " from the universe"
+  },
+  {
+    "start": 90120,
+    "end": 93640,
+    "text": "And now, the palaces feel secure."
+  },
+  {
+    "start": 93640,
+    "end": 95760,
+    "text": "She guards what songs can’t always say,"
+  },
+  {
+    "start": 95760,
+    "end": 98280,
+    "text": "the joy we lose along the way"
+  },
+  {
+    "start": 98280,
+    "end": 101460,
+    "text": "she is the hush in chaos spun—"
+  },
+  {
+    "start": 101600,
+    "end": 104180,
+    "text": "The quiet breath before the run."
+  },
+  {
+    "start": 105720,
+    "end": 107840,
+    "text": "cradled defender"
+  },
+  {
+    "start": 107840,
+    "end": 110180,
+    "text": "our shield in the storm"
+  },
+  {
+    "start": 111240,
+    "end": 113200,
+    "text": "cradled defender"
+  },
+  {
+    "start": 113200,
+    "end": 115580,
+    "text": "where mercy stay form"
+  },
+  {
+    "start": 116680,
+    "end": 119020,
+    "text": "cradled defender"
+  },
+  {
+    "start": 120360,
+    "end": 126780,
+    "text": "with footsteps wise, cradle defender beneath heaven’s eyes."
+  },
+  {
+    "start": 126840,
+    "end": 129820,
+    "text": "The field grows still… just echo left"
+  },
+  {
+    "start": 129920,
+    "end": 131260,
+    "text": "just her name"
+  },
+  {
+    "start": 132240,
+    "end": 133260,
+    "text": "magdalene"
+  }
+];
+return lyrics
+}

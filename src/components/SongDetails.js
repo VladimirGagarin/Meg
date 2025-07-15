@@ -24,7 +24,8 @@ import {
   etchedLyricsSong,
   whereLyrics,
   FiestaLyrics,
-  emberLyrics
+  emberLyrics,
+  defenderLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -52,6 +53,7 @@ import EtchedSong from "../assets/audios/etched.mp3";
 import WhereSong from "../assets/audios/where.mp3";
 import FiestaSong from "../assets/audios/Fiesta.mp3";
 import EmberSong from "../assets/audios/Ember2.mp3";
+import DefenderSong from "../assets/audios/defender.mp3";
 
 import Img1 from "../assets/images/belle.jpeg";
 import Img2 from "../assets/images/belle2.jpg";
@@ -263,6 +265,12 @@ export const songDetails = [
     title: "Ember",
     audio: EmberSong,
     lyrics: emberLyrics(),
+  },
+  {
+    id: "defender_song",
+    title: "Defender number 5",
+    audio: DefenderSong,
+    lyrics:defenderLyrics(),
   },
 
   
