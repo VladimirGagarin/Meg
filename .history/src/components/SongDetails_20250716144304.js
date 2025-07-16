@@ -110,9 +110,9 @@ import Img50 from "../assets/images/meg34.jpeg";
 import Img51 from "../assets/images/meg28.jpeg";
 import Img52 from "../assets/images/meg35.jpeg";
 import Img53 from "../assets/images/meg36.jpeg";
-import Img54 from "../assets/images/meg40.png";
-import Img55 from "../assets/images/meg41.png";
-import Img56 from "../assets/images/meg42.png";
+import Img51 from "../assets/images/meg28.jpeg";
+import Img52 from "../assets/images/meg35.jpeg";
+import Img53 from "../assets/images/meg36.jpeg";
 
 export const songDetails = [
   {
@@ -296,9 +296,6 @@ export const megImages = [
   Img7,
   Img8,
   Img9,
-  Img54,
-  Img55,
-  Img56,
   Img10,
   Img12,
   Img13,
@@ -327,19 +324,4 @@ export const megImages = [
   Img36,
   Img37,
   Img38,
-  Img39,
-  Img40,
-  Img41,
-  Img42,
-  Img43,
-  Img44,
-  Img45,
-  Img46,
-  Img47,
-  Img48,
-  Img49,
-  Img50,
-  Img51,
-  Img52,
-  Img53,
-];
+  Img3

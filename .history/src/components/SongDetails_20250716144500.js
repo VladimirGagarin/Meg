@@ -296,9 +296,6 @@ export const megImages = [
   Img7,
   Img8,
   Img9,
-  Img54,
-  Img55,
-  Img56,
   Img10,
   Img12,
   Img13,
@@ -341,5 +338,8 @@ export const megImages = [
   Img50,
   Img51,
   Img52,
+  Img53,
+  Img54,
+  Img55,
   Img53,
 ];

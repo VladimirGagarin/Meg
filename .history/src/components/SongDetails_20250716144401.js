@@ -111,8 +111,8 @@ import Img51 from "../assets/images/meg28.jpeg";
 import Img52 from "../assets/images/meg35.jpeg";
 import Img53 from "../assets/images/meg36.jpeg";
 import Img54 from "../assets/images/meg40.png";
-import Img55 from "../assets/images/meg41.png";
-import Img56 from "../assets/images/meg42.png";
+import Img55 from "../assets/images/meg41.jpe";
+import Img56 from "../assets/images/meg42.jpeg";
 
 export const songDetails = [
   {
@@ -296,9 +296,6 @@ export const megImages = [
   Img7,
   Img8,
   Img9,
-  Img54,
-  Img55,
-  Img56,
   Img10,
   Img12,
   Img13,
