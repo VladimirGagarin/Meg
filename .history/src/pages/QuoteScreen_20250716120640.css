@@ -1,0 +1,43 @@
+.quote-screen {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  
+  padding: 0;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 3s ease;
+  z-index: 0;
+}
+
+
+
+
+/* Mobile-Friendly Styling */
+@media (max-width: 800px) {
+  .quote-screen {
+    width: 100%; /* Full width on small screens */
+    padding: 1rem;
+    margin-top: 20px;
+  } 
+
+  .background-image {
+    object-fit: cover;
+  }
+}

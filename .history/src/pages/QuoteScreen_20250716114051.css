@@ -1,0 +1,74 @@
+.quote-screen {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  
+  padding: 0;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); /* Dark overlay */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+  z-index: 1;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+/* Mobile-Friendly Styling */
+@media (max-width: 800px) {
+  .quote-screen {
+    width: 100%; /* Full width on small screens */
+    padding: 1rem;
+    margin-top: 0;
+  }
+
+  .overlay {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  
+
+  .background-image {
+    object-fit: cover;
+  }
+}
