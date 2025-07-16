@@ -56,6 +56,8 @@ import FiestaSong from "../assets/audios/Fiesta.mp3";
 import EmberSong from "../assets/audios/Ember2.mp3";
 import DefenderSong from "../assets/audios/defender.mp3";
 import RosesAnthemAudio from "../assets/audios/roses.mp3";
+import EmpressSong from "../assets/audios/Empress.mp3";
+
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -283,6 +285,12 @@ export const songDetails = [
     title: "From The Director",
     audio: RosesAnthemAudio,
     lyrics: RosesOfRomeLyrics(),
+  },
+  {
+    id: "empress_song",
+    title: "Empress",
+    audio: EmpressSong,
+    lyrics: [],
   },
 ];
 
