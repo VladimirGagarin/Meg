@@ -8,6 +8,8 @@ import QuoteScreen from "./pages/Quotes.jsx";
 import OfflinePage from "./pages/Offline.jsx";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
+
+
 // ✅ Use createHashRouter (no more 404s on GitHub Pages)
 const routes = createHashRouter([
   {

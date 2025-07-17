@@ -80,7 +80,7 @@ export default function App() {
             download
             target="_blank"
             rel="noopener noreferrer"
-            style={{color: "DDF700"}}
+            style={{color: "DD700"}}
           >
             Download App
           </a>

@@ -10,7 +10,6 @@ export default function App() {
   const [imgLoaded, setImgLoaded] = useState(false);
   const location = useLocation();
   const isInQuoteScreen = location.pathname === "/magdalene_quotes";
-  const [online, setOnline] = useState(navigator.onLine);
 
 
   useEffect(() => {
@@ -71,21 +70,6 @@ export default function App() {
           {isInQuoteScreen ? "Home" : "Magdalene Quotes"}
         </Link>
       </div>
-
-      {!online && (
-        <p className="offline-warning">
-          You're offline. Some features may not work.<br></br>
-          <a
-            href="https://github.com/VladimirGagarin/roses-of-rome/releases/download/v.1.0.1/application-490c4c6a-8b27-4c78-a6c7-884413dabbfb.apk"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{color: "DDF700"}}
-          >
-            Download App
-          </a>
-        </p>
-      )}
 
       <Outlet />
     </div>

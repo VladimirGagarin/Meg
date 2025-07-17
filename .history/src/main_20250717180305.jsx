@@ -14,10 +14,10 @@ const routes = createHashRouter([
     path: "/",
     element: <App />, // Your main layout with <Outlet />
     children: [
-      { index: true, element: <HomeScreen /> }, 
-      { path: "song/:id", element: <SongScreen /> }, 
-      { path: "magdalene_quotes", element: <QuoteScreen /> },
-      {path: "offline", element: <OfflinePage/>}
+      { index: true, element: <HomeScreen /> }, // /#/ (home)
+      { path: "song/:id", element: <SongScreen /> }, // /#/song/phoenix_song
+      { path: "magdalene_quotes", element: <QuoteScreen /> }
+      {path: "offline", element: }
     ],
   },
   {
