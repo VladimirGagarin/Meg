@@ -3659,45 +3659,31 @@ return lyrics
 }
 
 export function RosesOfRomeLyrics() {
-  const subtitles = [
-    { 'start': 13480, 'end': 18500, 'text': 'when seasons come our hearts will bloom' },
-    { 'start': 19960, 'end': 24780, 'text': 'Every petal within shines bright and true' },
-    { 'start': 26480, 'end': 28380, 'text': 'plenty will flourish' },
-    { 'start': 29360, 'end': 33520, 'text': 'deep in our hearts we will bear the mark' },
-    { 'start': 33520, 'end': 36820, 'text': 'of roses of rome' }, 
-    { 'start': 37200, 'end': 39540, 'text': 'roses of rome' },
-    { 'start': 40680, 'end': 43520, 'text': 'let us bloom forever' },
-    { 'start': 43520, 'end': 46260, 'text': 'roses of rome' },
-    { 'start': 47320, 'end': 51740, 'text': 'may we always be with you ever' },
-    { 'start': 58160, 'end': 63060, 'text': 'though time may fade the colors we wear' }, 
-    { 'start': 64400, 'end': 66280, 'text': 'our roots stand firm' },
-    { 'start': 66280, 'end': 69700, 'text': 'where glory finds its home' },
-    { 'start': 70760, 'end': 75960, 'text': 'Through every tear, joy, and whispered prayer —' },
-    { 'start': 75960, 'end': 81340, 'text': 'we still remain the Roses of Rome' },
-    { 'start': 81920, 'end': 84500, 'text': 'Roses of Rome' },
-    { 'start': 85600, 'end': 88360, 'text': 'let us bloom forever' }, 
-    { 'start': 88360, 'end': 95260, 'text': 'Roses of Rome may we always be with you' },
-    { 'start': 96400, 'end': 101660, 'text': 'though time may fade the colors we wear' },
-    { 'start': 102840, 'end': 104680, 'text': 'our roots stand firm' },
-    { 'start': 104680, 'end': 107860, 'text': 'where glory finds its home' },
-    { 'start': 109200, 'end': 114420, 'text': 'Through every tear, joy, and whispered prayer —' },
-    { 'start': 115520, 'end': 119660, 'text': 'will still remain the Roses of Rome' },
-    { 'start': 120360, 'end': 126040, 'text': 'So when we part, let memory' },
-    { 'start': 126040, 'end': 132020, 'text': 'sing a  love immortal carved  in stone' },
-    { 'start': 133240, 'end': 139900, 'text': 'with every breath  in every spring' },
-    { 'start': 140000, 'end': 145460, 'text': 'we still remain the Roses of Rome' },
-    { 'start': 145880, 'end': 152360, 'text': 'Roses of Rome let us bloom forever' },
-    { 'start': 152360, 'end': 154700, 'text': 'Roses of Rome' },
-    { 'start': 155920, 'end': 160400, 'text': 'may we always be with you ever' },
-    { 'start': 160400, 'end': 165660, 'text': 'though time may fade the colors we wear' },
-    { 'start': 166840, 'end': 168680, 'text': 'our roots stand firm' },
-    { 'start': 168680, 'end': 172100, 'text': 'where glory finds its home' },
-    { 'start': 173160, 'end': 178500, 'text': 'Through every tear, joy, and whispered prayer —' },
-    { 'start': 179720, 'end': 184220, 'text': 'We still remain the Roses of Rome.' },
-    { 'start': 184360, 'end': 186940, 'text': 'Roses of Rome' }
-  ];
+  const rosesLyrics = [
+  { start: 0, end: 21000, text: "When seasons come, your heart shall bloom" },
+  { start: 21000, end: 28000, text: "Every petal within you will shine bright and true" },
+  { start: 28000, end: 36000, text: "Plenty will flourish deep in your heart Magdalene you Bear" },
+  { start: 36000, end: 44000, text: "The seal of roses of Rome Roses of Rome" },
+  { start: 44000, end: 51000, text: "Let us bloom forever Roses of Rome" },
+  { start: 51000, end: 63000, text: "May she always be with you ever" },
+  { start: 63000, end: 70000, text: "Though time may fade, the colors you wear" },
+  { start: 70000, end: 77000, text: "Your roots stand firm where glory finds its home" },
+  { start: 77000, end: 82000, text: "Through every tear, joy and whispered prayer" },
+  { start: 82000, end: 89000, text: "You still remain the roses of Rome" },
+  { start: 89000, end: 100000, text: "Roses of Rome Let us bloom forever Roses of Rome" },
+  { start: 100000, end: 112000, text: "May she always be with you ever" },
+  { start: 112000, end: 119000, text: "So when you part, let memory sing" },
+  { start: 119000, end: 126000, text: "A love immortal carved in stone" },
+  { start: 126000, end: 131000, text: "With every breath in every spring" },
+  { start: 131000, end: 138000, text: "You still remain the roses of Rome" },
+  { start: 138000, end: 149000, text: "Roses of Rome Let us bloom forever Roses of Rome" },
+  { start: 149000, end: 161000, text: "May she always be with you ever" },
+  { start: 179000, end: 190000, text: "Roses of Rome Let us bloom forever Roses of Rome" },
+  { start: 190000, end: 197000, text: "May she always be with you ever" },
+  { start: 209000, end: 217000, text: "Roses of Rome" },
+];
 
-  return subtitles;
+  return rosesLyrics;
 }
 
 export function MagdaleneQuotes() {
@@ -4169,4 +4155,224 @@ export function MagdaleneQuotes() {
     },
   ];
   return quotes;
+}
+
+export  function ThenLyrics(){
+  const lyrics = [
+    {
+      start: 0,
+      end: 15000,
+      text: "When shadows fall beneath the starlit skies, we found our path where still this lies.",
+    },
+    {
+      start: 15000,
+      end: 23000,
+      text: "Then and only then the truth was clear—, love was always waiting here.",
+    },
+    {
+      start: 23000,
+      end: 32000,
+      text: "In quiet dreams we walked as one, beneath the moon, beneath the sun.",
+    },
+    {
+      start: 32000,
+      end: 40000,
+      text: "Then and only then the world stood still, hearts aligned by sacred will.",
+    },
+    {
+      start: 40000,
+      end: 48000,
+      text: "Then and only then, forever ours, time bowed down to love's own powers.",
+    },
+    {
+      start: 48000,
+      end: 57000,
+      text: "Now and always  through all hours—, Then and only then… forever ours.Magdalene.",
+    },
+    {
+      start: 63000,
+      end: 70000,
+      text: "Seasons turned but we remained bound by joy through loss and gain.",
+    },
+    {
+      start: 70000,
+      end: 78000,
+      text: "Then and only then our story flows where love begins and always grows.",
+    },
+    {
+      start: 78000,
+      end: 85000,
+      text: "Then and only then, forever ours, time bowed down to love's own powers.",
+    },
+    {
+      start: 85000,
+      end: 94000,
+      text: "Now and always  through all hours—, Then and only then forever ours.Magdalene.",
+    },
+    {
+      start: 108000,
+      end: 115000,
+      text: "Seasons turned but we remained bound by joy through loss and gain.",
+    },
+    {
+      start: 115000,
+      end: 123000,
+      text: "Then and only then our story flows where love begins and always grows.",
+    },
+    {
+      start: 123000,
+      end: 130000,
+      text: "Then and only then, forever ours, Light restored what once was ours.,",
+    },
+    { start: 130000, end: 134000, text: "Past and present, now endowed—" },
+    {
+      start: 134000,
+      end: 140000,
+      text: "Then and only then forever ours, Magdalene.",
+    },
+    { start: 152000, end: 154000, text: "Magdalene." },
+  ];
+  return lyrics
+}
+
+export function EmpressSongLyrics() {
+  const subtitles = [
+    {
+      start: 0,
+      end: 16000,
+      text: "In the silken dusk her shadow fell In depths of night where silence dwells",
+    },
+    {
+      start: 16000,
+      end: 24000,
+      text: "In vast dominions none have seen The moonlight bends to forge her gleam",
+    },
+    {
+      start: 24000,
+      end: 30000,
+      text: "The stars gaze still in solemn press Behold the mighty Empress",
+    },
+    {
+      start: 30000,
+      end: 38000,
+      text: "Empress, the dawn in veiled repose, The flame where silent wonder grows, Adorable",
+    },
+    {
+      start: 38000,
+      end: 45000,
+      text: "As heaven's hymn unbound Beautiful, where grace and fire are crowned.",
+    },
+    {
+      start: 45000,
+      end: 53000,
+      text: "Magdalene, the Empress we all want — Magdalene the soul we've sought so long",
+    },
+    {
+      start: 54000,
+      end: 61000,
+      text: "The river hums her secret name The winds arise and do the same",
+    },
+    {
+      start: 61000,
+      end: 68000,
+      text: "In petals soft her mercy glows In thunder's hush her wisdom flows",
+    },
+    {
+      start: 68000,
+      end: 75000,
+      text: "The trees they bend with hearts undone They know the impress is the one",
+    },
+    {
+      start: 75000,
+      end: 83000,
+      text: "Empress, the dawn in veiled repose, The flame where silent wonder grows, Adorable",
+    },
+    {
+      start: 83000,
+      end: 89000,
+      text: "As heaven's dim unbound Beautiful with grace and fire our crown",
+    },
+    {
+      start: 89000,
+      end: 96000,
+      text: "Magdalene, the Empress we all want — Magdalene the soul we've sought so long",
+    },
+    {
+      start: 96000,
+      end: 103000,
+      text: "The river hums her secret name The winds arise and do the same",
+    },
+    {
+      start: 103000,
+      end: 111000,
+      text: "In petals soft her mercy glows In thunder's hush her wisdom flows",
+    },
+    {
+      start: 111000,
+      end: 118000,
+      text: "The trees they bend with hearts undone They know the Empress is the one",
+    },
+    {
+      start: 118000,
+      end: 126000,
+      text: "Empress, the dawn in veiled repose, The flame where silent wonder grows, Adorable",
+    },
+    {
+      start: 126000,
+      end: 132000,
+      text: "As heaven's hymn unbound Beautiful, where grace and fire are crowned.",
+    },
+    {
+      start: 132000,
+      end: 139000,
+      text: "Magdalene, the Empress we all want — Magdalene the soul we've sought so long",
+    },
+    {
+      start: 139000,
+      end: 146000,
+      text: "The sea confess beneath the tide She walks where stars and hopes abide",
+    },
+    {
+      start: 146000,
+      end: 153000,
+      text: "The stone once cold now holds her heat, The dust remembers every beat",
+    },
+    {
+      start: 153000,
+      end: 161000,
+      text: "And time itself once wild and free Stilled — to watch her silently.",
+    },
+    { start: 161000, end: 165000, text: "So long long" },
+    {
+      start: 166000,
+      end: 175000,
+      text: "Empress, the dawn in veiled repose, The flame where silent wonder grows, Adorable",
+    },
+    {
+      start: 175000,
+      end: 182000,
+      text: "As heaven's hymn unbound Beautiful, where grace and fire are crowned.",
+    },
+    {
+      start: 182000,
+      end: 189000,
+      text: "Magdalene, the Empress we all want — Magdalene the soul we've sought so long",
+    },
+    {
+      start: 190000,
+      end: 197000,
+      text: "She is the silence crowned in light The final dawn before the night",
+    },
+    {
+      start: 197000,
+      end: 204000,
+      text: "She walks where ancient echoes bloom And sings of life beyond the tomb",
+    },
+    {
+      start: 204000,
+      end: 211000,
+      text: "Magdalene — in stars she’s drawn, The Empress of our aching dawn.",
+    },
+  ];
+return subtitles
 }

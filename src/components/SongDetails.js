@@ -26,7 +26,9 @@ import {
   FiestaLyrics,
   emberLyrics,
   defenderLyrics,
-   RosesOfRomeLyrics
+  RosesOfRomeLyrics,
+   ThenLyrics,
+   EmpressSongLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -57,7 +59,7 @@ import EmberSong from "../assets/audios/Ember2.mp3";
 import DefenderSong from "../assets/audios/defender.mp3";
 import RosesAnthemAudio from "../assets/audios/roses.mp3";
 import EmpressSong from "../assets/audios/Empress.mp3";
-
+import ThenSong from "../assets/audios/then.mp3"
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -290,7 +292,13 @@ export const songDetails = [
     id: "empress_song",
     title: "Empress",
     audio: EmpressSong,
-    lyrics: [],
+    lyrics: EmpressSongLyrics(),
+  },
+  {
+    id: "then_song",
+    title: "Then and Only then...",
+    audio: ThenSong,
+    lyrics:ThenLyrics(),
   },
 ];
 
