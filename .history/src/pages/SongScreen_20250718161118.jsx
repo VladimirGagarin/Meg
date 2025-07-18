@@ -265,8 +265,4 @@ export default function SongScreen() {
               Cancel
             </button>
           </div>
-        </div>
-      )}
-    </div>
-  );
-}
+     

@@ -35,31 +35,7 @@ export default function SongScreen() {
     };
   }, [currentSongObj]);
 
-  useEffect(() => {
-    const metaDescription = document.querySelector("meta[name='description']");
-
-    if (currentSongObj && metaDescription) {
-      metaDescription.setAttribute(
-        "content",
-        `Listen to '${currentSongObj.title}' — an inspiring piece from Sing With Magdalene. Spiritual, moving, and unforgettable.`
-      );
-    } else if (metaDescription) {
-      metaDescription.setAttribute(
-        "content",
-        "Sing With Magdalene is a lyrical experience. Explore spiritual songs with synced lyrics and magical visuals."
-      );
-    }
-
-    return () => {
-      if (metaDescription) {
-        metaDescription.setAttribute(
-          "content",
-          "Sing With Magdalene is a lyrical experience. Explore spiritual songs with synced lyrics and magical visuals."
-        );
-      }
-    };
-  }, [currentSongObj]);
-
+  
 
   const audioRef = useRef(new Audio());
 
