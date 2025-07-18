@@ -14,8 +14,8 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
 
   useEffect(() => {
     setIsExpanded(navigator.onLine);
-     window.addEventListener("online",  setIsExpanded(navigator.onLine));
-     window.addEventListener("offline",  setIsExpanded(navigator.onLine));
+     window.addEventListener("online",  setIsExpanded(navigator.onLine););
+     window.addEventListener("offline",  setIsExpanded(navigator.onLine););
   }, [])
 
   useEffect(() => {

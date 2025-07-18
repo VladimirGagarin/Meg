@@ -13,12 +13,6 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
   const toggleExpand = () => setIsExpanded((prev) => !prev); // 👈 toggle
 
   useEffect(() => {
-    setIsExpanded(navigator.onLine);
-     window.addEventListener("online",  setIsExpanded(navigator.onLine));
-     window.addEventListener("offline",  setIsExpanded(navigator.onLine));
-  }, [])
-
-  useEffect(() => {
     if (currentLyricIndex === 0) {
       setIsExpanded(true);
 
@@ -31,6 +25,8 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
       return () => clearTimeout(timer);
     }
   }, [currentLyricIndex]);
+
+  
 
 
   useEffect(() => {
@@ -68,7 +64,6 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
    
 
     setStars(initialStars);
-    setIsExpanded(navigator.onLine);
   }, [lyricText, isExpanded]);
 
   function getBrightColor() {
