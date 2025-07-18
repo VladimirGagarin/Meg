@@ -55,10 +55,8 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
          gradientEnd: getRandomColor(),
        }));
     
-   
-   
 
-    setStars(initialStars);
+    return () => clearInterval(interval);
   }, [lyricText, isExpanded]);
 
   function getBrightColor() {

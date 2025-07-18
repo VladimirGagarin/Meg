@@ -35,7 +35,7 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
 
     // Create initial stars with gradient parameters
      const expandedMode = isExpanded;
-     const initialStars = Array(expandedMode ? 30 : 10)
+     const initial = Array(expandedMode ? 30 : 10)
        .fill()
        .map((_, i) => ({
          id: i,
@@ -54,11 +54,8 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
          gradientStart: expandedMode ? getBrightColor() : getRandomColor(),
          gradientEnd: getRandomColor(),
        }));
-    
-   
-   
 
-    setStars(initialStars);
+    return () => clearInterval(interval);
   }, [lyricText, isExpanded]);
 
   function getBrightColor() {

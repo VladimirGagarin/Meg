@@ -532,7 +532,7 @@ input[type="range"]:focus {
   }
   .loading{
     font-size: 0.9rem;
-    flex-wrap: wrap;
+    fle
   }
 
   .download-options{

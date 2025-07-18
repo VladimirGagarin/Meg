@@ -31,34 +31,29 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
     setTimeout(() => setShowConfetti(true), 50);
     setTimeout(() => setShowConfetti(false), 1000); // Hide after animation
 
-    
-
     // Create initial stars with gradient parameters
-     const expandedMode = isExpanded;
-     const initialStars = Array(expandedMode ? 30 : 10)
-       .fill()
-       .map((_, i) => ({
-         id: i,
-         left: `${Math.random() * 100}%`,
-         top: `${Math.random() * 100}%`,
-         size: expandedMode
-           ? `${Math.random() * 1.2 + 0.4}rem`
-           : `${Math.random() * 0.6 + 0.1}rem`,
-         opacity: expandedMode
-           ? Math.random() * 0.5 + 0.5
-           : Math.random() * 0.3 + 0.1,
-         delay: `${Math.random() * (expandedMode ? 2 : 5)}s`,
-         duration: `${
-           Math.random() * (expandedMode ? 2 : 3) + (expandedMode ? 1 : 2)
-         }s`,
-         gradientStart: expandedMode ? getBrightColor() : getRandomColor(),
-         gradientEnd: getRandomColor(),
-       }));
-    
-   
-   
+    const expandedMode = isExpanded;
+    const initialStars = Array(expandedMode ? 30 : 10)
+      .fill()
+      .map((_, i) => ({
+        id: i,
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        size: expandedMode
+          ? `${Math.random() * 1.2 + 0.4}rem`
+          : `${Math.random() * 0.6 + 0.1}rem`,
+        opacity: expandedMode
+          ? Math.random() * 0.5 + 0.5
+          : Math.random() * 0.3 + 0.1,
+        delay: `${Math.random() * (expandedMode ? 2 : 5)}s`,
+        duration: `${
+          Math.random() * (expandedMode ? 2 : 3) + (expandedMode ? 1 : 2)
+        }s`,
+        gradientStart: expandedMode ? getBrightColor() : getRandomColor(),
+        gradientEnd: getRandomColor(),
+      }));
 
-    setStars(initialStars);
+    return () => clearInterval(interval);
   }, [lyricText, isExpanded]);
 
   function getBrightColor() {

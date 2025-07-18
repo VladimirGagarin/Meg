@@ -92,7 +92,7 @@ export default function QuoteScreen() {
       <div onClick={copyQuote}>
         <LyricsCard
           lyricText={currentLine}
-          currentLyricIndex={quoteIndex}
+          currentLyricIndex={quoteIndexIndex}
         />
       </div>
 

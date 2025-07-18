@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "../pages/SongScreen.css";
 import Confetti from "react-dom-confetti";
 
-export default function LyricsCard({ lyricText, currentLyricIndex }) {
+export default function LyricsCard({ lyricText, curr }) {
   const [stars, setStars] = useState([]);
   const [showConfetti, setShowConfetti] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false); // 👈 new
@@ -12,7 +12,7 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
   const toggleExpand = () => setIsExpanded((prev) => !prev); // 👈 toggle
 
   useEffect(() => {
-    if (currentLyricIndex === 0) {
+    if (currentLyricIndex === 1) {
       setIsExpanded(true);
 
       const timer = setTimeout(() => {
@@ -34,44 +34,36 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
     
 
     // Create initial stars with gradient parameters
-     const expandedMode = isExpanded;
-     const initialStars = Array(expandedMode ? 30 : 10)
-       .fill()
-       .map((_, i) => ({
-         id: i,
-         left: `${Math.random() * 100}%`,
-         top: `${Math.random() * 100}%`,
-         size: expandedMode
-           ? `${Math.random() * 1.2 + 0.4}rem`
-           : `${Math.random() * 0.6 + 0.1}rem`,
-         opacity: expandedMode
-           ? Math.random() * 0.5 + 0.5
-           : Math.random() * 0.3 + 0.1,
-         delay: `${Math.random() * (expandedMode ? 2 : 5)}s`,
-         duration: `${
-           Math.random() * (expandedMode ? 2 : 3) + (expandedMode ? 1 : 2)
-         }s`,
-         gradientStart: expandedMode ? getBrightColor() : getRandomColor(),
-         gradientEnd: getRandomColor(),
-       }));
-    
-   
-   
-
+    const initialStars = Array(10)
+      .fill()
+      .map((_, i) => ({
+        id: i,
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        size: `${Math.random() * 0.9 + 0.2}rem`,
+        opacity: Math.random(),
+        delay: `${Math.random() * 5}s`,
+        duration: `${Math.random() * 3 + 2}s`,
+        gradientStart: getRandomColor(),
+        gradientEnd: getRandomColor(),
+      }));
     setStars(initialStars);
-  }, [lyricText, isExpanded]);
 
-  function getBrightColor() {
-    const brightColors = [
-      "#ffffff",
-      "#ffeecc",
-      "#ccffff",
-      "#ffddee",
-      "#e0f7fa",
-    ];
-    return brightColors[Math.floor(Math.random() * brightColors.length)];
-  }
+    // Update stars and gradients periodically
+    const interval = setInterval(() => {
+      setStars((prevStars) =>
+        prevStars.map((star) => ({
+          ...star,
+          opacity: Math.random(),
+          delay: `${Math.random() * 5}s`,
+          gradientStart: star.gradientEnd,
+          gradientEnd: getRandomColor(),
+        }))
+      );
+    }, 3000);
 
+    return () => clearInterval(interval);
+  }, [lyricText]);
 
   function getRandomColor() {
     const colors = [
@@ -132,5 +124,4 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
 
 LyricsCard.propTypes = {
   lyricText: PropTypes.string.isRequired,
-  currentLyricIndex: PropTypes.number.isRequired,
 };

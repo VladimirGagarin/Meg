@@ -20,10 +20,6 @@ export default function SongScreen() {
   const songScreenRef = useRef(null);
 
   useEffect(() => {
-    songScreenRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [currentSongObj]);
-
-  useEffect(() => {
     if (currentSongObj) {
       document.title = `${currentSongObj.title} | Sing With Magdalene`;
     } else {
@@ -150,7 +146,7 @@ export default function SongScreen() {
   };
 
   return (
-    <div className="song-screen" ref={songScreenRef}>
+    <div className="song-screen">
       <div className="image-container" onDoubleClick={() => setShowModal(true)}>
         <img
           src={currentImage}

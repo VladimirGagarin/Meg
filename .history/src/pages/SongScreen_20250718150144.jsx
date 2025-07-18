@@ -17,11 +17,6 @@ export default function SongScreen() {
   const [password, setPassword] = useState("");
   const [isVerified, setIsVerified] = useState(false);
   const PREMIUM_PASSWORD = "moonlightsonata";
-  const songScreenRef = useRef(null);
-
-  useEffect(() => {
-    songScreenRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [currentSongObj]);
 
   useEffect(() => {
     if (currentSongObj) {
@@ -150,7 +145,7 @@ export default function SongScreen() {
   };
 
   return (
-    <div className="song-screen" ref={songScreenRef}>
+    <div className="song-screen">
       <div className="image-container" onDoubleClick={() => setShowModal(true)}>
         <img
           src={currentImage}

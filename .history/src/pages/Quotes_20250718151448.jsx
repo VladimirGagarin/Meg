@@ -46,7 +46,7 @@ export default function QuoteScreen() {
       audio.pause();
       audio.removeEventListener("timeupdate", updateQuote);
     };
-  }, []);
+  }, );
 
      const copyQuote = async () => {
        try {

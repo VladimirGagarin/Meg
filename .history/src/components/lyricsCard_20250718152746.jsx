@@ -34,44 +34,47 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
     
 
     // Create initial stars with gradient parameters
-     const expandedMode = isExpanded;
-     const initialStars = Array(expandedMode ? 30 : 10)
-       .fill()
-       .map((_, i) => ({
+   const initialStars = Array(isExpanded ? 30 : 10)
+     .fill()
+     .map((_, i) => {
+       const expandedMode = isExpanded;
+
+       return {
          id: i,
          left: `${Math.random() * 100}%`,
          top: `${Math.random() * 100}%`,
          size: expandedMode
-           ? `${Math.random() * 1.2 + 0.4}rem`
-           : `${Math.random() * 0.6 + 0.1}rem`,
+           ? `${Math.random() * 1.2 + 0.4}rem` // Brighter, more visible stars
+           : `${Math.random() * 0.6 + 0.1}rem`, // Subtle stars
          opacity: expandedMode
-           ? Math.random() * 0.5 + 0.5
-           : Math.random() * 0.3 + 0.1,
+           ? Math.random() * 0.5 + 0.5 // More visible (0.5 to 1)
+           : Math.random() * 0.3 + 0.1, // Fainter (0.1 to 0.4)
          delay: `${Math.random() * (expandedMode ? 2 : 5)}s`,
          duration: `${
            Math.random() * (expandedMode ? 2 : 3) + (expandedMode ? 1 : 2)
          }s`,
          gradientStart: expandedMode ? getBrightColor() : getRandomColor(),
          gradientEnd: getRandomColor(),
-       }));
-    
-   
-   
+       };
+     });
 
-    setStars(initialStars);
-  }, [lyricText, isExpanded]);
+   setStars(initialStars);
 
-  function getBrightColor() {
-    const brightColors = [
-      "#ffffff",
-      "#ffeecc",
-      "#ccffff",
-      "#ffddee",
-      "#e0f7fa",
-    ];
-    return brightColors[Math.floor(Math.random() * brightColors.length)];
-  }
+   // Optional: define helper to get brighter colors
+   function getBrightColor() {
+     const brightColors = [
+       "#ffffff",
+       "#ffeecc",
+       "#ccffff",
+       "#ffddee",
+       "#e0f7fa",
+     ];
+     return brightColors[Math.floor(Math.random() * brightColors.length)];
+   }
+;
 
+    return () => clearInterval(interval);
+  }, [lyricText]);
 
   function getRandomColor() {
     const colors = [

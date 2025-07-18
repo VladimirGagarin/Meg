@@ -56,9 +56,8 @@ export default function LyricsCard({ lyricText, currentLyricIndex }) {
        }));
     
    
-   
 
-    setStars(initialStars);
+    return () => clearInterval(interval);
   }, [lyricText, isExpanded]);
 
   function getBrightColor() {
