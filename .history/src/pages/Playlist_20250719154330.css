@@ -1,0 +1,93 @@
+.playlist-container {
+  padding: 20px;
+  background: transparent;
+  width: 40%;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 30px 10px;
+  background: #fff0fa;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.song-item.active {
+  border: 4px solid #ff1493;
+}
+
+.song-titles {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #330035;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.loop-on {
+  color: #ff1493;
+}
+
+.progress-container {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  padding: 0;
+  background: rgba(45, 10, 77, 0.1);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+   display: flex;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 100%;
+  background: #984f9f;
+  border-radius: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+ 
+}
+
+.progress {
+  height: 100%;
+  background: #e60073;
+  transition: width 0.2s ease;
+}
+
+
+/* Responsive for 768px and up */
+@media (max-width: 800px) {
+  .playlist-container {
+  padding: 0;
+  background: transparent;
+  width: 100%;
+}
+
+.song-item {
+    width: 95%;
+}
+
+  .song-titles {
+    font-size: 1.5rem;
+  }
+
+  .play-btn,
+  .loop-btn {
+    font-size: 1.5rem;
+  }
+}
