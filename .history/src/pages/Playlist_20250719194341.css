@@ -108,7 +108,7 @@ button {
   background: #f3a0ccc6;
   padding: 25px;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 400px;
   width: 90%;
   position: relative;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -175,12 +175,22 @@ button {
 }
 
 .error-subtext {
-  color: #3d0f63;
+  color: #7f8c8d;
   font-style: italic;
   margin-bottom: 1rem;
 }
 
-
+.error-actions button {
+  margin: 0.5rem;
+  background-color: #2ecc71;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
 
 .error-actions button:hover {
   background-color: #27ae60;
@@ -242,14 +252,4 @@ button {
   .song-item.active .progress-bar, .song-item.active .progress {
    background-color:#fff0fa;
   }
-  .error-actions button {
-  font-size: 1.3rem;
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
-  background: #2d0a4d;
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s;
-}
 }

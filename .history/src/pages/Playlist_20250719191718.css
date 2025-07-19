@@ -108,7 +108,7 @@ button {
   background: #f3a0ccc6;
   padding: 25px;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 400px;
   width: 90%;
   position: relative;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -159,45 +159,6 @@ button {
   color: #FDD700; /* Your accent color */
 }
 
-.fancy-error {
-   background: #f3a0ccc6;
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  animation: fadeInUp 0.5s ease-out;
-}
-
-.fancy-error h3 {
-  font-size: 1.8rem;
-  color: #c0392b;
-}
-
-.error-subtext {
-  color: #3d0f63;
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-
-
-.error-actions button:hover {
-  background-color: #27ae60;
-}
-
-@keyframes fadeInUp {
-  from {
-    transform: translateY(40px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
 /* Responsive for 768px and up */
 @media (max-width: 800px) {
   .playlist-container {
@@ -242,14 +203,4 @@ button {
   .song-item.active .progress-bar, .song-item.active .progress {
    background-color:#fff0fa;
   }
-  .error-actions button {
-  font-size: 1.3rem;
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
-  background: #2d0a4d;
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s;
-}
 }

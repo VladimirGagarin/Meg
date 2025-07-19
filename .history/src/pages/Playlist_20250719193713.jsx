@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { songDetails } from "../components/SongDetails";
-import { FaPlay, FaPause, FaTimes, FaSyncAlt, FaRetweet , FaForward} from "react-icons/fa";
+import { FaPlay, FaPause, FaTimes, FaSyncAlt, FaRetweet,FaFor } from "react-icons/fa";
 import "../pages/Playlist.css";
-
+import { FaForwardFast } from "react-icons/fa6";
 
 export default function Playlist() {
   const audioRef = useRef(null);
@@ -175,7 +175,7 @@ export default function Playlist() {
               Something tripped while playing <strong>{error.song}</strong>.
             </p>
             <p className="error-subtext">
-              But don't worry
+              But don't worry — we'll get back to the rhythm in no time.
             </p>
             <div className="error-actions">
               <button onClick={error.onRetry}><FaSyncAlt/> Try Again</button>
@@ -185,7 +185,7 @@ export default function Playlist() {
                   handleNext();
                 }}
               >
-                <FaForward/> Skip to Next
+                <FaForwardFast/> Skip to Next
               </button>
             </div>
           </div>

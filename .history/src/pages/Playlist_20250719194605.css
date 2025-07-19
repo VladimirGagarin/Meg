@@ -242,14 +242,4 @@ button {
   .song-item.active .progress-bar, .song-item.active .progress {
    background-color:#fff0fa;
   }
-  .error-actions button {
-  font-size: 1.3rem;
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
-  background: #2d0a4d;
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s;
-}
 }

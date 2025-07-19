@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { songDetails } from "../components/SongDetails";
-import { FaPlay, FaPause, FaTimes, FaSyncAlt, FaRetweet , FaForward} from "react-icons/fa";
+import { FaPlay, FaPause, FaTimes, FaSyncAlt, FaRetweet } from "react-icons/fa";
 import "../pages/Playlist.css";
-
 
 export default function Playlist() {
   const audioRef = useRef(null);
@@ -18,17 +17,14 @@ export default function Playlist() {
   const [progress, setProgress] = useState(0);
     const [error, setError] = useState(null);
     const songItem = useRef(null);
-    const [currentSong, setCurrentSong] = useState(null)
+    const [currentSong, setCur] = songDetails[currentIndex];
 
     useEffect(() => {
-      const song = songDetails[currentIndex];
-      if (!song) {
+      
+      if (!currentSong) {
         navigate("/playlist/Sing_with_magdalene_song");
-      } else {
-        setCurrentSong(song);
       }
-    }, [currentIndex, navigate]);
-
+    }, []);
    
 
   useEffect(() => {
@@ -64,10 +60,7 @@ export default function Playlist() {
             audio.load();
             audio
               .play()
-              .then(() => {
-                setError(null); // ✅ Clear error on successful retry
-                setIsPlaying(true);
-              })
+              .then(() => setIsPlaying(true))
               .catch(() =>
                 setError({ ...error, message: "Still unable to play" })
               );
@@ -85,7 +78,7 @@ export default function Playlist() {
     return () => {
       audio.removeEventListener("canplaythrough", handleCanPlay);
     };
-  }, [currentIndex, currentSong, error]);
+  }, [currentIndex, currentSong]);
     
     useEffect(() => {
       if (songItem.current) {
@@ -160,32 +153,26 @@ export default function Playlist() {
   
   return (
     <div className="playlist-container">
-      {currentSong && (
-        <audio ref={audioRef} src={currentSong.audio} loop={isLooping} />
-      )}
+      <audio ref={audioRef} src={currentSong.audio} loop={isLooping} />
 
       {error && (
         <div className="error-overlay">
-          <div className="error-modal fancy-error">
+          <div className="error-modal">
             <button className="close-error" onClick={() => setError(null)}>
               <FaTimes />
             </button>
-            <h3>🎵 Oops… the music took a pause</h3>
-            <p>
-              Something tripped while playing <strong>{error.song}</strong>.
-            </p>
-            <p className="error-subtext">
-              But don't worry
-            </p>
+            <h3>Playback Error</h3>
+            <p>{error.message}</p>
+            <p>Song: {error.song}</p>
             <div className="error-actions">
-              <button onClick={error.onRetry}><FaSyncAlt/> Try Again</button>
+              <button onClick={error.onRetry}>Retry</button>
               <button
                 onClick={() => {
                   setError(null);
                   handleNext();
                 }}
               >
-                <FaForward/> Skip to Next
+                Skip to Next
               </button>
             </div>
           </div>

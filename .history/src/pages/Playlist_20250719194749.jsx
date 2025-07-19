@@ -175,7 +175,7 @@ export default function Playlist() {
               Something tripped while playing <strong>{error.song}</strong>.
             </p>
             <p className="error-subtext">
-              But don't worry
+              But don't worry 
             </p>
             <div className="error-actions">
               <button onClick={error.onRetry}><FaSyncAlt/> Try Again</button>
