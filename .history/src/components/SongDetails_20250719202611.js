@@ -149,12 +149,6 @@ export const songDetails = [
     lyrics: softAnthemLyrics(),
   },
   {
-    id: "iam-magdalene",
-    title: "I Am Magdalene",
-    audio: IamMagdaleneSong,
-    lyrics: IamMegLyrics(),
-  },
-  {
     id: "life",
     title: "A Life to Live",
     audio: LifeSong,
@@ -165,6 +159,13 @@ export const songDetails = [
     title: "The Beginning",
     audio: BeginingSong,
     lyrics: beginningLyrics(),
+  },
+
+  {
+    id: "iam-magdalene",
+    title: "I Am Magdalene",
+    audio: IamMagdaleneSong,
+    lyrics: IamMegLyrics(),
   },
   {
     id: "fight_song",

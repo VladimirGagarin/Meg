@@ -40,40 +40,7 @@ export default function App() {
    setCurrentSongTitle(possibleSong?.title || null);
  }, [location.pathname, allSongs]);
 
-    useEffect(() => {
-      const hasVisited = localStorage.getItem("hasVisitedSWM");
-      const lastVisit = localStorage.getItem("lastVisitSWM");
-      const now = new Date();
-
-      const isAlreadyOnAnthem = location.pathname === "/playlist/anthem_song";
-      const isAlreadyOnWeKnow = location.pathname === "/playlist/we_know_song";
-
-      if (!hasVisited) {
-        // First-time visitor
-        localStorage.setItem("hasVisitedSWM", "true");
-        localStorage.setItem("lastVisitSWM", now.toISOString());
-
-        if (!isAlreadyOnAnthem) {
-          navigate("/playlist/anthem_song");
-        }
-      } else {
-        // Returning visitor
-        if (lastVisit) {
-          const lastDate = new Date(lastVisit);
-          const daysPassed = Math.floor(
-            (now - lastDate) / (1000 * 60 * 60 * 24)
-          );
-
-          if (daysPassed > 2 && !isAlreadyOnWeKnow) {
-            localStorage.setItem("lastVisitSWM", now.toISOString()); // update the date
-            navigate("/playlist/we_know_song");
-          }
-        } else {
-          // If for some reason 'lastVisitSWM' is missing but 'hasVisitedSWM' exists
-          localStorage.setItem("lastVisitSWM", now.toISOString());
-        }
-      }
-    }, [navigate, location]);
+  
 
 
   return (
@@ -149,7 +116,7 @@ export default function App() {
         </Link>
       ) : (
         <Link to="/playlist/Sing_with_magdalene_song" className="nav-link">
-          <span>Jump to Playlist</span>
+          <span>Listen to all songs</span>
           <FaArrowRight className="icon" />
         </Link>
       )}

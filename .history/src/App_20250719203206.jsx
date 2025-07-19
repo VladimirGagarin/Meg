@@ -64,7 +64,7 @@ export default function App() {
             (now - lastDate) / (1000 * 60 * 60 * 24)
           );
 
-          if (daysPassed > 2 && !isAlreadyOnWeKnow) {
+          if (daysPassed > 6 && !isAlreadyOnWeKnow) {
             localStorage.setItem("lastVisitSWM", now.toISOString()); // update the date
             navigate("/playlist/we_know_song");
           }

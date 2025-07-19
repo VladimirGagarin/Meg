@@ -148,6 +148,7 @@ export const songDetails = [
     audio: SoftAnthemSong,
     lyrics: softAnthemLyrics(),
   },
+
   {
     id: "iam-magdalene",
     title: "I Am Magdalene",

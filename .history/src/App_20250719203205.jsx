@@ -41,39 +41,37 @@ export default function App() {
  }, [location.pathname, allSongs]);
 
     useEffect(() => {
-      const hasVisited = localStorage.getItem("hasVisitedSWM");
-      const lastVisit = localStorage.getItem("lastVisitSWM");
-      const now = new Date();
+    const hasVisited = localStorage.getItem("hasVisitedSWM");
+    const lastVisit = localStorage.getItem("lastVisitSWM");
+    const now = new Date();
 
-      const isAlreadyOnAnthem = location.pathname === "/playlist/anthem_song";
-      const isAlreadyOnWeKnow = location.pathname === "/playlist/we_know_song";
+    const isAlreadyOnAnthem = location.pathname === "/playlist/anthem_song";
+    const isAlreadyOnWeKnow = location.pathname === "/playlist/we_know_song";
 
-      if (!hasVisited) {
-        // First-time visitor
-        localStorage.setItem("hasVisitedSWM", "true");
-        localStorage.setItem("lastVisitSWM", now.toISOString());
+    if (!hasVisited) {
+      // First-time visitor
+      localStorage.setItem("hasVisitedSWM", "true");
+      localStorage.setItem("lastVisitSWM", now.toISOString());
 
-        if (!isAlreadyOnAnthem) {
-          navigate("/playlist/anthem_song");
+      if (!isAlreadyOnAnthem) {
+        navigate("/playlist/anthem_song");
+      }
+    } else {
+      // Returning visitor
+      if (lastVisit) {
+        const lastDate = new Date(lastVisit);
+        const daysPassed = Math.floor((now - lastDate) / (1000 * 60 * 60 * 24));
+
+        if (daysPassed > 6 && !isAlreadyOnWeKnow) {
+          localStorage.setItem("lastVisitSWM", now.toISOString()); // update the date
+          navigate("/playlist/we_know_song");
         }
       } else {
-        // Returning visitor
-        if (lastVisit) {
-          const lastDate = new Date(lastVisit);
-          const daysPassed = Math.floor(
-            (now - lastDate) / (1000 * 60 * 60 * 24)
-          );
-
-          if (daysPassed > 2 && !isAlreadyOnWeKnow) {
-            localStorage.setItem("lastVisitSWM", now.toISOString()); // update the date
-            navigate("/playlist/we_know_song");
-          }
-        } else {
-          // If for some reason 'lastVisitSWM' is missing but 'hasVisitedSWM' exists
-          localStorage.setItem("lastVisitSWM", now.toISOString());
-        }
+        // If for some reason 'lastVisitSWM' is missing but 'hasVisitedSWM' exists
+        localStorage.setItem("lastVisitSWM", now.toISOString());
       }
-    }, [navigate, location]);
+    }
+  }, [navigate, location]);
 
 
   return (
