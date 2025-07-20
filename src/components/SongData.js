@@ -5098,3 +5098,160 @@ export function SonnetLyrics() {
     ;
   return subtitles;
 }
+
+export function MomentsLyrics() {
+  const subtitles = [
+    {
+      start: 0,
+      end: 12000,
+      text: "How does a moment last forever?",
+    },
+    {
+      start: 13000,
+      end: 16000,
+      text: "How can a story never die?",
+    },
+    {
+      start: 16000,
+      end: 21000,
+      text: "It is love we must hold onto",
+    },
+    {
+      start: 21000,
+      end: 25000,
+      text: "Never easy, but we try",
+    },
+    {
+      start: 25000,
+      end: 30000,
+      text: "Sometimes happiness is captured",
+    },
+    {
+      start: 30000,
+      end: 34000,
+      text: "Somehow, our time and place stand still",
+    },
+    {
+      start: 34000,
+      end: 43000,
+      text: "Love lives on inside our hearts and always will",
+    },
+    {
+      start: 43000,
+      end: 52000,
+      text: "Minutes turn to hours, days to years then gone",
+    },
+    {
+      start: 52000,
+      end: 57000,
+      text: "But when all else has been forgotten",
+    },
+    {
+      start: 57000,
+      end: 64000,
+      text: "Still our song lives on",
+    },
+    {
+      start: 64000,
+      end: 69000,
+      text: "Maybe some moments weren’t so perfect",
+    },
+    {
+      start: 69000,
+      end: 72000,
+      text: "Maybe some memories not so sweet",
+    },
+    {
+      start: 72000,
+      end: 77000,
+      text: "But we have to know some bad times",
+    },
+    {
+      start: 77000,
+      end: 81000,
+      text: "Or our lives are incomplete",
+    },
+    {
+      start: 81000,
+      end: 86000,
+      text: "Then when the shadows overtake us",
+    },
+    {
+      start: 86000,
+      end: 90000,
+      text: "Just when we feel all hope is gone",
+    },
+    {
+      start: 90000,
+      end: 99000,
+      text: "We'll hear our song and know once more, Our love lives on",
+    },
+    {
+      start: 108000,
+      end: 116000,
+      text: "Oh, oh, oh, oh",
+    },
+    {
+      start: 121000,
+      end: 125000,
+      text: "How does a moment last forever?",
+    },
+    {
+      start: 125000,
+      end: 128000,
+      text: "How does our happiness endure?",
+    },
+    {
+      start: 128000,
+      end: 132000,
+      text: "Through the darkest of our troubles",
+    },
+    {
+      start: 133000,
+      end: 137000,
+      text: "Love is beauty, love is pure",
+    },
+    {
+      start: 137000,
+      end: 141000,
+      text: "Love pays no mind to desolation",
+    },
+    {
+      start: 141000,
+      end: 145000,
+      text: "It flows like a river through the soul",
+    },
+    {
+      start: 145000,
+      end: 154000,
+      text: "Protects, proceeds, and perseveres, And makes us whole",
+    },
+    {
+      start: 154000,
+      end: 161000,
+      text: "Minutes turn to hours, days to years then gone",
+    },
+    {
+      start: 162000,
+      end: 166000,
+      text: "But when all else has been forgotten",
+    },
+    {
+      start: 166000,
+      end: 173000,
+      text: "Still our song lives on",
+    },
+    {
+      start: 173000,
+      end: 180000,
+      text: "How does a moment last forever?",
+    },
+    {
+      start: 180000,
+      end: 191000,
+      text: "When our song lives on",
+    },
+  ];
+  return subtitles;
+  
+}
