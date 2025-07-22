@@ -36,8 +36,7 @@ import {
   SomewhereMaleLyrics,
   AtAllCost,
  MomentsLyrics,
- UncalledLyrics,
- TwinkleLyrics
+ UncalledLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -201,7 +200,7 @@ export const songDetails = [
     id: "twinkle_song",
     title: "Twinkle Twinkle",
     audio: TwinkleSong,
-    lyrics: TwinkleLyrics(),
+    lyrics: TwinkleLyrics,
   },
   {
     id: "dream_vocal_song",

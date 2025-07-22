@@ -36,8 +36,7 @@ import {
   SomewhereMaleLyrics,
   AtAllCost,
  MomentsLyrics,
- UncalledLyrics,
- TwinkleLyrics
+ UncalledLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";

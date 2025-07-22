@@ -5425,7 +5425,7 @@ export function TwinkleLyrics() {
    {
      start: 86699,
      end: 91939,
-     text: "Magdalene will hum along. We'll sing again",
+     text: "Magdalen will hum along. We'll sing again",
    },
    { start: 91939, end: 96900, text: "tomorrow's song." },
    { start: 96900, end: 99999, text: "(lullaby music)" },

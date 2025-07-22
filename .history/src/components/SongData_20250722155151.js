@@ -5364,72 +5364,51 @@ export  function UncalledLyrics () {
 }
 
 export function TwinkleLyrics() {
- const magdaleneLullabyLyrics = [
-   { start: 0, end: 4859, text: "(lullaby music) Hello, little" },
-   {
-     start: 4859,
-     end: 10139,
-     text: "star up in the sky. Winking at me as you fly",
-   },
-   {
-     start: 10139,
-     end: 15159,
-     text: "by. Do you see me with good night? Shine",
-   },
-   {
-     start: 15159,
-     end: 19979,
-     text: "on me your silver light. Twinkle, twinkle, don't",
-   },
-   {
-     start: 19979,
-     end: 25859,
-     text: "go far. You're my dream and guiding star.",
-   },
-   {
-     start: 25859,
-     end: 30779,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 30779, end: 35719, text: "me a song. Hello," },
-   {
-     start: 35719,
-     end: 40639,
-     text: "little bird up in the tree. Singing morning songs for",
-   },
-   { start: 40639, end: 46099, text: "me. I will sing a song back, too." },
-   {
-     start: 46099,
-     end: 51079,
-     text: "Me and nature, me and you. Twinkle, twinkle,",
-   },
-   {
-     start: 51079,
-     end: 57199,
-     text: "don't go far. You're my dream and guiding star.",
-   },
-   {
-     start: 57199,
-     end: 62159,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 62159, end: 66459, text: "me a song. Twinkle, twinkle, don't go" },
-   { start: 66459, end: 71959, text: "far. You're my dream and guiding star." },
-   {
-     start: 71959,
-     end: 76939,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 76939, end: 81220, text: "me a song. Sleepy eyes and sleepy" },
-   { start: 81220, end: 86699, text: "heads. Time to rest in cozy beds." },
-   {
-     start: 86699,
-     end: 91939,
-     text: "Magdalene will hum along. We'll sing again",
-   },
-   { start: 91939, end: 96900, text: "tomorrow's song." },
-   { start: 96900, end: 99999, text: "(lullaby music)" },
- ];
-
-  return magdaleneLullabyLyrics;
+  export const magdaleneLullabyLyrics = [
+    { time: "00:00:00.079", text: "(lullaby music) Hello, little" },
+    {
+      time: "00:00:04.859",
+      text: "star up in the sky. Winking at me as you fly",
+    },
+    { time: "00:00:10.139", text: "by. Do you see me with good night? Shine" },
+    {
+      time: "00:00:15.159",
+      text: "on me your silver light. Twinkle, twinkle, don't",
+    },
+    { time: "00:00:19.979", text: "go far. You're my dream and guiding star." },
+    {
+      time: "00:00:25.859",
+      text: "Even when the night's all gone. Your soft light sings",
+    },
+    { time: "00:00:30.779", text: "me a song. Hello," },
+    {
+      time: "00:00:35.719",
+      text: "little bird up in the tree. Singing morning songs for",
+    },
+    { time: "00:00:40.639", text: "me. I will sing a song back, too." },
+    {
+      time: "00:00:46.099",
+      text: "Me and nature, me and you. Twinkle, twinkle,",
+    },
+    {
+      time: "00:00:51.079",
+      text: "don't go far. You're my dream and guiding star.",
+    },
+    {
+      time: "00:00:57.199",
+      text: "Even when the night's all gone. Your soft light sings",
+    },
+    { time: "00:01:02.159", text: "me a song. Twinkle, twinkle, don't go" },
+    { time: "00:01:06.459", text: "far. You're my dream and guiding star." },
+    {
+      time: "00:01:11.959",
+      text: "Even when the night's all gone. Your soft light sings",
+    },
+    { time: "00:01:16.939", text: "me a song. Sleepy eyes and sleepy" },
+    { time: "00:01:21.220", text: "heads. Time to rest in cozy beds." },
+    { time: "00:01:26.699", text: "Magdalen will hum along. We'll sing again" },
+    { time: "00:01:31.939", text: "tomorrow's song." },
+    { time: "00:01:36.900", text: "(lullaby music)" },
+  ];
+return
 }

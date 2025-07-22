@@ -5364,72 +5364,106 @@ export  function UncalledLyrics () {
 }
 
 export function TwinkleLyrics() {
- const magdaleneLullabyLyrics = [
-   { start: 0, end: 4859, text: "(lullaby music) Hello, little" },
-   {
-     start: 4859,
-     end: 10139,
-     text: "star up in the sky. Winking at me as you fly",
-   },
-   {
-     start: 10139,
-     end: 15159,
-     text: "by. Do you see me with good night? Shine",
-   },
-   {
-     start: 15159,
-     end: 19979,
-     text: "on me your silver light. Twinkle, twinkle, don't",
-   },
-   {
-     start: 19979,
-     end: 25859,
-     text: "go far. You're my dream and guiding star.",
-   },
-   {
-     start: 25859,
-     end: 30779,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 30779, end: 35719, text: "me a song. Hello," },
-   {
-     start: 35719,
-     end: 40639,
-     text: "little bird up in the tree. Singing morning songs for",
-   },
-   { start: 40639, end: 46099, text: "me. I will sing a song back, too." },
-   {
-     start: 46099,
-     end: 51079,
-     text: "Me and nature, me and you. Twinkle, twinkle,",
-   },
-   {
-     start: 51079,
-     end: 57199,
-     text: "don't go far. You're my dream and guiding star.",
-   },
-   {
-     start: 57199,
-     end: 62159,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 62159, end: 66459, text: "me a song. Twinkle, twinkle, don't go" },
-   { start: 66459, end: 71959, text: "far. You're my dream and guiding star." },
-   {
-     start: 71959,
-     end: 76939,
-     text: "Even when the night's all gone. Your soft light sings",
-   },
-   { start: 76939, end: 81220, text: "me a song. Sleepy eyes and sleepy" },
-   { start: 81220, end: 86699, text: "heads. Time to rest in cozy beds." },
-   {
-     start: 86699,
-     end: 91939,
-     text: "Magdalene will hum along. We'll sing again",
-   },
-   { start: 91939, end: 96900, text: "tomorrow's song." },
-   { start: 96900, end: 99999, text: "(lullaby music)" },
- ];
-
-  return magdaleneLullabyLyrics;
+  const subtitles = [
+    {
+      start: 0,
+      end: 16000,
+      text: "I don't need a reason to sing to you My heart just knows what it wants to do",
+    },
+    {
+      start: 16000,
+      end: 26000,
+      text: "Light birds that sing when skies are blue My song just comes, it's meant for you",
+    },
+    {
+      start: 26000,
+      end: 35000,
+      text: "No one told me sing today But the song you need won't go away",
+    },
+    {
+      start: 35000,
+      end: 42000,
+      text: "Tomorrow I'll still sing anyway You don't have to stay away",
+    },
+    {
+      start: 42000,
+      end: 51000,
+      text: "This song brings joy all day long My delete, your heart whispered me this song",
+    },
+    {
+      start: 51000,
+      end: 63000,
+      text: "I don't know how my voice might sound But my heart is with the notes I found",
+    },
+    {
+      start: 63000,
+      end: 71000,
+      text: "I may stumble, I may fall on words Still I'll sing though I'm unsure",
+    },
+    {
+      start: 71000,
+      end: 79000,
+      text: "Cause love don't need a perfect rhyme Just a song that feels like sunshine",
+    },
+    {
+      start: 79000,
+      end: 88000,
+      text: "No one told me sing today But the song you need won't go away",
+    },
+    {
+      start: 88000,
+      end: 95000,
+      text: "Tomorrow I'll still sing anyway You don't have to stay away",
+    },
+    {
+      start: 95000,
+      end: 104000,
+      text: "This song brings joy all day long Magdalene, your heart whispered me this song",
+    },
+    {
+      start: 104000,
+      end: 113000,
+      text: "The stars wrote this song before I knew the tune Whispers inside us, I'm still removed",
+    },
+    {
+      start: 113000,
+      end: 120000,
+      text: "I just found it resting in the air tonight A gift they wrapped in soft twilight",
+    },
+    {
+      start: 121000,
+      end: 132000,
+      text: "No one told me sing today But the song you need won't go away",
+    },
+    {
+      start: 132000,
+      end: 139000,
+      text: "Tomorrow I'll still sing anyway You don't have to stay away",
+    },
+    {
+      start: 139000,
+      end: 148000,
+      text: "This song brings joy all day long Magdalene, your heart whispered me this song",
+    },
+    {
+      start: 148000,
+      end: 154000,
+      text: "This is my uncalled song A lull above where I belong",
+    },
+    {
+      start: 156000,
+      end: 164000,
+      text: "I'll always share it singing true A song from me forever for you",
+    },
+    {
+      start: 164000,
+      end: 169000,
+      text: "Magdalene, this heart always new",
+    },
+    {
+      start: 178000,
+      end: 180000,
+      text: "A lull above where I belong",
+    },
+  ];
 }

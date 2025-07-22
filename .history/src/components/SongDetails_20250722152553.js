@@ -36,8 +36,7 @@ import {
   SomewhereMaleLyrics,
   AtAllCost,
  MomentsLyrics,
- UncalledLyrics,
- TwinkleLyrics
+ UncalledLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -77,7 +76,7 @@ import SomewhereMale from "../assets/audios/somewea2.mp3";
 import CostSong from "../assets/audios/cost.mp3";
 import MomentSong from "../assets/audios/moment.mp3";
 import UncalledSong from "../assets/audios/uncalled .mp3";
-import TwinkleSong from "../assets/audios/twinkle.mp3"; 
+import 
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -196,12 +195,6 @@ export const songDetails = [
     title: "Hope",
     audio: HopeSong,
     lyrics: HopeLyrics(),
-  },
-  {
-    id: "twinkle_song",
-    title: "Twinkle Twinkle",
-    audio: TwinkleSong,
-    lyrics: TwinkleLyrics(),
   },
   {
     id: "dream_vocal_song",
