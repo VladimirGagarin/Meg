@@ -21,7 +21,7 @@ const routes = createHashRouter([
       { path: "offline", element: <OfflinePage /> },
       { path: "playlist/:songId", element: <Playlist /> },
       { path: "playlist", element: <Playlist /> },
-      {path: "song/", element:<Playlist/>}
+      {path: ""}
     ],
   },
   {
