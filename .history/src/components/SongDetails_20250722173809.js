@@ -223,7 +223,7 @@ export const songDetails = [
     id: "shark_song",
     title: "Baby Shark",
     audio: SharkSong,
-    lyrics: SharkLyrics(),
+    lyrics: SharkLyrics,
   },
   {
     id: "simplicity_song",

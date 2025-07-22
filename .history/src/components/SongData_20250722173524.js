@@ -5467,77 +5467,29 @@ return BirthdayLyrics
 }
 
 export  function SharkLyrics() {
- const subtitles = [
-   { start: 0, end: 10000, text: "(Upbeat music playing)" },
-   {
-     start: 10000,
-     end: 13460,
-     text: "Magdalene Shark. Do do, do do do do. Magdalene Shark.",
-   },
-   {
-     start: 13460,
-     end: 17100,
-     text: "Do do, do do do do. Magdalene Shark. Do do, do do do do.",
-   },
-   { start: 17479, end: 19399, text: "Magdalene Shark." },
-   {
-     start: 29039,
-     end: 33400,
-     text: "Let's all play. Do do, do do do do. Let's all play.",
-   },
-   {
-     start: 33439,
-     end: 37099,
-     text: "Do do, do do do do. Let's all play. Do do, do do do do.",
-   },
-   {
-     start: 37459,
-     end: 41880,
-     text: "Play with Magdalene. Let's all sing. Do do, do do do do.",
-   },
-   {
-     start: 42180,
-     end: 45900,
-     text: "Let's all sing. Do do, do do do do. Let's all sing.",
-   },
-   {
-     start: 45959,
-     end: 49139,
-     text: "Do do, do do do do. Sing with Magdalene.",
-   },
-   {
-     start: 58639,
-     end: 63419,
-     text: "Let's all swim. Do do, do do do do. Let's all swim.",
-   },
-   {
-     start: 63479,
-     end: 67120,
-     text: "Do do, do do do do. Let's all swim. Do do, do do do do.",
-   },
-   { start: 67419, end: 69139, text: "Swim with Magdalene." },
-   {
-     start: 78659,
-     end: 83419,
-     text: "Let's all dream. Do do, do do do do. Let's all dream.",
-   },
-   {
-     start: 83459,
-     end: 87099,
-     text: "Do do, do do do do. Let's all dream. Do do, do do do do.",
-   },
-   {
-     start: 87400,
-     end: 91879,
-     text: "Dream with Magdalene. Time to rest. Do do, do do do do.",
-   },
-   {
-     start: 92139,
-     end: 96419,
-     text: "Time to rest. Do do, do do do do. Time to rest. Do do,",
-   },
-   { start: 96439, end: 99100, text: "do do do do. See you next song." },
-   { start: 93939, end: 954384, text: "(Upbeat music fades out)" },
- ];
-  return subtitles;
+  const subtitles = [
+  { start: 119, end: 10319, text: "(instrumental music)" },
+  { start: 10440, end: 16000, text: "Magdalene Shark. Do do, do do do do. Magdalene Shark." },
+  { start: 16000, end: 20440, text: "Magdalene Shark. Do do, do do do do. Magdalene Shark." },
+  { start: 20440, end: 24880, text: "Magdalene Shark. Do do, do do do do. Magdalene Shark." },
+  { start: 24880, end: 29320, text: "Magdalene Shark!" },
+  { start: 29320, end: 33760, text: "Gentle Shark. Do do, do do do do. Gentle Shark." },
+  { start: 33760, end: 38200, text: "Gentle Shark. Do do, do do do do. Gentle Shark." },
+  { start: 38200, end: 42640, text: "Gentle Shark. Do do, do do do do. Gentle Shark." },
+  { start: 42640, end: 47080, text: "Gentle Shark!" },
+  { start: 47080, end: 51520, text: "Kind Shark. Do do, do do do do. Kind Shark." },
+  { start: 51520, end: 55960, text: "Kind Shark. Do do, do do do do. Kind Shark." },
+  { start: 55960, end: 60400, text: "Kind Shark. Do do, do do do do. Kind Shark." },
+  { start: 60400, end: 64840, text: "Kind Shark!" },
+  { start: 64840, end: 69280, text: "Hugging Time. Do do, do do do do. Hugging Time." },
+  { start: 69280, end: 73720, text: "Hugging Time. Do do, do do do do. Hugging Time." },
+  { start: 73720, end: 78160, text: "Hugging Time. Do do, do do do do. Hugging Time." },
+  { start: 78160, end: 82600, text: "Hugging Time!" },
+  { start: 82600, end: 87040, text: "It’s your turn. Do do, do do do do. It’s your turn." },
+  { start: 87040, end: 91480, text: "It’s your turn. Do do, do do do do. It’s your turn." },
+  { start: 91480, end: 95920, text: "It’s your turn. Do do, do do do do. It’s your turn." },
+  { start: 95920, end: 100360, text: "It’s your turn!" },
+  { start: 100360, end: 102599, text: "(instrumental music)" }
+];
+return 
 }

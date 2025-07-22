@@ -37,9 +37,7 @@ import {
   AtAllCost,
  MomentsLyrics,
  UncalledLyrics,
- TwinkleLyrics,
- HBDLyrics,
- SharkLyrics
+ TwinkleLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -80,8 +78,6 @@ import CostSong from "../assets/audios/cost.mp3";
 import MomentSong from "../assets/audios/moment.mp3";
 import UncalledSong from "../assets/audios/uncalled .mp3";
 import TwinkleSong from "../assets/audios/twinkle.mp3"; 
-import HbdSong from "../assets/audios/hbd.mp3";
-import SharkSong from "../assets/audios/shark.mp3";
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -218,12 +214,6 @@ export const songDetails = [
     title: "Dream",
     audio: DreamSong2,
     lyrics: DreamLyrics2(),
-  },
-  {
-    id: "shark_song",
-    title: "Baby Shark",
-    audio: SharkSong,
-    lyrics: SharkLyrics(),
   },
   {
     id: "simplicity_song",
@@ -376,12 +366,8 @@ export const songDetails = [
     audio: CostSong,
     lyrics: AtAllCost(),
   },
-  {
-    id: "hbd_song",
-    title: "Happy Birthday",
-    audio: HbdSong,
-    lyrics: HBDLyrics(),
   },
+
   {
     id: "moment_song",
     title: "moment last forever?",

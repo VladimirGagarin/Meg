@@ -5435,7 +5435,7 @@ export function TwinkleLyrics() {
 }
 
 export function HBDLyrics() {
-  const BirthdayLyrics = [
+  export const BirthdayLyrics = [
   { start: 119, end: 10319, text: "(instrumental music)" },
   { start: 10319, end: 12759, text: "Clap your hands and jump so high." },
   { start: 15059, end: 17600, text: "It's your day to touch the sky." },
@@ -5444,7 +5444,7 @@ export function HBDLyrics() {
   { start: 28959, end: 33400, text: "birthday, shine so bright. Like" },
   { start: 33479, end: 38319, text: "balloons that take to flight. Laugh" },
   { start: 38340, end: 41359, text: "and dance the whole day through." },
-  { start: 42719, end: 46100, text: "Magdalene, we are proud of you." },
+  { start: 42719, end: 46100, text: "Madelyn, we are proud of you." },
   { start: 50119, end: 55039, text: "(instrumental music) Happy birthday, shine" },
   { start: 55039, end: 59879, text: "so bright. Make a wish and close" },
   { start: 59919, end: 64779, text: "your eyes. Magic sparkles fill the" },
@@ -5453,91 +5453,15 @@ export function HBDLyrics() {
   { start: 73539, end: 78399, text: '"Hooray!" Happy birthday, shine so bright' },
   { start: 78639, end: 81779, text: "(shine so bright). Like balloons that take to flight" },
   { start: 81779, end: 86339, text: "(take to flight). Laugh and dance the" },
-  { start: 86559, end: 91260, text: "whole day through (all day through). Magdalene, we are" },
+  { start: 86559, end: 91260, text: "whole day through (all day through). Madelyn, we are" },
   { start: 91360, end: 95959, text: "proud of you (proud of you). Make a wish and close your" },
   { start: 96079, end: 100519, text: "eyes. Magic sparkles fill the skies. Every smile a gift" },
   { start: 100559, end: 105499, text: 'today. As we sing and shout, "Hooray!" Hooray! Happy' },
   { start: 105659, end: 109679, text: "birthday, shine so bright. Like balloons that take to flight." },
-  { start: 109939, end: 114259, text: "Laugh and dance the whole day through. Magdalene, we're proud of you." },
+  { start: 109939, end: 114259, text: "Laugh and dance the whole day through. Madelyn, we're proud of you." },
   { start: 114459, end: 119279, text: "Now blow your candles loud and clear. Your birthday song is ringing near." },
   { start: 119319, end: 124079, text: "With joy and hugs from skies so blue. This birthday song's just made for you." },
   { start: 124659, end: 128064, text: "(instrumental music)" },
 ];
-return BirthdayLyrics
-}
-
-export  function SharkLyrics() {
- const subtitles = [
-   { start: 0, end: 10000, text: "(Upbeat music playing)" },
-   {
-     start: 10000,
-     end: 13460,
-     text: "Magdalene Shark. Do do, do do do do. Magdalene Shark.",
-   },
-   {
-     start: 13460,
-     end: 17100,
-     text: "Do do, do do do do. Magdalene Shark. Do do, do do do do.",
-   },
-   { start: 17479, end: 19399, text: "Magdalene Shark." },
-   {
-     start: 29039,
-     end: 33400,
-     text: "Let's all play. Do do, do do do do. Let's all play.",
-   },
-   {
-     start: 33439,
-     end: 37099,
-     text: "Do do, do do do do. Let's all play. Do do, do do do do.",
-   },
-   {
-     start: 37459,
-     end: 41880,
-     text: "Play with Magdalene. Let's all sing. Do do, do do do do.",
-   },
-   {
-     start: 42180,
-     end: 45900,
-     text: "Let's all sing. Do do, do do do do. Let's all sing.",
-   },
-   {
-     start: 45959,
-     end: 49139,
-     text: "Do do, do do do do. Sing with Magdalene.",
-   },
-   {
-     start: 58639,
-     end: 63419,
-     text: "Let's all swim. Do do, do do do do. Let's all swim.",
-   },
-   {
-     start: 63479,
-     end: 67120,
-     text: "Do do, do do do do. Let's all swim. Do do, do do do do.",
-   },
-   { start: 67419, end: 69139, text: "Swim with Magdalene." },
-   {
-     start: 78659,
-     end: 83419,
-     text: "Let's all dream. Do do, do do do do. Let's all dream.",
-   },
-   {
-     start: 83459,
-     end: 87099,
-     text: "Do do, do do do do. Let's all dream. Do do, do do do do.",
-   },
-   {
-     start: 87400,
-     end: 91879,
-     text: "Dream with Magdalene. Time to rest. Do do, do do do do.",
-   },
-   {
-     start: 92139,
-     end: 96419,
-     text: "Time to rest. Do do, do do do do. Time to rest. Do do,",
-   },
-   { start: 96439, end: 99100, text: "do do do do. See you next song." },
-   { start: 93939, end: 954384, text: "(Upbeat music fades out)" },
- ];
-  return subtitles;
+return Birthday
 }

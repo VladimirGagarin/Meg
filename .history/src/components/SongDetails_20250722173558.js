@@ -38,8 +38,7 @@ import {
  MomentsLyrics,
  UncalledLyrics,
  TwinkleLyrics,
- HBDLyrics,
- SharkLyrics
+ HBDLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -81,7 +80,7 @@ import MomentSong from "../assets/audios/moment.mp3";
 import UncalledSong from "../assets/audios/uncalled .mp3";
 import TwinkleSong from "../assets/audios/twinkle.mp3"; 
 import HbdSong from "../assets/audios/hbd.mp3";
-import SharkSong from "../assets/audios/shark.mp3";
+import  
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -218,12 +217,6 @@ export const songDetails = [
     title: "Dream",
     audio: DreamSong2,
     lyrics: DreamLyrics2(),
-  },
-  {
-    id: "shark_song",
-    title: "Baby Shark",
-    audio: SharkSong,
-    lyrics: SharkLyrics(),
   },
   {
     id: "simplicity_song",
