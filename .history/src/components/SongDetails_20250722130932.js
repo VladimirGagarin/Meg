@@ -35,8 +35,7 @@ import {
   SomewhereFemLy,
   SomewhereMaleLyrics,
   AtAllCost,
- MomentsLyrics,
- UncalledLyrics
+ MomentsLyrics
 } from "./SongData";
 import LifeSong from "../assets/audios/meg.mp3";
 import BeginingSong from "../assets/audios/The beginning.mp3";
@@ -75,8 +74,6 @@ import SomewhereFem from "../assets/audios/somewea.mp3"
 import SomewhereMale from "../assets/audios/somewea2.mp3";
 import CostSong from "../assets/audios/cost.mp3";
 import MomentSong from "../assets/audios/moment.mp3";
-import UncalledSong from "../assets/audios/uncalled .mp3";
-
 
 
 import Img1 from "../assets/images/belle.jpeg";
@@ -172,12 +169,7 @@ export const songDetails = [
     audio: BeginingSong,
     lyrics: beginningLyrics(),
   },
-  {
-    id: "uncalled_song",
-    title: "Uncalled",
-    audio: UncalledSong,
-    lyrics: UncalledLyrics(),
-  },
+  
   {
     id: "fight_song",
     title: "Fight Song",
@@ -358,9 +350,9 @@ export const songDetails = [
     title: "At All Cost",
     audio: CostSong,
     lyrics: AtAllCost(),
-  },
+  },  
   {
-    id: "moment_song",
+    id:"moment_song",
     title: "moment last forever?",
     audio: MomentSong,
     lyrics: MomentsLyrics(),

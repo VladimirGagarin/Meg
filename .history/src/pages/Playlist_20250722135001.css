@@ -218,7 +218,7 @@ button {
   box-shadow: none;
   background-color:#f3a0cc82;
   border: 1px solid #000;
-  position: relative;
+  position: ;
 }
 
 .song-item.active {
@@ -228,7 +228,7 @@ button {
 }
 
   .song-titles {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .song-item.active  .song-titles, .song-item.active .play-btn, .song-item.active .loop-btn{

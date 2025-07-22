@@ -5354,9 +5354,9 @@ export  function UncalledLyrics () {
     text: "Magdalene… this heart always knew.",
   },
   {
-    start: 174000,
+    start: 178000,
     end: 180000,
-    text: "Magdalene your heart is where we belong",
+    text: "A lull above where I belong",
   },
 ];
 

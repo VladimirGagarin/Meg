@@ -201,7 +201,7 @@ button {
 /* Responsive for 768px and up */
 @media (max-width: 800px) {
   .playlist-container {
-  padding: 10px;
+  padding: 0;
   background: transparent;
   width: 100%;
 }
@@ -209,16 +209,15 @@ button {
 .song-item {
   display: flex;
   align-items: center;
-  padding:0;
+  padding:0 ;
   border-radius:0;
-  width: 99%;
+  width: 97%;
   min-height: 15vh;
   gap:0;
   margin: 0;
   box-shadow: none;
   background-color:#f3a0cc82;
   border: 1px solid #000;
-  position: relative;
 }
 
 .song-item.active {
@@ -228,7 +227,7 @@ button {
 }
 
   .song-titles {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .song-item.active  .song-titles, .song-item.active .play-btn, .song-item.active .loop-btn{
@@ -247,7 +246,6 @@ button {
 
   .progress-bar{
     margin-top: 30px;
-    width: 95%;
   }
   .error-actions button {
   font-size: 1.3rem;

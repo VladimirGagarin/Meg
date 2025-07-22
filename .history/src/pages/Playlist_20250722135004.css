@@ -228,7 +228,7 @@ button {
 }
 
   .song-titles {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .song-item.active  .song-titles, .song-item.active .play-btn, .song-item.active .loop-btn{

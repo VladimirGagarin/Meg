@@ -171,9 +171,8 @@
   }
 
   .fairy-shell h1 {
-    font-size: 1.6rem; /* Smaller heading for mobile */
+    font-size: 1.3rem; /* Smaller heading for mobile */
     margin-bottom: 1.5rem;
-    min-width: 80%;
     text-align: center;
     color: #683978;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
