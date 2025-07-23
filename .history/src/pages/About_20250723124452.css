@@ -1,0 +1,152 @@
+
+
+.about-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+    min-height: 100vh;
+}
+
+.about-screen h1{
+    color: #430a4d;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #00000030;
+    font-weight: bold;
+}
+
+.about-screen p {
+    color: #5a2a73;
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    text-shadow: 1px 1px 2px #00000030;
+}  
+
+.apk-download {
+  display: block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #430a4d;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: background-color 0.3s ease;
+}
+
+.apk-download:hover {
+  text-decoration: underline;
+}
+
+
+.about-page{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px 10px;
+    background-color: transparent;
+    min-height: 100vh;
+    align-items: start;
+    justify-items: center;
+}
+
+.about-link{
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+    color: #5a2a73;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.about-card{
+    background-color: #fefefe5b;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: transform 0.2s ease;
+    position: relative;
+    
+}
+
+.about-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-card .about-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+/*About person page*/
+
+.about-person{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: transparent;
+    min-height: 100vh;
+}
+
+.about-person h1{
+    color: #430a4d;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #00000030;
+    font-weight: bold;
+}
+.about-person p {
+    color: #5a2a73;
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    text-shadow: 1px 1px 2px #00000030;
+}
+
+.about-character{
+    color: gold;
+}

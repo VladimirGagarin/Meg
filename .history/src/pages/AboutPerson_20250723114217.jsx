@@ -1,0 +1,13 @@
+import { useParams } from "react-router-dom";
+import { AboutInfoList } from "../components/SongDetails";
+
+export default function AboutPerson() {
+  const { id } = useParams();
+  const personInfo = AboutInfoList.find((info) => info.character === parseInt(id));
+
+  return (
+    <div className="about-person">
+      <h2>Magdalene</h2>
+    </div>
+  );
+}
