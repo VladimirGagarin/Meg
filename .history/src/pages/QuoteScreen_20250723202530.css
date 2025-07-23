@@ -1,0 +1,106 @@
+.quote-screen {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  
+  padding: 0;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 3s ease;
+  z-index: 0;
+}
+
+
+.notification {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes imageSplash {
+  0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+
+/* QuoteScreen.css */
+.frame {
+  --w: 100%; /* Adjust based on your layout */
+  --h: 100%;
+  --img: url(""); /* Dynamically set via React */
+
+  display: grid;
+  width: var(--w);
+  height: var(--h);
+  grid-template-columns: repeat(8, 1fr); /* 8x8 grid */
+  grid-template-rows: repeat(8, 1fr);
+  overflow: hidden;
+}
+
+.slice {
+  width: calc(100% + 0.5px);
+  height: calc(100% + 0.5px);
+  background-image: var(--img);
+  background-size: 800% 800%; /* 8x8 slices */
+  position: relative;
+  transition: all 1s ease-out;
+  transform: translateX(0) translateY(0) rotate(0);
+}
+
+.frame:hover .slice {
+  transform: translateX(0) translateY(0) rotate(0) !important;
+}
+
+
+/* Mobile-Friendly Styling */
+@media (max-width: 800px) {
+  .quote-screen {
+    width: 100%; /* Full width on small screens */
+    padding: 0;
+    margin-top: 20px;
+  } 
+
+  .background-image {
+    object-fit: cover;
+  }
+}
