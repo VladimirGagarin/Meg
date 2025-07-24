@@ -115,10 +115,10 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       setIsLoading(true);
       setPlaybackError("Audio stalled. Trying to reload...");
       setIsPlaying(false);
-      // reload page if audio stalls for 10 seconds
+      // reload page if audio stalls for 60 seconds
       setTimeoutId(setTimeout(() => {
         window.location.reload();
-      }, 10000));
+      }, 60000));
     };
 
     const onError = () => {
@@ -128,8 +128,8 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
 
       // Reload the page after 3 seconds
       setTimeout(() => {
-        window.location.reload();
-      }, 3000);
+          navigate("/");
+      }, 5000);
     };
 
     // Mute state sync
