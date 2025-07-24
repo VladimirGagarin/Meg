@@ -63,7 +63,7 @@
   font-weight: bold;
   opacity: 0.4;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background: transparent;
+  background: rgba(207, 122, 183, 0.891);
 }
 
 .bg-lyrics span {

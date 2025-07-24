@@ -117,7 +117,7 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       setIsPlaying(false);
       // reload page if audio stalls for 60 seconds
       setTimeoutId(setTimeout(() => {
-         setPlaybackError("Bad network. Playback failed. Reload or restart device");
+         setPlaybackError("Bad network.Playback failed. Reload device");
       }, 60000));
     };
 
