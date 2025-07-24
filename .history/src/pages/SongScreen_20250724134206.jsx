@@ -131,10 +131,7 @@ export default function SongScreen() {
     return () => {
       audio.pause();
       audio.src = "";
-      audio.removeEventListener("stalled", () => setAudioStalled(true));
-      audio.removeEventListener("playing", () => setAudioStalled(false));
-      audio.removeEventListener("waiting", () => setAudioStalled(true));
-      audio.removeEventListener("canplay", () => setAudioStalled(false));
+      
     };
   }, [id, navigate]);
 

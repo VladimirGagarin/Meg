@@ -59,12 +59,7 @@ export default function QuoteScreen() {
   const quoteScreen = useRef(null);
 
 
-  useEffect(() => {
-    if(quoteScreen.current) {
-      quoteScreen.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
-
+  useEffect(() => {})
   useEffect(() => {
     const audio = new Audio(song);
     audioRef.current = audio;

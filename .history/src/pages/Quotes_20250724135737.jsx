@@ -56,14 +56,7 @@ export default function QuoteScreen() {
   const [isAssembled, setIsAssembled] = useState(false);
   const [useSlices, setUseSlices] = useState(true); // Only true for first 2 images
   const [audioStalled, setAudioStalled] = useState(false);
-  const quoteScreen = useRef(null);
-
-
-  useEffect(() => {
-    if(quoteScreen.current) {
-      quoteScreen.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
+  const qu
 
   useEffect(() => {
     const audio = new Audio(song);

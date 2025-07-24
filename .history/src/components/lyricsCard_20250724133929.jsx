@@ -43,9 +43,6 @@ export default function LyricsCard({ lyricText, currentLyricIndex , audioStalled
       setIsExpanded(true);
     }
     else {
-      setIsExpanded(false);
-    }
-  
   }, [audioStalled]);
 
   useEffect(() => {

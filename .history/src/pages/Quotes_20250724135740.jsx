@@ -58,13 +58,6 @@ export default function QuoteScreen() {
   const [audioStalled, setAudioStalled] = useState(false);
   const quoteScreen = useRef(null);
 
-
-  useEffect(() => {
-    if(quoteScreen.current) {
-      quoteScreen.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
-
   useEffect(() => {
     const audio = new Audio(song);
     audioRef.current = audio;

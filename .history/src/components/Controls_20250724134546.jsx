@@ -87,10 +87,8 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       setIsPlaying(true);
       setIsLoading(false);
       setPlaybackError(null);
-        if (timeoutId) {
-          clearTimeout(timeoutId); // Clear any previous timeout
-          setTimeoutId(null);
-        }
+      clearTimeout(timeoutId); // Clear any previous timeout
+      setTimeoutId(null);
     };
 
     const onPause = () => {
@@ -104,22 +102,12 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
 
     const onCanPlay = () => {
       setIsLoading(false);
-      setPlaybackError(null);
-      if (timeoutId) {
-        clearTimeout(timeoutId); // Clear any previous timeout
-        setTimeoutId(null);
-      }
+      
     };
 
     const onStalled = () => {
-      setIsLoading(true);
-      setPlaybackError("Audio stalled. Trying to reload...");
-      setIsPlaying(false);
-      // reload page if audio stalls for 10 seconds
-      setTimeoutId(setTimeout(() => {
-        window.location.reload();
-      }, 10000));
-    };
+
+    }
 
     const onError = () => {
       setPlaybackError("Playback failed. Reloading...");
@@ -141,7 +129,6 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
     audioEl.addEventListener("waiting", onWaiting);
     audioEl.addEventListener("canplay", onCanPlay);
     audioEl.addEventListener("error", onError);
-    audioEl.addEventListener("stalled", onStalled);
 
     // Cleanup listeners on unmount or audio change
     return () => {
@@ -151,9 +138,8 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       audioEl.removeEventListener("waiting", onWaiting);
       audioEl.removeEventListener("canplay", onCanPlay);
       audioEl.removeEventListener("error", onError);
-      audioEl.removeEventListener("stalled", onStalled);
     };
-  }, [audio, currentSongId, timeoutId]);
+  }, [audio]);
 
   // Play/Pause toggle
   const togglePlay = () => {

@@ -56,14 +56,6 @@ export default function QuoteScreen() {
   const [isAssembled, setIsAssembled] = useState(false);
   const [useSlices, setUseSlices] = useState(true); // Only true for first 2 images
   const [audioStalled, setAudioStalled] = useState(false);
-  const quoteScreen = useRef(null);
-
-
-  useEffect(() => {
-    if(quoteScreen.current) {
-      quoteScreen.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
 
   useEffect(() => {
     const audio = new Audio(song);
@@ -197,7 +189,7 @@ export default function QuoteScreen() {
   };
 
   return (
-    <div className="quote-screen" ref= {quoteScreen}>
+    <div className="quote-screen" ref= {}>
       {useSlices ? (
         <div className="frame" onClick={copyQuote}>
           {generateSlices()}

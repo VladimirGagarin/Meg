@@ -151,9 +151,9 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       audioEl.removeEventListener("waiting", onWaiting);
       audioEl.removeEventListener("canplay", onCanPlay);
       audioEl.removeEventListener("error", onError);
-      audioEl.removeEventListener("stalled", onStalled);
+      
     };
-  }, [audio, currentSongId, timeoutId]);
+  }, [audio]);
 
   // Play/Pause toggle
   const togglePlay = () => {

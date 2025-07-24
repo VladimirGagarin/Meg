@@ -112,29 +112,11 @@ export default function SongScreen() {
       setTimeout(() => {setshowSonnetModalConfim(true)}, 4000)
     }
 
-     audio.addEventListener("stalled", () => {
-      setAudioStalled(true);
-    });
-
-    audio.addEventListener("playing", () => {
-      setAudioStalled(false);
-    });
-
-    audio.addEventListener("waiting", () => {
-      setAudioStalled(true);
-    });
-
-    audio.addEventListener("canplay", () => {
-      setAudioStalled(false);
-    });
+    
 
     return () => {
       audio.pause();
       audio.src = "";
-      audio.removeEventListener("stalled", () => setAudioStalled(true));
-      audio.removeEventListener("playing", () => setAudioStalled(false));
-      audio.removeEventListener("waiting", () => setAudioStalled(true));
-      audio.removeEventListener("canplay", () => setAudioStalled(false));
     };
   }, [id, navigate]);
 

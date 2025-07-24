@@ -112,9 +112,7 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
     };
 
     const onStalled = () => {
-      setIsLoading(true);
-      setPlaybackError("Audio stalled. Trying to reload...");
-      setIsPlaying(false);
+      setLoading(tr)
       // reload page if audio stalls for 10 seconds
       setTimeoutId(setTimeout(() => {
         window.location.reload();
@@ -141,7 +139,6 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
     audioEl.addEventListener("waiting", onWaiting);
     audioEl.addEventListener("canplay", onCanPlay);
     audioEl.addEventListener("error", onError);
-    audioEl.addEventListener("stalled", onStalled);
 
     // Cleanup listeners on unmount or audio change
     return () => {
@@ -151,9 +148,8 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       audioEl.removeEventListener("waiting", onWaiting);
       audioEl.removeEventListener("canplay", onCanPlay);
       audioEl.removeEventListener("error", onError);
-      audioEl.removeEventListener("stalled", onStalled);
     };
-  }, [audio, currentSongId, timeoutId]);
+  }, [audio]);
 
   // Play/Pause toggle
   const togglePlay = () => {

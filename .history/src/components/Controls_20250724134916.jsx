@@ -141,7 +141,6 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
     audioEl.addEventListener("waiting", onWaiting);
     audioEl.addEventListener("canplay", onCanPlay);
     audioEl.addEventListener("error", onError);
-    audioEl.addEventListener("stalled", onStalled);
 
     // Cleanup listeners on unmount or audio change
     return () => {
@@ -151,9 +150,8 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       audioEl.removeEventListener("waiting", onWaiting);
       audioEl.removeEventListener("canplay", onCanPlay);
       audioEl.removeEventListener("error", onError);
-      audioEl.removeEventListener("stalled", onStalled);
     };
-  }, [audio, currentSongId, timeoutId]);
+  }, [audio]);
 
   // Play/Pause toggle
   const togglePlay = () => {
