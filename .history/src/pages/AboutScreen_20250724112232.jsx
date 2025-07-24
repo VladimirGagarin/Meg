@@ -1,0 +1,109 @@
+import React from "react";
+import { Outlet, Link,  useNavigate, useLocation} from "react-router-dom";
+import { useEffect, useState } from "react";
+import './About.css';
+
+export default function AboutScreen() {
+    const navigate = useNavigate();
+    const location = useLocation();
+    const isInAboutPersonScreen = location.pathname.includes("aboutPerson");    
+ 
+    const [online, setOnline] = useState(navigator.onLine);
+
+  useEffect(() => {
+    const updateOnlineStatus = () => {
+      const isOnline = navigator.onLine;
+      setOnline(isOnline);
+      if (!isOnline) navigate("/offline");
+    };
+
+    window.addEventListener("online", updateOnlineStatus);
+    window.addEventListener("offline", updateOnlineStatus);
+
+    // Initial check
+    updateOnlineStatus();
+
+    return () => {
+      window.removeEventListener("online", updateOnlineStatus);
+      window.removeEventListener("offline", updateOnlineStatus);
+    };
+  }, [navigate]);
+
+  const handleBack = () => {
+  if (location.key !== "default") {
+    // There is navigable history
+    navigate(-1);
+  } else {
+    // No React Router history, go to /about
+    navigate("/about");
+  }
+};
+
+    
+   
+  if (!online) {
+    return (
+      <div className="offline-message">
+        <h2>You are offline.</h2>
+        <p>Please reconnect to view About Magdalene.</p>
+      </div>
+    );
+  }
+
+
+  return (
+    <div className="about-screen">
+      <h1>About Magdalene</h1>
+      <p>
+        This website Sing With Magdalene (SWM) is dedicated to the music and
+        vision of Magdalene.
+      </p>
+      <p>
+        It is a place where you can listen to her songs, read the lyrics, and
+        learn more about her vision.
+      </p>
+      <p>
+        Magdalene is a visionary artist who creates music that inspires and
+        uplifts.
+      </p>
+      <p>
+        {" "}
+        Magdalene resonates with the themes of love, healing, and
+        transformation.
+      </p>
+      <p>Sing with her today and be part of her journey.</p>
+      <div className="links">
+        <a
+          href="https://github.com/VladimirGagarin/roses-of-rome/releases/download/v.1.0.1/application-490c4c6a-8b27-4c78-a6c7-884413dabbfb.apk"
+          className="apk-download"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download App
+        </a>
+
+        {isInAboutPersonScreen ? (
+          <button className="apk-download" onClick={handleBack}>
+            {" "}
+            Back{" "}
+          </button>
+        ) : (
+          <Link to="/" className="apk-download">
+            Home
+          </Link>
+        )}
+      </div>
+      <h2>Meet Magdalene</h2>
+      <p>Here are core values she stands for:</p>
+      <Outlet />
+      <footer>
+        <p>
+          Made with ❤️. We believe 🙏 . She becomes 🌄. We write a line 📜. She
+          writes a legend . We sketch in twilight. She paints in dawn.
+        </p>
+        <p>© {new Date().getFullYear()} Roses of Rome. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
