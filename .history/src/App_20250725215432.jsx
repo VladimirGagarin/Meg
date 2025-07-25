@@ -36,10 +36,7 @@ export default function App() {
   useEffect(() => {
     const isOfflinePath = location.pathname === "/offline";
     if (isOfflinePath) {
-       setOnline(false);
-    }
-    else {
-      setOnline(true);
+       setOnline(isOfflinePath);
     }
       
   }, [location])

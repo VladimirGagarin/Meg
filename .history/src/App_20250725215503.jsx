@@ -39,7 +39,7 @@ export default function App() {
        setOnline(false);
     }
     else {
-      setOnline(true);
+       setOnline(fa)
     }
       
   }, [location])

@@ -38,9 +38,6 @@ export default function App() {
     if (isOfflinePath) {
        setOnline(false);
     }
-    else {
-      setOnline(true);
-    }
       
   }, [location])
 
