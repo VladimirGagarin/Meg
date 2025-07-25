@@ -153,7 +153,7 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
       audioEl.removeEventListener("error", onError);
       audioEl.removeEventListener("stalled", onStalled);
     };
-  }, [audio, currentSongId, timeoutId, navigate]);
+  }, [audio, currentSongId, timeoutId, n]);
 
   // Play/Pause toggle
   const togglePlay = () => {
