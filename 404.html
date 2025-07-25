@@ -143,7 +143,22 @@
       color: #0f064a;
       text-transform: capitalize;
     }
+    .download-button {
+      display: inline-block;
+      width: 100%;
+      padding: 12px 24px;
+      font-size: 1rem;
+      color: #fff;
+      background: #0f064a;
+      border-radius: 8px;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
 
+    .download-button:hover {
+      background: #140879;
+    }
 
       @media (max-width: 800px) {
          .overlay video {
@@ -177,9 +192,18 @@
 </div>
 
 
-    <a href="/Meg/" class="button">Go Home</a>
+    <a href="/Meg/" class="button">Go Home</a> 
+     <a
+          href="https://github.com/VladimirGagarin/roses-of-rome/releases/download/v.1.0.1/application-490c4c6a-8b27-4c78-a6c7-884413dabbfb.apk"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          class="download-button"
+        >
+          Downloaded the App
+        </a>
 
-    <p style="margin-top: 10px">Or you'll be redirected in 60 minutes</p>
+    <p style="margin-top: 10px">Or you'll be redirected in 30 minutes</p>
 
     <div class="overlay" id="videoOverlay">
       <span class="close-btn" onclick="hideOverlay()">&times;</span>
@@ -210,7 +234,7 @@
       // Redirect after 60 minutes
       setTimeout(() => {
         window.location.href = "/Meg/";
-      }, 3600000);
+      }, 1800000);
     </script>
   </body>
 </html>
