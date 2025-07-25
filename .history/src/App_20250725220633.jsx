@@ -13,6 +13,7 @@ export default function App() {
   const location = useLocation();
   const isInQuoteScreen = location.pathname === "/magdalene_quotes";
   const isInPlaylistScreen = location.pathname.startsWith("/playlist");
+  const [online, setOnline] = useState(navigator.onLine);
   const allSongs = songDetails;
   const [currentSongTitle, setCurrentSongTitle] = useState(null);
   
@@ -36,7 +37,7 @@ useEffect(() => {
   setForcedOffline(location.pathname === "/offline");
 }, [location]);
 
-const online = realOnline && !forcedOffline;
+const isOnline = realOnline && !forcedOffline;
 
 
  useEffect(() => {
@@ -116,7 +117,7 @@ const online = realOnline && !forcedOffline;
   return (
     <div className="fairy-shell">
       {/* Show image if it loads, otherwise show h1 */}
-      {imgLoaded && !imgError  && online ? (
+      {imgLoaded && !imgError ? (
         <Link to="/" className="logo-link">
           <img
             src={LogoText}

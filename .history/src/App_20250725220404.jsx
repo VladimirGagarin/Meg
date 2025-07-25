@@ -13,30 +13,31 @@ export default function App() {
   const location = useLocation();
   const isInQuoteScreen = location.pathname === "/magdalene_quotes";
   const isInPlaylistScreen = location.pathname.startsWith("/playlist");
+  const [online, setOnline] = useState(navigator.onLine);
   const allSongs = songDetails;
   const [currentSongTitle, setCurrentSongTitle] = useState(null);
   
-const [realOnline, setRealOnline] = useState(navigator.onLine);
-const [forcedOffline, setForcedOffline] = useState(false);
 
-useEffect(() => {
-  const handleOnline = () => setRealOnline(true);
-  const handleOffline = () => setRealOnline(false);
 
-  window.addEventListener("online", handleOnline);
-  window.addEventListener("offline", handleOffline);
+  useEffect(() => {
+    const updateOnlineStatus = () => {
+      setOnline(navigator.onLine);
+      if (!navigator.onLine) navigate("/offline");
+    };
 
-  return () => {
-    window.removeEventListener("online", handleOnline);
-    window.removeEventListener("offline", handleOffline);
-  };
-}, []);
+    window.addEventListener("online", updateOnlineStatus);
+    window.addEventListener("offline", updateOnlineStatus);
+    return () => {
+      window.removeEventListener("online", updateOnlineStatus);
+      window.removeEventListener("offline", updateOnlineStatus);
+    };
+  }, [navigate]);
 
-useEffect(() => {
-  setForcedOffline(location.pathname === "/offline");
-}, [location]);
-
-const online = realOnline && !forcedOffline;
+ useEffect(() => {
+   if (location.pathname === "/offline") {
+     setOnline(false);
+   }
+ }, [location]);
 
 
  useEffect(() => {
@@ -116,7 +117,7 @@ const online = realOnline && !forcedOffline;
   return (
     <div className="fairy-shell">
       {/* Show image if it loads, otherwise show h1 */}
-      {imgLoaded && !imgError  && online ? (
+      {imgLoaded && !imgError ? (
         <Link to="/" className="logo-link">
           <img
             src={LogoText}
