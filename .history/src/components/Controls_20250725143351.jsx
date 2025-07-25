@@ -141,7 +141,7 @@ const Controls = ({ audio, hideNext= true , id=null}) => {
     audioEl.addEventListener("waiting", onWaiting);
     audioEl.addEventListener("canplay", onCanPlay);
     audioEl.addEventListener("error", onError);
-   audioEl.addEventListener("stalled", onStalled, { once: true });
+   audioE.addEventListener("stalled", onStalled, { once: true });
 
     // Cleanup listeners on unmount or audio change
     return () => {
