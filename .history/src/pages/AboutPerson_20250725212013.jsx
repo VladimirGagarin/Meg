@@ -21,35 +21,29 @@ export default function AboutPerson() {
 
   return (
     <div className="about-person">
+      
       <div className="about-description">
-        <img
-          src={personInfo.photo}
-          alt={personInfo.character}
-          className="about-photo"
-          onContextMenu={(e) => {
-            e.preventDefault();
-            // add black and white filter on right click
-            e.target.style.filter = "grayscale(100%)";
-          }}
-          style={{ cursor: "pointer", filter: "grayscale(100%)" }}
-          onClick={(e) => {
-            e.target.style.filter = "grayscale(0%)"; // remove filter on click
-          }}
+      <div className="about-qrcode">
+        <QRWithLogo />
+        <p>Scan the QR code to download the app</p>
+      </div>
+      <img
+        src={personInfo.photo}
+        alt={personInfo.character}
+        className="about-photo"
+        onContextMenu={(e) => {
+          e.preventDefault();
+          // add black and white filter on right click
+          e.target.style.filter = "grayscale(100%)";
+        }}
+        style={{ cursor: "pointer", filter: "grayscale(100%)" }}
+        onClick={(e) => {
+          e.target.style.filter = "grayscale(0%)"; // remove filter on click
+        }}
         />
       </div>
 
-      <h1>
-        <span
-          className="about-character"
-          onClick={() => navigate("/about")}
-          style={{ cursor: "pointer" }}
-          title="back"
-        >
-          {personInfo.character}
-        </span>{" "}
-        | Magdalene
-      </h1>
-
+      
       <div className="about-details">
         <p>
           {personInfo.aboutTrait}{" "}
@@ -63,11 +57,6 @@ export default function AboutPerson() {
         <p>
           {personInfo.icon} {personInfo.sentiment} {personInfo.icon}
         </p>
-
-        <div className="about-qrcode">
-          <QRWithLogo />
-          <p>Scan the QR code to download the app</p>
-        </div>
       </div>
     </div>
   );

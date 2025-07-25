@@ -22,6 +22,7 @@ export default function AboutPerson() {
   return (
     <div className="about-person">
       <div className="about-description">
+       
         <img
           src={personInfo.photo}
           alt={personInfo.character}
@@ -39,12 +40,7 @@ export default function AboutPerson() {
       </div>
 
       <h1>
-        <span
-          className="about-character"
-          onClick={() => navigate("/about")}
-          style={{ cursor: "pointer" }}
-          title="back"
-        >
+        <span className="about-character" onClick={() => navigate("/about")} style={{cursor:"pointer", }} title="back">
           {personInfo.character}
         </span>{" "}
         | Magdalene
@@ -63,11 +59,6 @@ export default function AboutPerson() {
         <p>
           {personInfo.icon} {personInfo.sentiment} {personInfo.icon}
         </p>
-
-        <div className="about-qrcode">
-          <QRWithLogo />
-          <p>Scan the QR code to download the app</p>
-        </div>
       </div>
     </div>
   );

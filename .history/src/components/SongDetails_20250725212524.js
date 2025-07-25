@@ -605,7 +605,7 @@ export const AboutInfoList = [
     preferedSongId: "empress_song",
   },
   {
-    character: "super...",
+    character: "super",
     aboutTrait:
       "Magdalene's supercalifragilisticexpialidocious spirit is a whirlwind of joy and creativity. Her enthusiasm for life is infectious, inspiring others to embrace their uniqueness and celebrate their individuality.",
     photo: Img6,
@@ -615,10 +615,10 @@ export const AboutInfoList = [
     preferedSongId: "twinkle_song",
   },
   {
-    character: "Incredible",
+    word: "Incredible",
     aboutTrait:
       "Magdalene's incredible spirit is a source of inspiration for all. Her ability to overcome challenges and embrace life with open arms is truly remarkable.",
-    photo: Img23,
+    photo: Img48,
     icon: "🌈",
     sentiment:
       "Incredible is the song of resilience, a melody that inspires us to rise above challenges and embrace our true potential.",

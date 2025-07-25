@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import QRWithLogo from "../components/Qrcode";
+import {QRWithLogo} from "../components/Qrcode";
 
 const quotes = [
   "🌱 Even offline, your soul is still online. Take a deep breath.",

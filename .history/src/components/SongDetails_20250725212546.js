@@ -615,7 +615,7 @@ export const AboutInfoList = [
     preferedSongId: "twinkle_song",
   },
   {
-    character: "Incredible",
+    word: "Incredible",
     aboutTrait:
       "Magdalene's incredible spirit is a source of inspiration for all. Her ability to overcome challenges and embrace life with open arms is truly remarkable.",
     photo: Img23,
