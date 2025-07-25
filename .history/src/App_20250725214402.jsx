@@ -16,7 +16,7 @@ export default function App() {
   const [online, setOnline] = useState(navigator.onLine);
   const allSongs = songDetails;
   const [currentSongTitle, setCurrentSongTitle] = useState(null);
-  
+  const [locationIsOffline, setLocationIsOffline] = useState(false)
 
 
   useEffect(() => {
@@ -32,11 +32,6 @@ export default function App() {
       window.removeEventListener("offline", updateOnlineStatus);
     };
   }, [navigate]);
-
-  useEffect(() => {
-    const isOfflinePath = location.pathname === "/offline";
-    setOnline(isOfflinePath)
-  }, [location])
 
  useEffect(() => {
    const pathParts = location.pathname.split("/").filter(Boolean);
