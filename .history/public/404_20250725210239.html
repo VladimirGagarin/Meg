@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="Sing with Magdalene" />
+<meta property="og:description" content="Sing With Magdalene - A magical, lyrical experience dedicated to Magdalene. Sing, dream, and believe again. She sings. We follow. We cherish. An epic song experience awaits you. starts with anthem: https://vladimirgagarin.github.io/Meg/#/song/anthem_song" />
+<meta property="og:image" content="https://vladimirgagarin.github.io/projectMeg/quuen.jpeg" />
+<meta property="og:url" content="https://vladimirgagarin.github.io/Meg/" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Sing with Magdalene" />
+<meta name="twitter:description" content="Sing With Magdalene - A magical, lyrical experience dedicated to Magdalene. Sing, dream, and believe again. She sings. We follow. We cherish. An epic song experience awaits you. starts with anthem: https://vladimirgagarin.github.io/Meg/#/song/anthem_song" />
+<meta name="twitter:image" content="https://vladimirgagarin.github.io/projectMeg/quuen.jpeg" />
+
+
+    <title>Page not found | Sing with Magdalene</title>
+    <meta name="description" content="Sing With Magdalene - A magical, lyrical experience dedicated to Magdalene. Sing, dream, and believe again." />
+    <meta name="keywords" content="Magdalene, Magdalena, Sing With Magdalena, Sing With Magdalene, SWM, Magdalene Songs, AI music, epic choir experience, lyrical site, poetic songs, spiritual music, cinematic music website, song lyrics site, singwithmagdalene.com, Suno songs, fairy music, Magdalene karaoke, TSFH-inspired music, cinematic pop, Hindi songs, Spanish songs, canciones espirituales, canciones de Magdalena, canciones de fe, canciones en español, भक्ति गीत, हिंदी गाने, Magdalene bhakti, soulful music, angelic vocals, magical ballads, vocal harmonies, female vocal songs, song subtitle site, multilingual music site, soundtrack-inspired songs, Ellie Goulding style, Disney ballads, orchestral AI music, fantasy music site, emotional songs, cinematic lyrics, spiritual anthems, swm, magic, Meg, meg, sing along">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Q2W67HD83"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6Q2W67HD83');
+    </script>
+
+  </head>
+
+
+     <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Playfair Display", serif;
+        background-color: #f9a8d4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        color: #0f064a;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin: 30px 0;
+        width: 100%;
+       
+      }
+
+      .video-thumb {
+        cursor: pointer;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .video-thumb:hover {
+        transform: scale(1.05);
+      }
+
+      .video-thumb video {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        display: none;
+      }
+
+      .overlay video {
+        width: 75%;
+        height: 80vh;
+        border-radius: 12px;
+        object-fit: cover;
+        
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+      }
+
+      a.button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 1rem;
+        color: #fff;
+        background: #0f064a;
+        border-radius: 8px;
+        margin-top: 20px;
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+
+      a.button:hover {
+        background: #140879;
+      }
+      .video-caption {
+      margin: 8px 0;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #0f064a;
+      text-transform: capitalize;
+    }
+
+
+      @media (max-width: 800px) {
+         .overlay video {
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        object-fit: cover;
+        
+      }
+      }
+    </style>
+  </head>
+   <body>
+    <h1>404 - Lost in Magdalene's Song</h1>
+
+    <div class="video-grid">
+  <div class="video-thumb" onclick="showOverlay('megvid.mp4')">
+    <video src="megvid.mp4" poster="poster.jpeg" oncontextmenu="return false"   controlsList="nodownload"   disablePictureInPicture></video>
+    <div class="video-caption">What we Give</div>
+  </div>
+
+  <div class="video-thumb" onclick="showOverlay('megvid2.mp4')">
+    <video src="megvid2.mp4" poster="poster.jpeg" oncontextmenu="return false"  controlsList="nodownload"   disablePictureInPicture></video>
+    <div class="video-caption">What We have</div>
+  </div>
+
+  <div class="video-thumb" onclick="showOverlay('megvid.mp4')">
+    <video src="megvid.mp4" poster="poster.jpeg" oncontextmenu="return false"   controlsList="nodownload"   disablePictureInPicture></video>
+    <div class="video-caption">What you will enjoy</div>
+  </div>
+</div>
+
+
+    <a href="/Meg/" class="button">Go Home</a> 
+     <a
+          href="https://github.com/VladimirGagarin/roses-of-rome/releases/download/v.1.0.1/application-490c4c6a-8b27-4c78-a6c7-884413dabbfb.apk"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          class="butt"
+        >
+          Downloaded the App
+        </a>
+
+    <p style="margin-top: 10px">Or you'll be redirected in 30 minutes</p>
+
+    <div class="overlay" id="videoOverlay">
+      <span class="close-btn" onclick="hideOverlay()">&times;</span>
+      <video id="overlayVideo" controls autoplay  poster="poster.jpeg" disablePictureInPicture></video>
+    </div>
+
+    <script>
+      function showOverlay(videoSrc) {
+        const overlay = document.getElementById('videoOverlay');
+        const video = document.getElementById('overlayVideo');
+        video.src = videoSrc;
+        video.oncontextmenu = (e) => {
+          e.preventDefault();
+        }
+        video.setAttribute('controlsList', 'nodownload');
+        video.setAttribute('disablePictureInPicture', '');
+        overlay.style.display = 'flex';
+      }
+
+      function hideOverlay() {
+        const overlay = document.getElementById('videoOverlay');
+        const video = document.getElementById('overlayVideo');
+        video.pause();
+        video.src = '';
+        overlay.style.display = 'none';
+      }
+
+      // Redirect after 60 minutes
+      setTimeout(() => {
+        window.location.href = "/Meg/";
+      }, 1800000);
+    </script>
+  </body>
+</html>

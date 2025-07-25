@@ -1,0 +1,262 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f9a8d4, #d6b0f2);
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* App.css */
+
+.fairy-shell {
+  min-height: 100vh;
+  background: url('/bg.jpg') center center / cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Papyrus", "Cursive", serif;
+  color: #5a2a73;
+
+  position: relative;
+  overflow-x: hidden;
+  width: 95%;
+}
+
+.fairy-shell h1 {
+  text-shadow: 1px 1px 2px #00000030;
+}
+
+.slogan {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #5a2a73; /* soft pastel or angelic shade */
+  text-shadow: 1px 1px 2px #00000030;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.fairy-shell h1 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #683978;
+ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  position: relative;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+.apk-download {
+  display: block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #430a4d;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: background-color 0.3s ease;
+}
+
+.apk-download:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  animation: fadeIn 1.2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.links {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.offline-warning {
+  background-color: #ffe4ec; /* soft pink */
+  color: #a33a5f; /* muted deep pink text */
+  padding: 1rem;
+  border: 1px solid #f4c6d8;
+  border-radius: 10px;
+  font-weight: 500;
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 90%;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.animate-charcter
+{
+    text-transform: uppercase;
+  background-image: linear-gradient(
+  135deg,
+  #bf03f3 0%,     /* white */
+  #9a08a7 25%,     /* soft golden */
+  #27123f 50%,     /* coral-peach */
+  #6b6eff 75%,     /* pink-magenta */
+  #3d3aee 100%     /* rich violet */
+);
+
+  background-size: 200% auto;
+  color: #fff;
+  -webkit-background-clip:text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+  font-size: 5rem; /* or 190px if you want it huge */
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(30, 0, 45, 0.3);
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: -200% center;
+  }
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #05377d;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-link:hover {
+  background-color: #11baf7;
+  transform: translateY(-1px);
+}
+
+.icon {
+  font-size: 0.9em;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  color: #5a2a73;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.logo-img {
+  width: 100%;
+  
+  height: auto;
+ 
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+
+  transition: transform 0.3s ease;
+}
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #2d0733a7;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media (max-width: 800px) {
+  #root {
+    padding: 0; /* Add some horizontal padding */
+    background: linear-gradient(to bottom, #f9a8d4, #d6b0f2);
+  }
+
+  .fairy-shell {
+    width: 100%; /* Full width on small screens */
+    padding: 0; /* Reduce padding */
+    margin: 0;
+    font-size: 1rem; /* Adjust base font size if needed */
+  }
+
+  .fairy-shell h1 {
+    font-size: 1.6rem; /* Smaller heading for mobile */
+    margin-bottom: 1.5rem;
+    min-width: 80%;
+    text-align: center;
+    color: #683978;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+  }
+
+  .logo-img {
+    width: 90%;
+    height: auto;
+    background:#2d0733a7;
+    margin: 20px 0;
+    padding: 10px 20px;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .links {
+  width: 100%;
+  padding: 0 10px;
+  justify-content: center;
+}
+.apk-download{
+  padding: 5px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.animate-character{
+  font-size: 8em;
+}
+.nav-links{
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+}
