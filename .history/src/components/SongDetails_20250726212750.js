@@ -619,7 +619,7 @@ export const AboutInfoList = [
     character: "super...",
     aboutTrait:
       "Magdalene's supercalifragilisticexpialidocious spirit is a whirlwind of joy and creativity. Her enthusiasm for life is infectious, inspiring others to embrace their uniqueness and celebrate their individuality.",
-    photo: Img63,
+    photo: Img6,
     icon: "🎈",
     sentiment:
       "Supercalifragilisticexpialidocious is the song of the extraordinary, a melody that celebrates the magic of being uniquely ourselves.",

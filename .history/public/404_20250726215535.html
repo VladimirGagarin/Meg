@@ -238,21 +238,21 @@
 
   // Show overlay if page loaded with a ?video=...
   document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const videoId = params.get("video");
+    const params = new URLSearchParams(window.location.search);
+    const videoId = params.get("video");
 
-  if (videoId) {
-    let videoSrc = '';
-    if (videoId === 'megvid1') videoSrc = 'megvid.mp4';
-    if (videoId === 'megvid2') videoSrc = 'megvid2.mp4';
-    if (videoId === 'megvid3') videoSrc = 'megvid3.mp4';
+    if (videoId) {
+      // Map videoId to correct video file
+      let videoSrc = '';
+      if (videoId === 'megvid1') videoSrc = 'megvid.mp4';
+      if (videoId === 'megvid2') videoSrc = 'megvid2.mp4';
+      if (videoId === 'megvid3') videoSrc = 'megvid.mp4'; // adjust if different
 
-    if (videoSrc) {
-      showOverlay(videoSrc, videoId);
+      if (videoSrc) {
+        showOverlay(videoSrc, videoId);
+      }
     }
-  }
-});
-
+  });
 
   // Redirect after 30 minutes (1800000 ms)
   setTimeout(() => {

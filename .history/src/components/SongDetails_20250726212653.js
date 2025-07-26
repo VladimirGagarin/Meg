@@ -429,9 +429,11 @@ export const megImages = [
   Img20,
   Img21,
   Img22,
+  Img23,
   Img24,
   Img25,
   Img26,
+  Img27,
   Img28,
   Img29,
   Img30,
@@ -619,7 +621,7 @@ export const AboutInfoList = [
     character: "super...",
     aboutTrait:
       "Magdalene's supercalifragilisticexpialidocious spirit is a whirlwind of joy and creativity. Her enthusiasm for life is infectious, inspiring others to embrace their uniqueness and celebrate their individuality.",
-    photo: Img63,
+    photo: Img6,
     icon: "🎈",
     sentiment:
       "Supercalifragilisticexpialidocious is the song of the extraordinary, a melody that celebrates the magic of being uniquely ourselves.",
@@ -629,7 +631,7 @@ export const AboutInfoList = [
     character: "Incredible",
     aboutTrait:
       "Magdalene's incredible spirit is a source of inspiration for all. Her ability to overcome challenges and embrace life with open arms is truly remarkable.",
-    photo: Img60,
+    photo: Img23,
     icon: "🌈",
     sentiment:
       "Incredible is the song of resilience, a melody that inspires us to rise above challenges and embrace our true potential.",

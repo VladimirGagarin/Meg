@@ -82,16 +82,7 @@ export default function AboutScreen() {
         >
           Download App
         </a>
-        {online && (
-          <a
-            href="https://vladimirgagarin.github.io/Meg/404.html?video=megvid2"
-            className="apk-download"
-            target="_parent"
-            rel="noopener noreferrer"
-          >
-            More
-          </a>
-        )}
+        {online && ()}
 
         {isInAboutPersonScreen ? (
           <button className="apk-download" onClick={handleBack}>

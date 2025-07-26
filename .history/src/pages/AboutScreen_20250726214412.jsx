@@ -84,9 +84,9 @@ export default function AboutScreen() {
         </a>
         {online && (
           <a
-            href="https://vladimirgagarin.github.io/Meg/404.html?video=megvid2"
+            href="https://vladimirgagarin.github.io/Meg/404.html"
             className="apk-download"
-            target="_parent"
+            target="_par"
             rel="noopener noreferrer"
           >
             More

@@ -107,9 +107,11 @@ import Img19 from "../assets/images/meg20.jpeg";
 import Img20 from "../assets/images/meg23.jpeg";
 import Img21 from "../assets/images/quuen.jpeg";
 import Img22 from "../assets/images/meg24.jpeg";
+import Img23 from "../assets/images/toon1.jpeg";
 import Img24 from "../assets/images/toon2.jpg";
 import Img25 from "../assets/images/toon3.jpg";
 import Img26 from "../assets/images/toon4.jpg";
+import Img27 from "../assets/images/toon1.png";
 import Img28 from "../assets/images/toon2.png";
 import Img29 from "../assets/images/toon3.png";
 import Img30 from "../assets/images/toon4.png";
@@ -139,13 +141,14 @@ import Img53 from "../assets/images/meg36.jpeg";
 import Img54 from "../assets/images/meg40.png";
 import Img55 from "../assets/images/meg41.png";
 import Img56 from "../assets/images/meg42.png";
+
 import Img57 from "../assets/images/art1.jpg";
 import Img58 from "../assets/images/art2.jpg";
 import Img59 from "../assets/images/art3.jpg";
 import Img60 from "../assets/images/art4.jpg";
 import Img61 from "../assets/images/art5.jpg";
-import Img62 from "../assets/images/art6.jpg";
-import Img63 from "../assets/images/art7.jpg";
+import Img from "../assets/images/art6.jpg";
+import Img57 from "../assets/images/art7.jpg";
 
 
 export const songDetails = [
@@ -429,9 +432,11 @@ export const megImages = [
   Img20,
   Img21,
   Img22,
+  Img23,
   Img24,
   Img25,
   Img26,
+  Img27,
   Img28,
   Img29,
   Img30,
@@ -458,13 +463,6 @@ export const megImages = [
   Img51,
   Img52,
   Img53,
-  Img57,
-  Img58,
-  Img59,
-  Img60,
-  Img61,
-  Img62,
-  Img63,
 ];
 
 
@@ -619,7 +617,7 @@ export const AboutInfoList = [
     character: "super...",
     aboutTrait:
       "Magdalene's supercalifragilisticexpialidocious spirit is a whirlwind of joy and creativity. Her enthusiasm for life is infectious, inspiring others to embrace their uniqueness and celebrate their individuality.",
-    photo: Img63,
+    photo: Img6,
     icon: "🎈",
     sentiment:
       "Supercalifragilisticexpialidocious is the song of the extraordinary, a melody that celebrates the magic of being uniquely ourselves.",
@@ -629,7 +627,7 @@ export const AboutInfoList = [
     character: "Incredible",
     aboutTrait:
       "Magdalene's incredible spirit is a source of inspiration for all. Her ability to overcome challenges and embrace life with open arms is truly remarkable.",
-    photo: Img60,
+    photo: Img23,
     icon: "🌈",
     sentiment:
       "Incredible is the song of resilience, a melody that inspires us to rise above challenges and embrace our true potential.",

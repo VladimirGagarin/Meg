@@ -211,54 +211,36 @@
     </div>
 
     <script>
-  function showOverlay(videoSrc, videoId) {
-    const overlay = document.getElementById('videoOverlay');
-    const video = document.getElementById('overlayVideo');
-    video.src = videoSrc;
-    video.oncontextmenu = (e) => e.preventDefault();
-    video.setAttribute('controlsList', 'nodownload');
-    video.setAttribute('disablePictureInPicture', '');
-    overlay.style.display = 'flex';
+      function showOverlay(videoSrc, videoId) {
+        const overlay = document.getElementById('videoOverlay');
+        const video = document.getElementById('overlayVideo');
+        video.src = videoSrc;
+        video.oncontextmenu = (e) => {
+          e.preventDefault();
+        }
+        video.setAttribute('controlsList', 'nodownload');
+        video.setAttribute('disablePictureInPicture', '');
+        overlay.style.display = 'flex';
 
-    // Update URL
-    const newUrl = `${window.location.pathname}?video=${videoId}`;
-    history.pushState(null, '', newUrl);
-  }
+         // Update the URL with the video ID
+        const newUrl = `${window.location.pathname}?video=${videoId}`;
+        history.pushState(null, '', newUrl);
+      }
 
-  function hideOverlay() {
-    const overlay = document.getElementById('videoOverlay');
-    const video = document.getElementById('overlayVideo');
-    video.pause();
-    video.src = '';
-    overlay.style.display = 'none';
+      function hideOverlay() {
+        const overlay = document.getElementById('videoOverlay');
+        const video = document.getElementById('overlayVideo');
+        video.pause();
+        video.src = '';
+        overlay.style.display = 'none';
+      }
 
-    // Clean the URL when overlay is closed
-    history.pushState(null, '', window.location.pathname);
-  }
+      // Redirect after 60 minutes
+      setTimeout(() => {
+        window.location.href = "/Meg/";
+      }, 1800000);
 
-  // Show overlay if page loaded with a ?video=...
-  document.addEventListener("DOMContentLoaded", () => {
-  const params = new URLSearchParams(window.location.search);
-  const videoId = params.get("video");
-
-  if (videoId) {
-    let videoSrc = '';
-    if (videoId === 'megvid1') videoSrc = 'megvid.mp4';
-    if (videoId === 'megvid2') videoSrc = 'megvid2.mp4';
-    if (videoId === 'megvid3') videoSrc = 'megvid3.mp4';
-
-    if (videoSrc) {
-      showOverlay(videoSrc, videoId);
-    }
-  }
-});
-
-
-  // Redirect after 30 minutes (1800000 ms)
-  setTimeout(() => {
-    window.location.href = "/Meg/";
-  }, 1800000);
-</script>
-
+      doc
+    </script>
   </body>
 </html>
