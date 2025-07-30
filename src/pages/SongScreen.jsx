@@ -148,6 +148,22 @@ export default function SongScreen() {
       setAudioStalled(false);
     });
 
+    audio.addEventListener("seeked", () => {
+      const currentTimeMs = audio.currentTime * 1000; // Convert seconds to ms
+
+      // Find the correct lyric index based on the current time
+      const newIndex = currentSongObj.lyrics.findIndex(
+        (line) => currentTimeMs >= line.start && currentTimeMs <= line.end
+      );
+
+      if (newIndex !== -1) {
+        setCurrentLyricIndex(newIndex);
+      } else {
+        setCurrentLyricIndex(0); // Default if no match found
+      }
+    });
+
+
     setIsAudioReady(true); // ✅ set once everything is done
 
     return () => {
@@ -228,6 +244,8 @@ export default function SongScreen() {
 
     const onEnded = () => {
       setCurrentLyricIndex(0); // reset the lyrics line
+      setCurrentImage(LogoImage); // Reset image to default
+      setAudioStalled(false); // Reset stalled state
       const isFromDirector = currentSongObj.id === "director_song";
       if (isFromDirector) {
         setshowSonnetModalConfim(true);
@@ -252,6 +270,21 @@ export default function SongScreen() {
     audio.addEventListener("canplay", () => {
       setAudioStalled(false);
     });
+
+     audio.addEventListener("seeked", () => {
+       const currentTimeMs = audio.currentTime * 1000; // Convert seconds to ms
+
+       // Find the correct lyric index based on the current time
+       const newIndex = currentSongObj.lyrics.findIndex(
+         (line) => currentTimeMs >= line.start && currentTimeMs <= line.end
+       );
+
+       if (newIndex !== -1) {
+         setCurrentLyricIndex(newIndex);
+       } else {
+         setCurrentLyricIndex(0); // Default if no match found
+       }
+     });
 
     return () => {
       audio.removeEventListener("timeupdate", onTimeUpdate);
@@ -343,7 +376,7 @@ export default function SongScreen() {
   }, [showSonnetModal, currentSonnetLyricIndex]);
 
   if (!currentSongObj) {
-    return <div className="loading">Just a moment...</div>;
+    return <div className="loading"><span>Just a moment...</span></div>;
   }
 
   const currentLine =

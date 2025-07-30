@@ -103,7 +103,7 @@ const online = realOnline && !forcedOffline;
 
           if (daysPassed > 2 && !isAlreadyOnWeKnow) {
             localStorage.setItem("lastVisitSWM", now.toISOString()); // update the date
-            navigate("/playlist/we_know_song");
+            navigate("/song/dream_choral_song");
           }
         } else {
           // If for some reason 'lastVisitSWM' is missing but 'hasVisitedSWM' exists

@@ -373,15 +373,25 @@ input[type="range"]:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   background: transparent;
   color: white;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 100;
   font-size: 2rem;
   top: 0;
   left: 0;
+  bottom:0;
+  right:0;
+  -webkit-backdrop-filter:blur(8px);
+  backdrop-filter:blur(8px)
+}
+
+.loading span {
+  background-color:#1a0a2e;
+  color:#fff;
+  padding: 10px 20px;
 }
 
 .error-message {
